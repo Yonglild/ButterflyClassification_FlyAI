@@ -1,0 +1,508 @@
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: torchvision in /usr/local/lib/python3.6/dist-packages (0.7.0 cu101)
+Requirement already satisfied: torch==1.6.0 in /usr/local/lib/python3.6/dist-packages (from torchvision) (1.6.0 cu101)
+Requirement already satisfied: pillow>=4.1.1 in /usr/local/lib/python3.6/dist-packages (from torchvision) (7.1.1)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torchvision) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch==1.6.0->torchvision) (0.18.2)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (1.18.3)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting cnn_finetune
+Downloading https://pypi.flyai.com/packages/e4/63/03a442d31401c43fc17a814f22bd7c39ab8f13f42a6b2467ca0d0d042b3a/cnn_finetune-0.6.0.tar.gz (11 kB)
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (1.6.0 cu101)
+Requirement already satisfied: torchvision>=0.3.0 in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (0.7.0 cu101)
+Collecting pretrainedmodels>=0.7.4
+Downloading https://pypi.flyai.com/packages/84/0e/be6a0e58447ac16c938799d49bfb5fb7a80ac35e137547fc6cee2c08c4cf/pretrainedmodels-0.7.4.tar.gz (58 kB)
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (1.4.1)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (4.45.0)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch->cnn_finetune) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch->cnn_finetune) (0.18.2)
+Requirement already satisfied: pillow>=4.1.1 in /usr/local/lib/python3.6/dist-packages (from torchvision>=0.3.0->cnn_finetune) (7.1.1)
+Collecting munch
+Downloading https://pypi.flyai.com/packages/cc/ab/85d8da5c9a45e072301beb37ad7f833cd344e04c817d97e0cc75681d248f/munch-2.5.0-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from munch->pretrainedmodels>=0.7.4->cnn_finetune) (1.14.0)
+Building wheels for collected packages: cnn-finetune, pretrainedmodels
+Building wheel for cnn-finetune (setup.py): started
+Building wheel for cnn-finetune (setup.py): finished with status 'done'
+Created wheel for cnn-finetune: filename=cnn_finetune-0.6.0-py3-none-any.whl size=11432 sha256=4bb2a78d8109e707d6dc97cf2b261c5f6883fb9126b68d288508f4492013577a
+Stored in directory: /root/.cache/pip/wheels/9b/d9/82/f8b9045d146050042c2e6ab22c44a27eef49ffe2bbc3412256
+Building wheel for pretrainedmodels (setup.py): started
+Building wheel for pretrainedmodels (setup.py): finished with status 'done'
+Created wheel for pretrainedmodels: filename=pretrainedmodels-0.7.4-py3-none-any.whl size=60962 sha256=e83b1e6691806f0e1696589c66fe46d0669e98319172de9a52cf119ed236c3ae
+Stored in directory: /root/.cache/pip/wheels/e8/ba/a6/a8ad2367db2fbaabb853dc408d93c466f36305dfc8b8ea35e7
+Successfully built cnn-finetune pretrainedmodels
+Installing collected packages: munch, pretrainedmodels, cnn-finetune
+Successfully installed cnn-finetune-0.6.0 munch-2.5.0 pretrainedmodels-0.7.4
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.6/dist-packages (3.2.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: python-dateutil>=2.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (2.8.1)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: numpy>=1.11 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (1.18.3)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.6/dist-packages (from python-dateutil>=2.1->matplotlib) (1.14.0)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting resnest
+Downloading https://pypi.flyai.com/packages/74/ab/bdd1a6ae83f13a268c736c7be2f14207f836711e22daa64d46b57262b66b/resnest-0.0.5-py3-none-any.whl (30 kB)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.6/dist-packages (from resnest) (4.45.0)
+Requirement already satisfied: torch>=1.0.0 in /usr/local/lib/python3.6/dist-packages (from resnest) (1.6.0 cu101)
+Requirement already satisfied: Pillow in /usr/local/lib/python3.6/dist-packages (from resnest) (7.1.1)
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from resnest) (1.4.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.6/dist-packages (from resnest) (2.23.0)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from resnest) (1.18.3)
+Requirement already satisfied: nose in /usr/local/lib/python3.6/dist-packages (from resnest) (1.3.7)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch>=1.0.0->resnest) (0.18.2)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (1.25.9)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (2020.4.5.1)
+Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (2.9)
+Installing collected packages: resnest
+Successfully installed resnest-0.0.5
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting opencv-python==4.2.0.32
+Downloading https://pypi.flyai.com/packages/68/c5/09a1b82f940805c2cee30c3c42786651edcfd0710a0283eb09c6bc959340/opencv_python-4.2.0.32-cp36-cp36m-manylinux1_x86_64.whl (28.2 MB)
+Requirement already satisfied: numpy>=1.11.3 in /usr/local/lib/python3.6/dist-packages (from opencv-python==4.2.0.32) (1.18.3)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.2.0.32
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting efficientnet_pytorch
+Downloading https://pypi.flyai.com/packages/4e/83/f9c5f44060f996279e474185ebcbd8dbd91179593bffb9abe3afa55d085b/efficientnet_pytorch-0.7.0.tar.gz (20 kB)
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (from efficientnet_pytorch) (1.6.0 cu101)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch->efficientnet_pytorch) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch->efficientnet_pytorch) (0.18.2)
+Building wheels for collected packages: efficientnet-pytorch
+Building wheel for efficientnet-pytorch (setup.py): started
+Building wheel for efficientnet-pytorch (setup.py): finished with status 'done'
+Created wheel for efficientnet-pytorch: filename=efficientnet_pytorch-0.7.0-py3-none-any.whl size=16035 sha256=516ee04ed637d8fcca832bd000caba2dc354b06deb7243bf1038000939cbf106
+Stored in directory: /root/.cache/pip/wheels/48/81/6f/09cdcb1de68fb0eb2d28da0c3e8161a06c756d74b4b95b7746
+Successfully built efficientnet-pytorch
+Installing collected packages: efficientnet-pytorch
+Successfully installed efficientnet-pytorch-0.7.0
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (1.4.1)
+Requirement already satisfied: numpy>=1.13.3 in /usr/local/lib/python3.6/dist-packages (from scipy) (1.18.3)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: Pillow in /usr/local/lib/python3.6/dist-packages (7.1.1)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (1.6.0 cu101)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch) (0.18.2)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+('resnext101_32x8d-8ba56ff5.pth', 'total size: ', 339, 'MB')
+Model download succeeded !
+('dataset/ButterflyClassification/train.zip', 'total size: ', 670, 'MB')
+('本地训练提供', '20%', '的数据，线上训练会提供全量数据。')
+('数据集详细信息请访问:', 'ButterflyClassification')
+num_count1: [('Gonepteryx_rhamni', 702), ('Catopsilia_pomona', 342), ('Eurema_hecabe', 338), ('Neptis_hylas', 330), ('Hebomoia_glaucippe', 310), ('Apatura_ilia', 292), ('Apatura_iris', 256), ('Eurema_blanda', 250), ('Junonia_orithya', 229), ('Junonia_iphita', 228), ('Delias_pasithoe', 219), ('Junonia_atlites', 217), ('Junonia_almana', 209), ('Symbrenthia_lilaea', 201), ('Cethosia_biblis', 201), ('Danaus_chrysippus', 194), ('Clossiana_euphrosyne', 188), ('Kallima_inachus', 180), ('Parnara_guttata', 177), ('Vanessa_cardui', 175), ('Colias_palaeno', 175), ('Junonia_hierta', 173), ('Zemeros_flegyas', 172), ('Parnassius_phoebus', 168), ('Acraea_issoria', 167), ('Pazala_eurous', 167), ('Iphiclides_podalirius', 167), ('Parantica_aglea', 166), ('Ideopsis_similis', 166), ('Colias_erate', 164), ('Danaus_plexippus', 157), ('Papilio_maackii', 154), ('Cethosia_cyane', 148), ('Tirumala_septentrionis', 144), ('Pathysa_antiphates', 142), ('Atrophaneura_horishanus', 142), ('Pachliopta_aristolochiae', 138), ('Byasa_alcinous', 136), ('Troides_magellanus', 133), ('Byasa_polyeuctes', 130), ('Colias_hyale', 129), ('Hypolimnas_bolina', 127), ('Pieris_canidia', 126), ('Sericinus_montelus', 126), ('Hestina_assimilis', 125), ('Kaniska_canace', 125), ('Polyura_athamas', 125), ('Faunis_eumeus', 125), ('Libythea_lepita', 125), ('Abisara_echerius', 124), ('Pieris_melete', 121), ('Cyrestis_thyodamas', 119), ('Elymnias_hypermnestra', 119), ('Mycalesis_perseus', 118), ('Udaspes_folus', 117), ('Mycalesis_gotama', 117), ('Papilio_hermosanus', 116), ('Melanitis_leda', 113), ('Iambrix_salsala', 110), ('Papilio_hoppo', 109), ('Melanitis_phedima', 108), ('Loxura_atymnus', 108), ('Notocrypta_curvifascia', 106), ('Polygonia_caureum', 105), ('Curetis_acuta', 105), ('Hasora_badra', 105), ('Pieris_rapae', 104), ('Parantica_sita', 103), ('Lethe_confusa', 103), ('Parnassius_apollo', 102), ('Pseudocoladenia_dan', 102), ('Tirumala_limniace', 101), ('Danaus_genutia', 98), ('Athyma_perius', 98), ('Odontoptilum_angulatum', 97), ('Stichophthalma_howqua', 97), ('Lethe_chandica', 96), ('Pieris_napi', 95), ('Cepora_nerissa', 94), ('Vanessa_indica', 93), ('Acraea_terpsicore', 92), ('Iraota_timoleon', 92), ('Leptidea_sinapis', 92), ('Eurema_laeta', 91), ('Clossiana_dia', 91), ('Daimio_tethys', 91), ('Troides_helena', 91), ('Badamia_exclamationis', 89), ('Papilio_machaon', 88), ('Ypthima_baldus', 87), ('Parantica_melaneus', 87), ('Papilio_prexaspes', 86), ('Taraka_hamada', 86), ('Rohana_parisatis', 86), ('Papilio_bianor', 85), ('Atrophaneura_varuna', 85), ('Troides_aeacus', 84), ('Lampides_boeticus', 84), ('Gonepteryx_amintha', 83), ('Papilio_dialis', 83), ('Horaga_onyx', 83), ('Burara_gomata', 79), ('Papilio_memnon', 79), ('Erionota_torus', 78), ('Athyma_ranga', 78), ('Euploea_tulliolus', 76), ('Isoteinon_lamprospilus', 76), ('Eurema_mandarina', 76), ('Euploea_core', 75), ('Artipe_eryx', 75), ('Dodona_eugenes', 75), ('Papilio_arcturus', 75), ('Stibochiona_nicea', 74), ('Luehdorfia_chinensis', 74), ('Eurema_andersoni', 74), ('Neope_pulaha', 72), ('Euploea_midamus', 72), ('Sasakia_charonda', 72), ('Charaxes_bernardus', 71), ('Ariadne_ariadne', 71), ('Clossiana_titania', 71), ('Papilio_xuthus', 68), ('Issoria_lathonia', 68), ('Colias_fieldii', 68), ('Mycalesis_intermedia', 68), ('Polyura_narcaea', 68), ('Astictopterus_jama', 68), ('Pazala_mullah', 67), ('Limenitis_sulpitia', 67), ('Amblopala_avidiena', 67), ('Timelaea_albescens', 67), ('Ampittia_virgata', 65), ('Polyura_eudamippus', 64), ('Abraximorpha_davidii', 64), ('Neptis_miah', 64), ('Calinaga_buddha', 63), ('Zizeeria_maha', 63), ('Miletus_chinensis', 63), ('Parnassius_nomion', 63), ('Graphium_sarpedon', 62), ('Libythea_myrrha', 61), ('Papilio_alcmenor', 61), ('Papilio_polytes', 61), ('Hasora_anura', 61), ('Papilio_paris', 60), ('Delias_descombesi', 60), ('Gandaca_harina', 58), ('Lamproptera_curius', 57), ('Clossiana_freija', 57), ('Catopsilia_scylla', 57), ('SpinDasis_syama', 57), ('Ariadne_merione', 57), ('Byasa_dasarada', 56), ('Delias_acalis', 56), ('Ancistroides_nigrita', 56), ('Proclossiana_eunomia', 56), ('Lamproptera_meges', 56), ('Teinopalpus_imperialis', 55), ('Lethe_syrcis', 55), ('Rapala_nissa', 55), ('Losaria_coon', 55), ('Tagiades_menaka', 54), ('Graphium_agamemnon', 52), ('Papilio_protenor', 52), ('Hasora_vitta', 51), ('Delias_belladonna', 51), ('Euploea_sylvester', 50), ('Teinopalpus_aureus', 50), ('Catopsilia_pyranthe', 50), ('Aemona_amathusia', 49), ('Celaenorrhinus_maculosus', 49), ('Doleschallia_bisaltide', 49), ('Bhutanitis_lidderdalii', 48), ('Meandrusa_payeni', 48), ('Penthema_darlisa', 47), ('Damora_sagana', 47), ('Ideopsis_vulgaris', 47), ('Eurema_brigitta', 46), ('Tongeia_potanini', 45), ('Horaga_albimacula', 45), ('Papilio_nephelus', 44), ('Graphium_cloanthus', 43), ('Jamides_bochus', 42), ('Meandrusa_sciron', 42), ('Mandarinia_regalis', 42), ('Leptidea_amurensis', 41), ('Idea_leuconoe', 41), ('Penthema_formosanum', 41), ('Ussuriana_michaelis', 40), ('Mahathala_ameria', 39), ('Sephisa_chandra', 38), ('Leptidea_morsei', 35), ('Papilio_Krishna', 34), ('Arhopala_rama', 34), ('Allotinus_drumila', 33), ('Ypthima_praenubila', 31), ('Chitoria_ulupi', 31), ('Arhopala_paramuta', 28), ('Euthalia_niepelti', 28), ('Seseria_dohertyi', 20)]
+before augment: 15167
+num_count2: [('Gonepteryx_rhamni', 702), ('Catopsilia_pomona', 342), ('Eurema_hecabe', 338), ('Neptis_hylas', 330), ('Hebomoia_glaucippe', 310), ('Apatura_ilia', 292), ('Apatura_iris', 256), ('Eurema_blanda', 250), ('Junonia_orithya', 229), ('Junonia_iphita', 228), ('Delias_pasithoe', 219), ('Junonia_atlites', 217), ('Junonia_almana', 209), ('Symbrenthia_lilaea', 201), ('Cethosia_biblis', 201), ('Danaus_chrysippus', 194), ('Clossiana_euphrosyne', 188), ('Kallima_inachus', 180), ('Parnara_guttata', 177), ('Vanessa_cardui', 175), ('Colias_palaeno', 175), ('Junonia_hierta', 173), ('Zemeros_flegyas', 172), ('Parnassius_phoebus', 168), ('Acraea_issoria', 167), ('Pazala_eurous', 167), ('Iphiclides_podalirius', 167), ('Parantica_aglea', 166), ('Ideopsis_similis', 166), ('Colias_erate', 164), ('Danaus_plexippus', 157), ('Papilio_maackii', 154), ('Cethosia_cyane', 148), ('Tirumala_septentrionis', 144), ('Pathysa_antiphates', 142), ('Atrophaneura_horishanus', 142), ('Pachliopta_aristolochiae', 138), ('Byasa_alcinous', 136), ('Troides_magellanus', 133), ('Byasa_polyeuctes', 130), ('Colias_hyale', 129), ('Hypolimnas_bolina', 127), ('Pieris_canidia', 126), ('Sericinus_montelus', 126), ('Hestina_assimilis', 125), ('Kaniska_canace', 125), ('Polyura_athamas', 125), ('Faunis_eumeus', 125), ('Libythea_lepita', 125), ('Abisara_echerius', 124), ('Pieris_melete', 121), ('Cyrestis_thyodamas', 119), ('Elymnias_hypermnestra', 119), ('Mycalesis_perseus', 118), ('Udaspes_folus', 117), ('Mycalesis_gotama', 117), ('Papilio_hermosanus', 116), ('Melanitis_leda', 113), ('Iambrix_salsala', 110), ('Papilio_hoppo', 109), ('Melanitis_phedima', 108), ('Loxura_atymnus', 108), ('Notocrypta_curvifascia', 106), ('Polygonia_caureum', 105), ('Curetis_acuta', 105), ('Hasora_badra', 105), ('Pieris_rapae', 104), ('Parantica_sita', 103), ('Lethe_confusa', 103), ('Parnassius_apollo', 102), ('Pseudocoladenia_dan', 102), ('Tirumala_limniace', 101), ('Danaus_genutia', 98), ('Athyma_perius', 98), ('Odontoptilum_angulatum', 97), ('Stichophthalma_howqua', 97), ('Lethe_chandica', 96), ('Pieris_napi', 95), ('Cepora_nerissa', 94), ('Vanessa_indica', 93), ('Acraea_terpsicore', 92), ('Iraota_timoleon', 92), ('Leptidea_sinapis', 92), ('Eurema_laeta', 91), ('Clossiana_dia', 91), ('Daimio_tethys', 91), ('Troides_helena', 91), ('Badamia_exclamationis', 89), ('Papilio_machaon', 88), ('Ypthima_baldus', 87), ('Parantica_melaneus', 87), ('Papilio_prexaspes', 86), ('Taraka_hamada', 86), ('Rohana_parisatis', 86), ('Papilio_bianor', 85), ('Atrophaneura_varuna', 85), ('Troides_aeacus', 84), ('Lampides_boeticus', 84), ('Gonepteryx_amintha', 83), ('Papilio_dialis', 83), ('Horaga_onyx', 83), ('Burara_gomata', 79), ('Papilio_memnon', 79), ('Erionota_torus', 78), ('Athyma_ranga', 78), ('Euploea_tulliolus', 76), ('Isoteinon_lamprospilus', 76), ('Eurema_mandarina', 76), ('Euploea_core', 75), ('Artipe_eryx', 75), ('Dodona_eugenes', 75), ('Papilio_arcturus', 75), ('Stibochiona_nicea', 74), ('Luehdorfia_chinensis', 74), ('Eurema_andersoni', 74), ('Neope_pulaha', 72), ('Euploea_midamus', 72), ('Sasakia_charonda', 72), ('Charaxes_bernardus', 71), ('Ariadne_ariadne', 71), ('Clossiana_titania', 71), ('Papilio_xuthus', 70), ('Papilio_Krishna', 70), ('Tongeia_potanini', 70), ('Byasa_dasarada', 70), ('Libythea_myrrha', 70), ('Polyura_eudamippus', 70), ('Graphium_agamemnon', 70), ('Aemona_amathusia', 70), ('Lamproptera_curius', 70), ('Sephisa_chandra', 70), ('Penthema_darlisa', 70), ('Delias_acalis', 70), ('Damora_sagana', 70), ('Euploea_sylvester', 70), ('Issoria_lathonia', 70), ('Clossiana_freija', 70), ('Pazala_mullah', 70), ('Ampittia_virgata', 70), ('Seseria_dohertyi', 70), ('Ancistroides_nigrita', 70), ('Teinopalpus_imperialis', 70), ('Horaga_albimacula', 70), ('Ypthima_praenubila', 70), ('Papilio_paris', 70), ('Arhopala_rama', 70), ('Colias_fieldii', 70), ('Papilio_alcmenor', 70), ('Delias_descombesi', 70), ('Limenitis_sulpitia', 70), ('Proclossiana_eunomia', 70), ('Papilio_polytes', 70), ('Eurema_brigitta', 70), ('Amblopala_avidiena', 70), ('Celaenorrhinus_maculosus', 70), ('Tagiades_menaka', 70), ('Teinopalpus_aureus', 70), ('Arhopala_paramuta', 70), ('Calinaga_buddha', 70), ('Lethe_syrcis', 70), ('Leptidea_amurensis', 70), ('Rapala_nissa', 70), ('Papilio_protenor', 70), ('Idea_leuconoe', 70), ('Bhutanitis_lidderdalii', 70), ('Meandrusa_payeni', 70), ('Mycalesis_intermedia', 70), ('Penthema_formosanum', 70), ('Polyura_narcaea', 70), ('Abraximorpha_davidii', 70), ('Hasora_anura', 70), ('Doleschallia_bisaltide', 70), ('Catopsilia_scylla', 70), ('SpinDasis_syama', 70), ('Hasora_vitta', 70), ('Papilio_nephelus', 70), ('Jamides_bochus', 70), ('Euthalia_niepelti', 70), ('Ussuriana_michaelis', 70), ('Graphium_cloanthus', 70), ('Astictopterus_jama', 70), ('Neptis_miah', 70), ('Mahathala_ameria', 70), ('Lamproptera_meges', 70), ('Catopsilia_pyranthe', 70), ('Graphium_sarpedon', 70), ('Meandrusa_sciron', 70), ('Zizeeria_maha', 70), ('Miletus_chinensis', 70), ('Leptidea_morsei', 70), ('Ideopsis_vulgaris', 70), ('Ariadne_merione', 70), ('Gandaca_harina', 70), ('Delias_belladonna', 70), ('Chitoria_ulupi', 70), ('Parnassius_nomion', 70), ('Allotinus_drumila', 70), ('Timelaea_albescens', 70), ('Mandarinia_regalis', 70), ('Losaria_coon', 70)]
+after augment: 16586 16586
+train_size: 16586, val_size: 5056
+len(dataset): 16586
+len(dataset): 5056
+Downloading: "https://www.flyai.com/m/resnext101_32x8d-8ba56ff5.pth" to /root/.cache/torch/hub/checkpoints/resnext101_32x8d-8ba56ff5.pth
+Loading model2...
+optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=1e-4, nesterov=True)
+torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=warm_up_with_cosine_lr)
+Epoch: 0, Step 0 | 518, Train_Loss 5.2763
+Epoch: 0, Step 20 | 518, Train_Loss 107.5161
+Epoch: 0, Step 40 | 518, Train_Loss 107.8527
+Epoch: 0, Step 60 | 518, Train_Loss 107.9983
+Epoch: 0, Step 80 | 518, Train_Loss 108.3090
+Epoch: 0, Step 100 | 518, Train_Loss 108.2064
+Epoch: 0, Step 120 | 518, Train_Loss 108.0633
+Epoch: 0, Step 140 | 518, Train_Loss 107.5767
+Epoch: 0, Step 160 | 518, Train_Loss 108.1212
+Epoch: 0, Step 180 | 518, Train_Loss 107.7134
+Epoch: 0, Step 200 | 518, Train_Loss 108.1099
+Epoch: 0, Step 220 | 518, Train_Loss 107.8568
+Epoch: 0, Step 240 | 518, Train_Loss 107.6651
+Epoch: 0, Step 260 | 518, Train_Loss 107.9361
+Epoch: 0, Step 280 | 518, Train_Loss 108.0939
+Epoch: 0, Step 300 | 518, Train_Loss 107.3606
+Epoch: 0, Step 320 | 518, Train_Loss 107.4037
+Epoch: 0, Step 340 | 518, Train_Loss 107.8800
+Epoch: 0, Step 360 | 518, Train_Loss 108.2181
+Epoch: 0, Step 380 | 518, Train_Loss 107.8717
+Epoch: 0, Step 400 | 518, Train_Loss 107.9869
+Epoch: 0, Step 420 | 518, Train_Loss 107.6665
+Epoch: 0, Step 440 | 518, Train_Loss 107.3867
+Epoch: 0, Step 460 | 518, Train_Loss 107.7869
+Epoch: 0, Step 480 | 518, Train_Loss 108.1170
+Epoch: 0, Step 500 | 518, Train_Loss 108.3420
+Current Time: Mon Nov  9 16:18:50 2020
+Epoch 0,  Accuracy 0.2967%
+Epoch: 1, Step 0 | 518, Train_Loss 5.4421
+Epoch: 1, Step 20 | 518, Train_Loss 108.0459
+Epoch: 1, Step 40 | 518, Train_Loss 108.2062
+Epoch: 1, Step 60 | 518, Train_Loss 107.9892
+Epoch: 1, Step 80 | 518, Train_Loss 107.4616
+Epoch: 1, Step 100 | 518, Train_Loss 107.9964
+Epoch: 1, Step 120 | 518, Train_Loss 107.4222
+Epoch: 1, Step 140 | 518, Train_Loss 107.5749
+Epoch: 1, Step 160 | 518, Train_Loss 108.3634
+Epoch: 1, Step 180 | 518, Train_Loss 107.9604
+Epoch: 1, Step 200 | 518, Train_Loss 107.4344
+Epoch: 1, Step 220 | 518, Train_Loss 107.6155
+Epoch: 1, Step 240 | 518, Train_Loss 107.5185
+Epoch: 1, Step 260 | 518, Train_Loss 107.9531
+Epoch: 1, Step 280 | 518, Train_Loss 107.6636
+Epoch: 1, Step 300 | 518, Train_Loss 107.8648
+Epoch: 1, Step 320 | 518, Train_Loss 107.9782
+Epoch: 1, Step 340 | 518, Train_Loss 108.0506
+Epoch: 1, Step 360 | 518, Train_Loss 107.6582
+Epoch: 1, Step 380 | 518, Train_Loss 107.9222
+Epoch: 1, Step 400 | 518, Train_Loss 107.9931
+Epoch: 1, Step 420 | 518, Train_Loss 107.8294
+Epoch: 1, Step 440 | 518, Train_Loss 107.6645
+Epoch: 1, Step 460 | 518, Train_Loss 107.9029
+Epoch: 1, Step 480 | 518, Train_Loss 107.8099
+Epoch: 1, Step 500 | 518, Train_Loss 107.5754
+Current Time: Mon Nov  9 16:43:24 2020
+Epoch 1,  Accuracy 0.2176%
+Epoch: 2, Step 0 | 518, Train_Loss 5.3924
+Epoch: 2, Step 20 | 518, Train_Loss 106.6966
+Epoch: 2, Step 40 | 518, Train_Loss 105.1995
+Epoch: 2, Step 60 | 518, Train_Loss 103.6094
+Epoch: 2, Step 80 | 518, Train_Loss 102.3803
+Epoch: 2, Step 100 | 518, Train_Loss 101.3400
+Epoch: 2, Step 120 | 518, Train_Loss 100.4362
+Epoch: 2, Step 140 | 518, Train_Loss 97.6931
+Epoch: 2, Step 160 | 518, Train_Loss 97.8594
+Epoch: 2, Step 180 | 518, Train_Loss 95.6339
+Epoch: 2, Step 200 | 518, Train_Loss 94.1412
+Epoch: 2, Step 220 | 518, Train_Loss 93.8392
+Epoch: 2, Step 240 | 518, Train_Loss 92.8694
+Epoch: 2, Step 260 | 518, Train_Loss 90.6732
+Epoch: 2, Step 280 | 518, Train_Loss 89.8258
+Epoch: 2, Step 300 | 518, Train_Loss 87.5359
+Epoch: 2, Step 320 | 518, Train_Loss 86.6865
+Epoch: 2, Step 340 | 518, Train_Loss 87.2218
+Epoch: 2, Step 360 | 518, Train_Loss 86.0475
+Epoch: 2, Step 380 | 518, Train_Loss 85.2188
+Epoch: 2, Step 400 | 518, Train_Loss 82.2460
+Epoch: 2, Step 420 | 518, Train_Loss 81.1978
+Epoch: 2, Step 440 | 518, Train_Loss 78.3591
+Epoch: 2, Step 460 | 518, Train_Loss 79.2306
+Epoch: 2, Step 480 | 518, Train_Loss 76.4194
+Epoch: 2, Step 500 | 518, Train_Loss 76.3612
+Current Time: Mon Nov  9 17:08:00 2020
+Epoch 2,  Accuracy 35.0277%
+Epoch: 3, Step 0 | 518, Train_Loss 3.6332
+Epoch: 3, Step 20 | 518, Train_Loss 70.6470
+Epoch: 3, Step 40 | 518, Train_Loss 72.5252
+Epoch: 3, Step 60 | 518, Train_Loss 69.1779
+Epoch: 3, Step 80 | 518, Train_Loss 69.1272
+Epoch: 3, Step 100 | 518, Train_Loss 66.3264
+Epoch: 3, Step 120 | 518, Train_Loss 63.0949
+Epoch: 3, Step 140 | 518, Train_Loss 63.9757
+Epoch: 3, Step 160 | 518, Train_Loss 61.3835
+Epoch: 3, Step 180 | 518, Train_Loss 60.4717
+Epoch: 3, Step 200 | 518, Train_Loss 59.8526
+Epoch: 3, Step 220 | 518, Train_Loss 57.0755
+Epoch: 3, Step 240 | 518, Train_Loss 57.2220
+Epoch: 3, Step 260 | 518, Train_Loss 53.6185
+Epoch: 3, Step 280 | 518, Train_Loss 54.1976
+Epoch: 3, Step 300 | 518, Train_Loss 53.9868
+Epoch: 3, Step 320 | 518, Train_Loss 52.2114
+Epoch: 3, Step 340 | 518, Train_Loss 51.4517
+Epoch: 3, Step 360 | 518, Train_Loss 49.2544
+Epoch: 3, Step 380 | 518, Train_Loss 48.2521
+Epoch: 3, Step 400 | 518, Train_Loss 46.8249
+Epoch: 3, Step 420 | 518, Train_Loss 47.5847
+Epoch: 3, Step 440 | 518, Train_Loss 47.5665
+Epoch: 3, Step 460 | 518, Train_Loss 45.0062
+Epoch: 3, Step 480 | 518, Train_Loss 45.4311
+Epoch: 3, Step 500 | 518, Train_Loss 44.0133
+Current Time: Mon Nov  9 17:32:33 2020
+Epoch 3,  Accuracy 70.0356%
+Epoch: 4, Step 0 | 518, Train_Loss 1.9467
+Epoch: 4, Step 20 | 518, Train_Loss 42.0355
+Epoch: 4, Step 40 | 518, Train_Loss 40.8822
+Epoch: 4, Step 60 | 518, Train_Loss 40.2981
+Epoch: 4, Step 80 | 518, Train_Loss 39.3524
+Epoch: 4, Step 100 | 518, Train_Loss 38.2905
+Epoch: 4, Step 120 | 518, Train_Loss 39.6607
+Epoch: 4, Step 140 | 518, Train_Loss 37.7546
+Epoch: 4, Step 160 | 518, Train_Loss 35.9984
+Epoch: 4, Step 180 | 518, Train_Loss 36.5498
+Epoch: 4, Step 200 | 518, Train_Loss 35.1696
+Epoch: 4, Step 220 | 518, Train_Loss 35.1296
+Epoch: 4, Step 240 | 518, Train_Loss 34.7413
+Epoch: 4, Step 260 | 518, Train_Loss 34.9396
+Epoch: 4, Step 280 | 518, Train_Loss 33.2024
+Epoch: 4, Step 300 | 518, Train_Loss 35.5176
+Epoch: 4, Step 320 | 518, Train_Loss 33.8344
+Epoch: 4, Step 340 | 518, Train_Loss 32.8679
+Epoch: 4, Step 360 | 518, Train_Loss 33.2880
+Epoch: 4, Step 380 | 518, Train_Loss 32.5605
+Epoch: 4, Step 400 | 518, Train_Loss 32.6034
+Epoch: 4, Step 420 | 518, Train_Loss 31.8033
+Epoch: 4, Step 440 | 518, Train_Loss 33.4107
+Epoch: 4, Step 460 | 518, Train_Loss 32.9550
+Epoch: 4, Step 480 | 518, Train_Loss 31.6848
+Epoch: 4, Step 500 | 518, Train_Loss 30.6372
+Current Time: Mon Nov  9 17:57:07 2020
+Epoch 4,  Accuracy 80.0435%
+Epoch: 5, Step 0 | 518, Train_Loss 1.4334
+Epoch: 5, Step 20 | 518, Train_Loss 28.5460
+Epoch: 5, Step 40 | 518, Train_Loss 28.9562
+Epoch: 5, Step 60 | 518, Train_Loss 28.8817
+Epoch: 5, Step 80 | 518, Train_Loss 27.3749
+Epoch: 5, Step 100 | 518, Train_Loss 27.5431
+Epoch: 5, Step 120 | 518, Train_Loss 28.3594
+Epoch: 5, Step 140 | 518, Train_Loss 28.2000
+Epoch: 5, Step 160 | 518, Train_Loss 28.4787
+Epoch: 5, Step 180 | 518, Train_Loss 26.7008
+Epoch: 5, Step 200 | 518, Train_Loss 27.5496
+Epoch: 5, Step 220 | 518, Train_Loss 27.0920
+Epoch: 5, Step 240 | 518, Train_Loss 28.4260
+Epoch: 5, Step 260 | 518, Train_Loss 27.3201
+Epoch: 5, Step 280 | 518, Train_Loss 27.8901
+Epoch: 5, Step 300 | 518, Train_Loss 26.9050
+Epoch: 5, Step 320 | 518, Train_Loss 27.0238
+Epoch: 5, Step 340 | 518, Train_Loss 27.8140
+Epoch: 5, Step 360 | 518, Train_Loss 25.9592
+Epoch: 5, Step 380 | 518, Train_Loss 26.3372
+Epoch: 5, Step 400 | 518, Train_Loss 26.3885
+Epoch: 5, Step 420 | 518, Train_Loss 27.3701
+Epoch: 5, Step 440 | 518, Train_Loss 27.8565
+Epoch: 5, Step 460 | 518, Train_Loss 27.2791
+Epoch: 5, Step 480 | 518, Train_Loss 25.6981
+Epoch: 5, Step 500 | 518, Train_Loss 26.9681
+Current Time: Mon Nov  9 18:21:50 2020
+Epoch 5,  Accuracy 84.5926%
+Epoch: 6, Step 0 | 518, Train_Loss 1.2393
+Epoch: 6, Step 20 | 518, Train_Loss 24.8449
+Epoch: 6, Step 40 | 518, Train_Loss 24.2843
+Epoch: 6, Step 60 | 518, Train_Loss 25.5447
+Epoch: 6, Step 80 | 518, Train_Loss 24.5767
+Epoch: 6, Step 100 | 518, Train_Loss 23.6936
+Epoch: 6, Step 120 | 518, Train_Loss 24.0089
+Epoch: 6, Step 140 | 518, Train_Loss 24.8506
+Epoch: 6, Step 160 | 518, Train_Loss 25.1187
+Epoch: 6, Step 180 | 518, Train_Loss 24.2040
+Epoch: 6, Step 200 | 518, Train_Loss 24.2818
+Epoch: 6, Step 220 | 518, Train_Loss 24.2045
+Epoch: 6, Step 240 | 518, Train_Loss 24.2070
+Epoch: 6, Step 260 | 518, Train_Loss 23.9916
+Epoch: 6, Step 280 | 518, Train_Loss 24.2345
+Epoch: 6, Step 300 | 518, Train_Loss 23.8062
+Epoch: 6, Step 320 | 518, Train_Loss 23.9737
+Epoch: 6, Step 340 | 518, Train_Loss 23.3339
+Epoch: 6, Step 360 | 518, Train_Loss 24.4502
+Epoch: 6, Step 380 | 518, Train_Loss 23.9474
+Epoch: 6, Step 400 | 518, Train_Loss 23.6638
+Epoch: 6, Step 420 | 518, Train_Loss 24.1794
+Epoch: 6, Step 440 | 518, Train_Loss 23.8043
+Epoch: 6, Step 460 | 518, Train_Loss 23.8231
+Epoch: 6, Step 480 | 518, Train_Loss 23.6420
+Epoch: 6, Step 500 | 518, Train_Loss 23.8919
+Current Time: Mon Nov  9 18:46:28 2020
+Epoch 6,  Accuracy 86.1946%
+Epoch: 7, Step 0 | 518, Train_Loss 1.1840
+Epoch: 7, Step 20 | 518, Train_Loss 22.0758
+Epoch: 7, Step 40 | 518, Train_Loss 22.1362
+Epoch: 7, Step 60 | 518, Train_Loss 22.4008
+Epoch: 7, Step 80 | 518, Train_Loss 22.3926
+Epoch: 7, Step 100 | 518, Train_Loss 22.5002
+Epoch: 7, Step 120 | 518, Train_Loss 22.8230
+Epoch: 7, Step 140 | 518, Train_Loss 22.1726
+Epoch: 7, Step 160 | 518, Train_Loss 22.0908
+Epoch: 7, Step 180 | 518, Train_Loss 22.4535
+Epoch: 7, Step 200 | 518, Train_Loss 21.8596
+Epoch: 7, Step 220 | 518, Train_Loss 22.6935
+Epoch: 7, Step 240 | 518, Train_Loss 21.9868
+Epoch: 7, Step 260 | 518, Train_Loss 22.5008
+Epoch: 7, Step 280 | 518, Train_Loss 22.4185
+Epoch: 7, Step 300 | 518, Train_Loss 21.9286
+Epoch: 7, Step 320 | 518, Train_Loss 22.3682
+Epoch: 7, Step 340 | 518, Train_Loss 22.2954
+Epoch: 7, Step 360 | 518, Train_Loss 22.1941
+Epoch: 7, Step 380 | 518, Train_Loss 22.8543
+Epoch: 7, Step 400 | 518, Train_Loss 22.0619
+Epoch: 7, Step 420 | 518, Train_Loss 22.5969
+Epoch: 7, Step 440 | 518, Train_Loss 22.3295
+Epoch: 7, Step 460 | 518, Train_Loss 22.2884
+Epoch: 7, Step 480 | 518, Train_Loss 21.9300
+Epoch: 7, Step 500 | 518, Train_Loss 22.4279
+Current Time: Mon Nov  9 19:11:01 2020
+Epoch 7,  Accuracy 86.7089%
+Epoch: 8, Step 0 | 518, Train_Loss 1.1813
+Epoch: 8, Step 20 | 518, Train_Loss 21.0836
+Epoch: 8, Step 40 | 518, Train_Loss 21.5502
+Epoch: 8, Step 60 | 518, Train_Loss 21.2493
+Epoch: 8, Step 80 | 518, Train_Loss 21.1143
+Epoch: 8, Step 100 | 518, Train_Loss 21.0991
+Epoch: 8, Step 120 | 518, Train_Loss 21.5174
+Epoch: 8, Step 140 | 518, Train_Loss 20.8623
+Epoch: 8, Step 160 | 518, Train_Loss 21.1548
+Epoch: 8, Step 180 | 518, Train_Loss 21.3081
+Epoch: 8, Step 200 | 518, Train_Loss 21.0856
+Epoch: 8, Step 220 | 518, Train_Loss 21.0549
+Epoch: 8, Step 240 | 518, Train_Loss 20.9607
+Epoch: 8, Step 260 | 518, Train_Loss 21.0448
+Epoch: 8, Step 280 | 518, Train_Loss 21.4207
+Epoch: 8, Step 300 | 518, Train_Loss 21.6068
+Epoch: 8, Step 320 | 518, Train_Loss 21.2523
+Epoch: 8, Step 340 | 518, Train_Loss 20.9419
+Epoch: 8, Step 360 | 518, Train_Loss 20.7451
+Epoch: 8, Step 380 | 518, Train_Loss 20.4306
+Epoch: 8, Step 400 | 518, Train_Loss 20.7652
+Epoch: 8, Step 420 | 518, Train_Loss 20.8907
+Epoch: 8, Step 440 | 518, Train_Loss 21.4341
+Epoch: 8, Step 460 | 518, Train_Loss 20.6016
+Epoch: 8, Step 480 | 518, Train_Loss 21.3430
+Epoch: 8, Step 500 | 518, Train_Loss 20.9463
+Current Time: Mon Nov  9 19:35:40 2020
+Epoch 8,  Accuracy 87.2231%
+Epoch: 9, Step 0 | 518, Train_Loss 1.0433
+Epoch: 9, Step 20 | 518, Train_Loss 20.8128
+Epoch: 9, Step 40 | 518, Train_Loss 20.1753
+Epoch: 9, Step 60 | 518, Train_Loss 20.2099
+Epoch: 9, Step 80 | 518, Train_Loss 20.2844
+Epoch: 9, Step 100 | 518, Train_Loss 20.6467
+Epoch: 9, Step 120 | 518, Train_Loss 19.9700
+Epoch: 9, Step 140 | 518, Train_Loss 19.9814
+Epoch: 9, Step 160 | 518, Train_Loss 20.0998
+Epoch: 9, Step 180 | 518, Train_Loss 20.1888
+Epoch: 9, Step 200 | 518, Train_Loss 20.2894
+Epoch: 9, Step 220 | 518, Train_Loss 20.5434
+Epoch: 9, Step 240 | 518, Train_Loss 20.2998
+Epoch: 9, Step 260 | 518, Train_Loss 20.4691
+Epoch: 9, Step 280 | 518, Train_Loss 20.4662
+Epoch: 9, Step 300 | 518, Train_Loss 20.0956
+Epoch: 9, Step 320 | 518, Train_Loss 20.4410
+Epoch: 9, Step 340 | 518, Train_Loss 19.9364
+Epoch: 9, Step 360 | 518, Train_Loss 19.9635
+Epoch: 9, Step 380 | 518, Train_Loss 20.5448
+Epoch: 9, Step 400 | 518, Train_Loss 20.2126
+Epoch: 9, Step 420 | 518, Train_Loss 20.2733
+Epoch: 9, Step 440 | 518, Train_Loss 19.9274
+Epoch: 9, Step 460 | 518, Train_Loss 20.2761
+Epoch: 9, Step 480 | 518, Train_Loss 20.0145
+Epoch: 9, Step 500 | 518, Train_Loss 20.2019
+Current Time: Mon Nov  9 20:00:16 2020
+Epoch 9,  Accuracy 87.5198%
+Epoch: 10, Step 0 | 518, Train_Loss 0.9664
+Epoch: 10, Step 20 | 518, Train_Loss 19.8595
+Epoch: 10, Step 40 | 518, Train_Loss 19.7598
+Epoch: 10, Step 60 | 518, Train_Loss 19.7700
+Epoch: 10, Step 80 | 518, Train_Loss 19.5412
+Epoch: 10, Step 100 | 518, Train_Loss 19.5831
+Epoch: 10, Step 120 | 518, Train_Loss 19.8970
+Epoch: 10, Step 140 | 518, Train_Loss 19.8019
+Epoch: 10, Step 160 | 518, Train_Loss 20.0672
+Epoch: 10, Step 180 | 518, Train_Loss 20.0861
+Epoch: 10, Step 200 | 518, Train_Loss 19.7218
+Epoch: 10, Step 220 | 518, Train_Loss 19.9247
+Epoch: 10, Step 240 | 518, Train_Loss 19.6024
+Epoch: 10, Step 260 | 518, Train_Loss 19.4515
+Epoch: 10, Step 280 | 518, Train_Loss 19.7279
+Epoch: 10, Step 300 | 518, Train_Loss 19.7197
+Epoch: 10, Step 320 | 518, Train_Loss 19.5986
+Epoch: 10, Step 340 | 518, Train_Loss 19.9764
+Epoch: 10, Step 360 | 518, Train_Loss 19.7706
+Epoch: 10, Step 380 | 518, Train_Loss 19.4688
+Epoch: 10, Step 400 | 518, Train_Loss 19.4919
+Epoch: 10, Step 420 | 518, Train_Loss 19.6366
+Epoch: 10, Step 440 | 518, Train_Loss 19.5958
+Epoch: 10, Step 460 | 518, Train_Loss 19.2640
+Epoch: 10, Step 480 | 518, Train_Loss 20.1226
+Epoch: 10, Step 500 | 518, Train_Loss 19.5726
+Current Time: Mon Nov  9 20:24:50 2020
+Epoch 10,  Accuracy 87.9945%
+Epoch: 11, Step 0 | 518, Train_Loss 1.0328
+Epoch: 11, Step 20 | 518, Train_Loss 19.1961
+Epoch: 11, Step 40 | 518, Train_Loss 19.3661
+Epoch: 11, Step 60 | 518, Train_Loss 19.4142
+Epoch: 11, Step 80 | 518, Train_Loss 19.2086
+Epoch: 11, Step 100 | 518, Train_Loss 19.4699
+Epoch: 11, Step 120 | 518, Train_Loss 19.4428
+Epoch: 11, Step 140 | 518, Train_Loss 19.2538
+Epoch: 11, Step 160 | 518, Train_Loss 19.1243
+Epoch: 11, Step 180 | 518, Train_Loss 19.3866
+Epoch: 11, Step 200 | 518, Train_Loss 19.3409
+Epoch: 11, Step 220 | 518, Train_Loss 19.5591
+Epoch: 11, Step 240 | 518, Train_Loss 19.5961
+Epoch: 11, Step 260 | 518, Train_Loss 19.2090
+Epoch: 11, Step 280 | 518, Train_Loss 19.5684
+Epoch: 11, Step 300 | 518, Train_Loss 19.0872
+Epoch: 11, Step 320 | 518, Train_Loss 19.1842
+Epoch: 11, Step 340 | 518, Train_Loss 19.2243
+Epoch: 11, Step 360 | 518, Train_Loss 19.3834
+Epoch: 11, Step 380 | 518, Train_Loss 19.4838
+Epoch: 11, Step 400 | 518, Train_Loss 19.6252
+Epoch: 11, Step 420 | 518, Train_Loss 19.9283
+Epoch: 11, Step 440 | 518, Train_Loss 19.2780
+Epoch: 11, Step 460 | 518, Train_Loss 19.1478
+Epoch: 11, Step 480 | 518, Train_Loss 19.5663
+Epoch: 11, Step 500 | 518, Train_Loss 19.3500
+Current Time: Mon Nov  9 20:49:27 2020
+Epoch 11,  Accuracy 88.1131%
+Epoch: 12, Step 0 | 518, Train_Loss 0.9482
+Epoch: 12, Step 20 | 518, Train_Loss 19.1491
+Epoch: 12, Step 40 | 518, Train_Loss 19.0436
+Epoch: 12, Step 60 | 518, Train_Loss 19.4740
+Epoch: 12, Step 80 | 518, Train_Loss 19.0604
+Epoch: 12, Step 100 | 518, Train_Loss 18.9865
+Epoch: 12, Step 120 | 518, Train_Loss 19.1548
+Epoch: 12, Step 140 | 518, Train_Loss 19.1830
+Epoch: 12, Step 160 | 518, Train_Loss 19.2992
+Epoch: 12, Step 180 | 518, Train_Loss 19.3243
+Epoch: 12, Step 200 | 518, Train_Loss 19.3331
+Epoch: 12, Step 220 | 518, Train_Loss 19.1815
+Epoch: 12, Step 240 | 518, Train_Loss 18.9901
+Epoch: 12, Step 260 | 518, Train_Loss 19.2149
+Epoch: 12, Step 280 | 518, Train_Loss 19.1247
+Epoch: 12, Step 300 | 518, Train_Loss 19.2530
+Epoch: 12, Step 320 | 518, Train_Loss 19.1897
+Epoch: 12, Step 340 | 518, Train_Loss 19.0701
+Epoch: 12, Step 360 | 518, Train_Loss 19.0983
+Epoch: 12, Step 380 | 518, Train_Loss 18.9132
+Epoch: 12, Step 400 | 518, Train_Loss 19.1576
+Epoch: 12, Step 420 | 518, Train_Loss 19.1748
+Epoch: 12, Step 440 | 518, Train_Loss 19.1122
+Epoch: 12, Step 460 | 518, Train_Loss 19.3127
+Epoch: 12, Step 480 | 518, Train_Loss 18.9522
+Epoch: 12, Step 500 | 518, Train_Loss 19.0267
+Current Time: Mon Nov  9 21:14:05 2020
+Epoch 12,  Accuracy 87.7769%
+Current model ends, saved the model.
+Model download succeeded !
+Current Pred: 1/5056
+Current Pred: 201/5056
+Current Pred: 401/5056
+Current Pred: 601/5056
+Current Pred: 801/5056
+Current Pred: 1001/5056
+Current Pred: 1201/5056
+Current Pred: 1401/5056
+Current Pred: 1601/5056
+Current Pred: 1801/5056
+Current Pred: 2001/5056
+Current Pred: 2201/5056
+Current Pred: 2401/5056
+Current Pred: 2601/5056
+Current Pred: 2801/5056
+Current Pred: 3001/5056
+Current Pred: 3201/5056
+Current Pred: 3401/5056
+Current Pred: 3601/5056
+Current Pred: 3801/5056
+Current Pred: 4001/5056
+Current Pred: 4201/5056
+Current Pred: 4401/5056
+Current Pred: 4601/5056
+Current Pred: 4801/5056
+Current Pred: 5001/5056
+{"score": 87.7, "label": "The Score is Total ACC", "info": ""}

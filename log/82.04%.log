@@ -1,0 +1,5851 @@
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting opencv-python==4.2.0.32
+Downloading https://pypi.flyai.com/packages/68/c5/09a1b82f940805c2cee30c3c42786651edcfd0710a0283eb09c6bc959340/opencv_python-4.2.0.32-cp36-cp36m-manylinux1_x86_64.whl (28.2 MB)
+Requirement already satisfied: numpy>=1.11.3 in /usr/local/lib/python3.6/dist-packages (from opencv-python==4.2.0.32) (1.18.3)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.2.0.32
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: Pillow in /usr/local/lib/python3.6/dist-packages (7.1.1)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting resnest
+Downloading https://pypi.flyai.com/packages/74/ab/bdd1a6ae83f13a268c736c7be2f14207f836711e22daa64d46b57262b66b/resnest-0.0.5-py3-none-any.whl (30 kB)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.6/dist-packages (from resnest) (4.45.0)
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from resnest) (1.4.1)
+Requirement already satisfied: nose in /usr/local/lib/python3.6/dist-packages (from resnest) (1.3.7)
+Requirement already satisfied: torch>=1.0.0 in /usr/local/lib/python3.6/dist-packages (from resnest) (1.6.0 cu101)
+Requirement already satisfied: requests in /usr/local/lib/python3.6/dist-packages (from resnest) (2.23.0)
+Requirement already satisfied: Pillow in /usr/local/lib/python3.6/dist-packages (from resnest) (7.1.1)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from resnest) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch>=1.0.0->resnest) (0.18.2)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (1.25.9)
+Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (2020.4.5.1)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.6/dist-packages (from requests->resnest) (2.9)
+Installing collected packages: resnest
+Successfully installed resnest-0.0.5
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (1.4.1)
+Requirement already satisfied: numpy>=1.13.3 in /usr/local/lib/python3.6/dist-packages (from scipy) (1.18.3)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (1.18.3)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting efficientnet_pytorch
+Downloading https://pypi.flyai.com/packages/4e/83/f9c5f44060f996279e474185ebcbd8dbd91179593bffb9abe3afa55d085b/efficientnet_pytorch-0.7.0.tar.gz (20 kB)
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (from efficientnet_pytorch) (1.6.0 cu101)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch->efficientnet_pytorch) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch->efficientnet_pytorch) (0.18.2)
+Building wheels for collected packages: efficientnet-pytorch
+Building wheel for efficientnet-pytorch (setup.py): started
+Building wheel for efficientnet-pytorch (setup.py): finished with status 'done'
+Created wheel for efficientnet-pytorch: filename=efficientnet_pytorch-0.7.0-py3-none-any.whl size=16035 sha256=e322656876279cdb70c2664df2482e635b93cc42b08813884cb325135a47ec66
+Stored in directory: /root/.cache/pip/wheels/48/81/6f/09cdcb1de68fb0eb2d28da0c3e8161a06c756d74b4b95b7746
+Successfully built efficientnet-pytorch
+Installing collected packages: efficientnet-pytorch
+Successfully installed efficientnet-pytorch-0.7.0
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: torchvision in /usr/local/lib/python3.6/dist-packages (0.7.0 cu101)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torchvision) (1.18.3)
+Requirement already satisfied: pillow>=4.1.1 in /usr/local/lib/python3.6/dist-packages (from torchvision) (7.1.1)
+Requirement already satisfied: torch==1.6.0 in /usr/local/lib/python3.6/dist-packages (from torchvision) (1.6.0 cu101)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch==1.6.0->torchvision) (0.18.2)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (1.6.0 cu101)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch) (0.18.2)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch) (1.18.3)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.6/dist-packages (3.2.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: numpy>=1.11 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (1.18.3)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: python-dateutil>=2.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (2.8.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.6/dist-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from cycler>=0.10->matplotlib) (1.14.0)
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+Looking in indexes: https://pypi.flyai.com/simple
+Collecting cnn_finetune
+Downloading https://pypi.flyai.com/packages/e4/63/03a442d31401c43fc17a814f22bd7c39ab8f13f42a6b2467ca0d0d042b3a/cnn_finetune-0.6.0.tar.gz (11 kB)
+Requirement already satisfied: torch in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (1.6.0 cu101)
+Requirement already satisfied: torchvision>=0.3.0 in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (0.7.0 cu101)
+Collecting pretrainedmodels>=0.7.4
+Downloading https://pypi.flyai.com/packages/84/0e/be6a0e58447ac16c938799d49bfb5fb7a80ac35e137547fc6cee2c08c4cf/pretrainedmodels-0.7.4.tar.gz (58 kB)
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (1.4.1)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.6/dist-packages (from cnn_finetune) (4.45.0)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch->cnn_finetune) (1.18.3)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from torch->cnn_finetune) (0.18.2)
+Requirement already satisfied: pillow>=4.1.1 in /usr/local/lib/python3.6/dist-packages (from torchvision>=0.3.0->cnn_finetune) (7.1.1)
+Collecting munch
+Downloading https://pypi.flyai.com/packages/cc/ab/85d8da5c9a45e072301beb37ad7f833cd344e04c817d97e0cc75681d248f/munch-2.5.0-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from munch->pretrainedmodels>=0.7.4->cnn_finetune) (1.14.0)
+Building wheels for collected packages: cnn-finetune, pretrainedmodels
+Building wheel for cnn-finetune (setup.py): started
+Building wheel for cnn-finetune (setup.py): finished with status 'done'
+Created wheel for cnn-finetune: filename=cnn_finetune-0.6.0-py3-none-any.whl size=11432 sha256=c2fc4ad1d3d301061728081767f11007b84fbf3e27650498e4b53be3c29b1b3b
+Stored in directory: /root/.cache/pip/wheels/9b/d9/82/f8b9045d146050042c2e6ab22c44a27eef49ffe2bbc3412256
+Building wheel for pretrainedmodels (setup.py): started
+Building wheel for pretrainedmodels (setup.py): finished with status 'done'
+Created wheel for pretrainedmodels: filename=pretrainedmodels-0.7.4-py3-none-any.whl size=60962 sha256=4dc126d91d23584d3a20c9a6060863bc288a8493a3477b0f760f0f38a1ac8e31
+Stored in directory: /root/.cache/pip/wheels/e8/ba/a6/a8ad2367db2fbaabb853dc408d93c466f36305dfc8b8ea35e7
+Successfully built cnn-finetune pretrainedmodels
+Installing collected packages: munch, pretrainedmodels, cnn-finetune
+Successfully installed cnn-finetune-0.6.0 munch-2.5.0 pretrainedmodels-0.7.4
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
+('dataset/ButterflyClassification/train.zip', 'total size: ', 670, 'MB')
+('本地训练提供', '20%', '的数据，线上训练会提供全量数据。')
+('数据集详细信息请访问:', 'ButterflyClassification')
+train_size: 15167, val_size: 5056
+len(dataset): 15167
+len(tmp_label): 200
+['Euploea_core', 'Papilio_maackii', 'Kallima_inachus', 'Pieris_napi', 'Cyrestis_thyodamas', 'Papilio_xuthus', 'Symbrenthia_lilaea', 'Byasa_polyeuctes', 'Abisara_echerius', 'Stibochiona_nicea', 'Polygonia_caureum', 'Junonia_hierta', 'Parantica_sita', 'Papilio_Krishna', 'Hestina_assimilis', 'Junonia_almana', 'Tongeia_potanini', 'Byasa_dasarada', 'Clossiana_euphrosyne', 'Kaniska_canace', 'Libythea_myrrha', 'Danaus_genutia', 'Parantica_aglea', 'Erionota_torus', 'Polyura_eudamippus', 'Melanitis_phedima', 'Papilio_prexaspes', 'Papilio_machaon', 'Vanessa_cardui', 'Graphium_agamemnon', 'Gonepteryx_amintha', 'Papilio_hermosanus', 'Hebomoia_glaucippe', 'Aemona_amathusia', 'Neptis_hylas', 'Danaus_plexippus', 'Cethosia_cyane', 'Pieris_melete', 'Colias_palaeno', 'Badamia_exclamationis', 'Lethe_chandica', 'Ypthima_baldus', 'Artipe_eryx', 'Cethosia_biblis', 'Papilio_hoppo', 'Gonepteryx_rhamni', 'Lamproptera_curius', 'Colias_erate', 'Luehdorfia_chinensis', 'Zemeros_flegyas', 'Sephisa_chandra', 'Tirumala_septentrionis', 'Delias_pasithoe', 'Papilio_dialis', 'Parnassius_apollo', 'Penthema_darlisa', 'Mycalesis_perseus', 'Curetis_acuta', 'Delias_acalis', 'Byasa_alcinous', 'Damora_sagana', 'Acraea_issoria', 'Acraea_terpsicore', 'Junonia_iphita', 'Euploea_sylvester', 'Tirumala_limniace', 'Issoria_lathonia', 'Udaspes_folus', 'Clossiana_freija', 'Danaus_chrysippus', 'Parnassius_phoebus', 'Pazala_mullah', 'Catopsilia_pomona', 'Ampittia_virgata', 'Seseria_dohertyi', 'Neope_pulaha', 'Charaxes_bernardus', 'Odontoptilum_angulatum', 'Taraka_hamada', 'Ancistroides_nigrita', 'Loxura_atymnus', 'Troides_magellanus', 'Junonia_orithya', 'Teinopalpus_imperialis', 'Pazala_eurous', 'Horaga_albimacula', 'Pachliopta_aristolochiae', 'Ypthima_praenubila', 'Papilio_paris', 'Papilio_bianor', 'Arhopala_rama', 'Eurema_hecabe', 'Colias_fieldii', 'Papilio_alcmenor', 'Iraota_timoleon', 'Apatura_ilia', 'Delias_descombesi', 'Limenitis_sulpitia', 'Eurema_laeta', 'Polyura_athamas', 'Hypolimnas_bolina', 'Eurema_blanda', 'Ariadne_ariadne', 'Hasora_badra', 'Euploea_midamus', 'Ideopsis_similis', 'Stichophthalma_howqua', 'Iphiclides_podalirius', 'Leptidea_sinapis', 'Athyma_ranga', 'Proclossiana_eunomia', 'Papilio_polytes', 'Clossiana_dia', 'Melanitis_leda', 'Eurema_brigitta', 'Dodona_eugenes', 'Clossiana_titania', 'Daimio_tethys', 'Amblopala_avidiena', 'Athyma_perius', 'Apatura_iris', 'Vanessa_indica', 'Celaenorrhinus_maculosus', 'Tagiades_menaka', 'Teinopalpus_aureus', 'Arhopala_paramuta', 'Atrophaneura_varuna', 'Lethe_confusa', 'Calinaga_buddha', 'Colias_hyale', 'Lethe_syrcis', 'Pseudocoladenia_dan', 'Troides_helena', 'Notocrypta_curvifascia', 'Horaga_onyx', 'Iambrix_salsala', 'Pathysa_antiphates', 'Leptidea_amurensis', 'Rapala_nissa', 'Faunis_eumeus', 'Papilio_protenor', 'Idea_leuconoe', 'Bhutanitis_lidderdalii', 'Junonia_atlites', 'Meandrusa_payeni', 'Mycalesis_intermedia', 'Euploea_tulliolus', 'Penthema_formosanum', 'Polyura_narcaea', 'Pieris_rapae', 'Abraximorpha_davidii', 'Burara_gomata', 'Hasora_anura', 'Doleschallia_bisaltide', 'Catopsilia_scylla', 'SpinDasis_syama', 'Hasora_vitta', 'Isoteinon_lamprospilus', 'Papilio_nephelus', 'Libythea_lepita', 'Eurema_mandarina', 'Jamides_bochus', 'Papilio_arcturus', 'Euthalia_niepelti', 'Mycalesis_gotama', 'Ussuriana_michaelis', 'Pieris_canidia', 'Parnara_guttata', 'Sericinus_montelus', 'Cepora_nerissa', 'Graphium_cloanthus', 'Elymnias_hypermnestra', 'Papilio_memnon', 'Astictopterus_jama', 'Neptis_miah', 'Atrophaneura_horishanus', 'Mahathala_ameria', 'Rohana_parisatis', 'Lamproptera_meges', 'Catopsilia_pyranthe', 'Parantica_melaneus', 'Graphium_sarpedon', 'Troides_aeacus', 'Sasakia_charonda', 'Meandrusa_sciron', 'Zizeeria_maha', 'Miletus_chinensis', 'Eurema_andersoni', 'Lampides_boeticus', 'Leptidea_morsei', 'Ideopsis_vulgaris', 'Ariadne_merione', 'Gandaca_harina', 'Delias_belladonna', 'Chitoria_ulupi', 'Parnassius_nomion', 'Allotinus_drumila', 'Timelaea_albescens', 'Mandarinia_regalis', 'Losaria_coon']
+num_count: [('Gonepteryx_rhamni', 702), ('Catopsilia_pomona', 342), ('Eurema_hecabe', 338), ('Neptis_hylas', 330), ('Hebomoia_glaucippe', 310), ('Apatura_ilia', 292), ('Apatura_iris', 256), ('Eurema_blanda', 250), ('Junonia_orithya', 229), ('Junonia_iphita', 228), ('Delias_pasithoe', 219), ('Junonia_atlites', 217), ('Junonia_almana', 209), ('Symbrenthia_lilaea', 201), ('Cethosia_biblis', 201), ('Danaus_chrysippus', 194), ('Clossiana_euphrosyne', 188), ('Kallima_inachus', 180), ('Parnara_guttata', 177), ('Vanessa_cardui', 175), ('Colias_palaeno', 175), ('Junonia_hierta', 173), ('Zemeros_flegyas', 172), ('Parnassius_phoebus', 168), ('Acraea_issoria', 167), ('Pazala_eurous', 167), ('Iphiclides_podalirius', 167), ('Parantica_aglea', 166), ('Ideopsis_similis', 166), ('Colias_erate', 164), ('Danaus_plexippus', 157), ('Papilio_maackii', 154), ('Cethosia_cyane', 148), ('Tirumala_septentrionis', 144), ('Pathysa_antiphates', 142), ('Atrophaneura_horishanus', 142), ('Pachliopta_aristolochiae', 138), ('Byasa_alcinous', 136), ('Troides_magellanus', 133), ('Byasa_polyeuctes', 130), ('Colias_hyale', 129), ('Hypolimnas_bolina', 127), ('Pieris_canidia', 126), ('Sericinus_montelus', 126), ('Hestina_assimilis', 125), ('Kaniska_canace', 125), ('Polyura_athamas', 125), ('Faunis_eumeus', 125), ('Libythea_lepita', 125), ('Abisara_echerius', 124), ('Pieris_melete', 121), ('Cyrestis_thyodamas', 119), ('Elymnias_hypermnestra', 119), ('Mycalesis_perseus', 118), ('Udaspes_folus', 117), ('Mycalesis_gotama', 117), ('Papilio_hermosanus', 116), ('Melanitis_leda', 113), ('Iambrix_salsala', 110), ('Papilio_hoppo', 109), ('Melanitis_phedima', 108), ('Loxura_atymnus', 108), ('Notocrypta_curvifascia', 106), ('Polygonia_caureum', 105), ('Curetis_acuta', 105), ('Hasora_badra', 105), ('Pieris_rapae', 104), ('Parantica_sita', 103), ('Lethe_confusa', 103), ('Parnassius_apollo', 102), ('Pseudocoladenia_dan', 102), ('Tirumala_limniace', 101), ('Danaus_genutia', 98), ('Athyma_perius', 98), ('Odontoptilum_angulatum', 97), ('Stichophthalma_howqua', 97), ('Lethe_chandica', 96), ('Pieris_napi', 95), ('Cepora_nerissa', 94), ('Vanessa_indica', 93), ('Acraea_terpsicore', 92), ('Iraota_timoleon', 92), ('Leptidea_sinapis', 92), ('Eurema_laeta', 91), ('Clossiana_dia', 91), ('Daimio_tethys', 91), ('Troides_helena', 91), ('Badamia_exclamationis', 89), ('Papilio_machaon', 88), ('Ypthima_baldus', 87), ('Parantica_melaneus', 87), ('Papilio_prexaspes', 86), ('Taraka_hamada', 86), ('Rohana_parisatis', 86), ('Papilio_bianor', 85), ('Atrophaneura_varuna', 85), ('Troides_aeacus', 84), ('Lampides_boeticus', 84), ('Gonepteryx_amintha', 83), ('Papilio_dialis', 83), ('Horaga_onyx', 83), ('Burara_gomata', 79), ('Papilio_memnon', 79), ('Erionota_torus', 78), ('Athyma_ranga', 78), ('Euploea_tulliolus', 76), ('Isoteinon_lamprospilus', 76), ('Eurema_mandarina', 76), ('Euploea_core', 75), ('Artipe_eryx', 75), ('Dodona_eugenes', 75), ('Papilio_arcturus', 75), ('Stibochiona_nicea', 74), ('Luehdorfia_chinensis', 74), ('Eurema_andersoni', 74), ('Neope_pulaha', 72), ('Euploea_midamus', 72), ('Sasakia_charonda', 72), ('Charaxes_bernardus', 71), ('Ariadne_ariadne', 71), ('Clossiana_titania', 71), ('Papilio_xuthus', 68), ('Issoria_lathonia', 68), ('Colias_fieldii', 68), ('Mycalesis_intermedia', 68), ('Polyura_narcaea', 68), ('Astictopterus_jama', 68), ('Pazala_mullah', 67), ('Limenitis_sulpitia', 67), ('Amblopala_avidiena', 67), ('Timelaea_albescens', 67), ('Ampittia_virgata', 65), ('Polyura_eudamippus', 64), ('Abraximorpha_davidii', 64), ('Neptis_miah', 64), ('Calinaga_buddha', 63), ('Zizeeria_maha', 63), ('Miletus_chinensis', 63), ('Parnassius_nomion', 63), ('Graphium_sarpedon', 62), ('Libythea_myrrha', 61), ('Papilio_alcmenor', 61), ('Papilio_polytes', 61), ('Hasora_anura', 61), ('Papilio_paris', 60), ('Delias_descombesi', 60), ('Gandaca_harina', 58), ('Lamproptera_curius', 57), ('Clossiana_freija', 57), ('Catopsilia_scylla', 57), ('SpinDasis_syama', 57), ('Ariadne_merione', 57), ('Byasa_dasarada', 56), ('Delias_acalis', 56), ('Ancistroides_nigrita', 56), ('Proclossiana_eunomia', 56), ('Lamproptera_meges', 56), ('Teinopalpus_imperialis', 55), ('Lethe_syrcis', 55), ('Rapala_nissa', 55), ('Losaria_coon', 55), ('Tagiades_menaka', 54), ('Graphium_agamemnon', 52), ('Papilio_protenor', 52), ('Hasora_vitta', 51), ('Delias_belladonna', 51), ('Euploea_sylvester', 50), ('Teinopalpus_aureus', 50), ('Catopsilia_pyranthe', 50), ('Aemona_amathusia', 49), ('Celaenorrhinus_maculosus', 49), ('Doleschallia_bisaltide', 49), ('Bhutanitis_lidderdalii', 48), ('Meandrusa_payeni', 48), ('Penthema_darlisa', 47), ('Damora_sagana', 47), ('Ideopsis_vulgaris', 47), ('Eurema_brigitta', 46), ('Tongeia_potanini', 45), ('Horaga_albimacula', 45), ('Papilio_nephelus', 44), ('Graphium_cloanthus', 43), ('Jamides_bochus', 42), ('Meandrusa_sciron', 42), ('Mandarinia_regalis', 42), ('Leptidea_amurensis', 41), ('Idea_leuconoe', 41), ('Penthema_formosanum', 41), ('Ussuriana_michaelis', 40), ('Mahathala_ameria', 39), ('Sephisa_chandra', 38), ('Leptidea_morsei', 35), ('Papilio_Krishna', 34), ('Arhopala_rama', 34), ('Allotinus_drumila', 33), ('Ypthima_praenubila', 31), ('Chitoria_ulupi', 31), ('Arhopala_paramuta', 28), ('Euthalia_niepelti', 28), ('Seseria_dohertyi', 20)]
+len(dataset): 5056
+len(tmp_label): 200
+['Euploea_core', 'Papilio_maackii', 'Kallima_inachus', 'Pieris_napi', 'Cyrestis_thyodamas', 'Papilio_xuthus', 'Symbrenthia_lilaea', 'Byasa_polyeuctes', 'Abisara_echerius', 'Stibochiona_nicea', 'Polygonia_caureum', 'Junonia_hierta', 'Parantica_sita', 'Papilio_Krishna', 'Hestina_assimilis', 'Junonia_almana', 'Tongeia_potanini', 'Byasa_dasarada', 'Clossiana_euphrosyne', 'Kaniska_canace', 'Libythea_myrrha', 'Danaus_genutia', 'Parantica_aglea', 'Erionota_torus', 'Polyura_eudamippus', 'Melanitis_phedima', 'Papilio_prexaspes', 'Papilio_machaon', 'Vanessa_cardui', 'Graphium_agamemnon', 'Gonepteryx_amintha', 'Papilio_hermosanus', 'Hebomoia_glaucippe', 'Aemona_amathusia', 'Neptis_hylas', 'Danaus_plexippus', 'Cethosia_cyane', 'Pieris_melete', 'Colias_palaeno', 'Badamia_exclamationis', 'Lethe_chandica', 'Ypthima_baldus', 'Artipe_eryx', 'Cethosia_biblis', 'Papilio_hoppo', 'Gonepteryx_rhamni', 'Lamproptera_curius', 'Colias_erate', 'Luehdorfia_chinensis', 'Zemeros_flegyas', 'Sephisa_chandra', 'Tirumala_septentrionis', 'Delias_pasithoe', 'Papilio_dialis', 'Parnassius_apollo', 'Penthema_darlisa', 'Mycalesis_perseus', 'Curetis_acuta', 'Delias_acalis', 'Byasa_alcinous', 'Damora_sagana', 'Acraea_issoria', 'Acraea_terpsicore', 'Junonia_iphita', 'Euploea_sylvester', 'Tirumala_limniace', 'Issoria_lathonia', 'Udaspes_folus', 'Clossiana_freija', 'Danaus_chrysippus', 'Parnassius_phoebus', 'Pazala_mullah', 'Catopsilia_pomona', 'Ampittia_virgata', 'Seseria_dohertyi', 'Neope_pulaha', 'Charaxes_bernardus', 'Odontoptilum_angulatum', 'Taraka_hamada', 'Ancistroides_nigrita', 'Loxura_atymnus', 'Troides_magellanus', 'Junonia_orithya', 'Teinopalpus_imperialis', 'Pazala_eurous', 'Horaga_albimacula', 'Pachliopta_aristolochiae', 'Ypthima_praenubila', 'Papilio_paris', 'Papilio_bianor', 'Arhopala_rama', 'Eurema_hecabe', 'Colias_fieldii', 'Papilio_alcmenor', 'Iraota_timoleon', 'Apatura_ilia', 'Delias_descombesi', 'Limenitis_sulpitia', 'Eurema_laeta', 'Polyura_athamas', 'Hypolimnas_bolina', 'Eurema_blanda', 'Ariadne_ariadne', 'Hasora_badra', 'Euploea_midamus', 'Ideopsis_similis', 'Stichophthalma_howqua', 'Iphiclides_podalirius', 'Leptidea_sinapis', 'Athyma_ranga', 'Proclossiana_eunomia', 'Papilio_polytes', 'Clossiana_dia', 'Melanitis_leda', 'Eurema_brigitta', 'Dodona_eugenes', 'Clossiana_titania', 'Daimio_tethys', 'Amblopala_avidiena', 'Athyma_perius', 'Apatura_iris', 'Vanessa_indica', 'Celaenorrhinus_maculosus', 'Tagiades_menaka', 'Teinopalpus_aureus', 'Arhopala_paramuta', 'Atrophaneura_varuna', 'Lethe_confusa', 'Calinaga_buddha', 'Colias_hyale', 'Lethe_syrcis', 'Pseudocoladenia_dan', 'Troides_helena', 'Notocrypta_curvifascia', 'Horaga_onyx', 'Iambrix_salsala', 'Pathysa_antiphates', 'Leptidea_amurensis', 'Rapala_nissa', 'Faunis_eumeus', 'Papilio_protenor', 'Idea_leuconoe', 'Bhutanitis_lidderdalii', 'Junonia_atlites', 'Meandrusa_payeni', 'Mycalesis_intermedia', 'Euploea_tulliolus', 'Penthema_formosanum', 'Polyura_narcaea', 'Pieris_rapae', 'Abraximorpha_davidii', 'Burara_gomata', 'Hasora_anura', 'Doleschallia_bisaltide', 'Catopsilia_scylla', 'SpinDasis_syama', 'Hasora_vitta', 'Isoteinon_lamprospilus', 'Papilio_nephelus', 'Libythea_lepita', 'Eurema_mandarina', 'Jamides_bochus', 'Papilio_arcturus', 'Euthalia_niepelti', 'Mycalesis_gotama', 'Ussuriana_michaelis', 'Pieris_canidia', 'Parnara_guttata', 'Sericinus_montelus', 'Cepora_nerissa', 'Graphium_cloanthus', 'Elymnias_hypermnestra', 'Papilio_memnon', 'Astictopterus_jama', 'Neptis_miah', 'Atrophaneura_horishanus', 'Mahathala_ameria', 'Rohana_parisatis', 'Lamproptera_meges', 'Catopsilia_pyranthe', 'Parantica_melaneus', 'Graphium_sarpedon', 'Troides_aeacus', 'Sasakia_charonda', 'Meandrusa_sciron', 'Zizeeria_maha', 'Miletus_chinensis', 'Eurema_andersoni', 'Lampides_boeticus', 'Leptidea_morsei', 'Ideopsis_vulgaris', 'Ariadne_merione', 'Gandaca_harina', 'Delias_belladonna', 'Chitoria_ulupi', 'Parnassius_nomion', 'Allotinus_drumila', 'Timelaea_albescens', 'Mandarinia_regalis', 'Losaria_coon']
+num_count: [('Gonepteryx_rhamni', 702), ('Catopsilia_pomona', 342), ('Eurema_hecabe', 338), ('Neptis_hylas', 330), ('Hebomoia_glaucippe', 310), ('Apatura_ilia', 292), ('Apatura_iris', 256), ('Eurema_blanda', 250), ('Junonia_orithya', 229), ('Junonia_iphita', 228), ('Delias_pasithoe', 219), ('Junonia_atlites', 217), ('Junonia_almana', 209), ('Symbrenthia_lilaea', 201), ('Cethosia_biblis', 201), ('Danaus_chrysippus', 194), ('Clossiana_euphrosyne', 188), ('Kallima_inachus', 180), ('Parnara_guttata', 177), ('Vanessa_cardui', 175), ('Colias_palaeno', 175), ('Junonia_hierta', 173), ('Zemeros_flegyas', 172), ('Parnassius_phoebus', 168), ('Acraea_issoria', 167), ('Pazala_eurous', 167), ('Iphiclides_podalirius', 167), ('Parantica_aglea', 166), ('Ideopsis_similis', 166), ('Colias_erate', 164), ('Danaus_plexippus', 157), ('Papilio_maackii', 154), ('Cethosia_cyane', 148), ('Tirumala_septentrionis', 144), ('Pathysa_antiphates', 142), ('Atrophaneura_horishanus', 142), ('Pachliopta_aristolochiae', 138), ('Byasa_alcinous', 136), ('Troides_magellanus', 133), ('Byasa_polyeuctes', 130), ('Colias_hyale', 129), ('Hypolimnas_bolina', 127), ('Pieris_canidia', 126), ('Sericinus_montelus', 126), ('Hestina_assimilis', 125), ('Kaniska_canace', 125), ('Polyura_athamas', 125), ('Faunis_eumeus', 125), ('Libythea_lepita', 125), ('Abisara_echerius', 124), ('Pieris_melete', 121), ('Cyrestis_thyodamas', 119), ('Elymnias_hypermnestra', 119), ('Mycalesis_perseus', 118), ('Udaspes_folus', 117), ('Mycalesis_gotama', 117), ('Papilio_hermosanus', 116), ('Melanitis_leda', 113), ('Iambrix_salsala', 110), ('Papilio_hoppo', 109), ('Melanitis_phedima', 108), ('Loxura_atymnus', 108), ('Notocrypta_curvifascia', 106), ('Polygonia_caureum', 105), ('Curetis_acuta', 105), ('Hasora_badra', 105), ('Pieris_rapae', 104), ('Parantica_sita', 103), ('Lethe_confusa', 103), ('Parnassius_apollo', 102), ('Pseudocoladenia_dan', 102), ('Tirumala_limniace', 101), ('Danaus_genutia', 98), ('Athyma_perius', 98), ('Odontoptilum_angulatum', 97), ('Stichophthalma_howqua', 97), ('Lethe_chandica', 96), ('Pieris_napi', 95), ('Cepora_nerissa', 94), ('Vanessa_indica', 93), ('Acraea_terpsicore', 92), ('Iraota_timoleon', 92), ('Leptidea_sinapis', 92), ('Eurema_laeta', 91), ('Clossiana_dia', 91), ('Daimio_tethys', 91), ('Troides_helena', 91), ('Badamia_exclamationis', 89), ('Papilio_machaon', 88), ('Ypthima_baldus', 87), ('Parantica_melaneus', 87), ('Papilio_prexaspes', 86), ('Taraka_hamada', 86), ('Rohana_parisatis', 86), ('Papilio_bianor', 85), ('Atrophaneura_varuna', 85), ('Troides_aeacus', 84), ('Lampides_boeticus', 84), ('Gonepteryx_amintha', 83), ('Papilio_dialis', 83), ('Horaga_onyx', 83), ('Burara_gomata', 79), ('Papilio_memnon', 79), ('Erionota_torus', 78), ('Athyma_ranga', 78), ('Euploea_tulliolus', 76), ('Isoteinon_lamprospilus', 76), ('Eurema_mandarina', 76), ('Euploea_core', 75), ('Artipe_eryx', 75), ('Dodona_eugenes', 75), ('Papilio_arcturus', 75), ('Stibochiona_nicea', 74), ('Luehdorfia_chinensis', 74), ('Eurema_andersoni', 74), ('Neope_pulaha', 72), ('Euploea_midamus', 72), ('Sasakia_charonda', 72), ('Charaxes_bernardus', 71), ('Ariadne_ariadne', 71), ('Clossiana_titania', 71), ('Papilio_xuthus', 68), ('Issoria_lathonia', 68), ('Colias_fieldii', 68), ('Mycalesis_intermedia', 68), ('Polyura_narcaea', 68), ('Astictopterus_jama', 68), ('Pazala_mullah', 67), ('Limenitis_sulpitia', 67), ('Amblopala_avidiena', 67), ('Timelaea_albescens', 67), ('Ampittia_virgata', 65), ('Polyura_eudamippus', 64), ('Abraximorpha_davidii', 64), ('Neptis_miah', 64), ('Calinaga_buddha', 63), ('Zizeeria_maha', 63), ('Miletus_chinensis', 63), ('Parnassius_nomion', 63), ('Graphium_sarpedon', 62), ('Libythea_myrrha', 61), ('Papilio_alcmenor', 61), ('Papilio_polytes', 61), ('Hasora_anura', 61), ('Papilio_paris', 60), ('Delias_descombesi', 60), ('Gandaca_harina', 58), ('Lamproptera_curius', 57), ('Clossiana_freija', 57), ('Catopsilia_scylla', 57), ('SpinDasis_syama', 57), ('Ariadne_merione', 57), ('Byasa_dasarada', 56), ('Delias_acalis', 56), ('Ancistroides_nigrita', 56), ('Proclossiana_eunomia', 56), ('Lamproptera_meges', 56), ('Teinopalpus_imperialis', 55), ('Lethe_syrcis', 55), ('Rapala_nissa', 55), ('Losaria_coon', 55), ('Tagiades_menaka', 54), ('Graphium_agamemnon', 52), ('Papilio_protenor', 52), ('Hasora_vitta', 51), ('Delias_belladonna', 51), ('Euploea_sylvester', 50), ('Teinopalpus_aureus', 50), ('Catopsilia_pyranthe', 50), ('Aemona_amathusia', 49), ('Celaenorrhinus_maculosus', 49), ('Doleschallia_bisaltide', 49), ('Bhutanitis_lidderdalii', 48), ('Meandrusa_payeni', 48), ('Penthema_darlisa', 47), ('Damora_sagana', 47), ('Ideopsis_vulgaris', 47), ('Eurema_brigitta', 46), ('Tongeia_potanini', 45), ('Horaga_albimacula', 45), ('Papilio_nephelus', 44), ('Graphium_cloanthus', 43), ('Jamides_bochus', 42), ('Meandrusa_sciron', 42), ('Mandarinia_regalis', 42), ('Leptidea_amurensis', 41), ('Idea_leuconoe', 41), ('Penthema_formosanum', 41), ('Ussuriana_michaelis', 40), ('Mahathala_ameria', 39), ('Sephisa_chandra', 38), ('Leptidea_morsei', 35), ('Papilio_Krishna', 34), ('Arhopala_rama', 34), ('Allotinus_drumila', 33), ('Ypthima_praenubila', 31), ('Chitoria_ulupi', 31), ('Arhopala_paramuta', 28), ('Euthalia_niepelti', 28), ('Seseria_dohertyi', 20)]
+('se_resnext50_32x4d-a260b3a4.pth', 'total size: ', 105, 'MB')
+Model download succeeded !
+Loading model1...
+Epoch: 0, Step 0 | 473, Train_Loss 5.5683
+Epoch: 0, Step 10 | 473, Train_Loss 52.7781
+Epoch: 0, Step 20 | 473, Train_Loss 52.6321
+Epoch: 0, Step 30 | 473, Train_Loss 52.3391
+Epoch: 0, Step 40 | 473, Train_Loss 51.5354
+Epoch: 0, Step 50 | 473, Train_Loss 51.7220
+Epoch: 0, Step 60 | 473, Train_Loss 51.4148
+Epoch: 0, Step 70 | 473, Train_Loss 49.7180
+Epoch: 0, Step 80 | 473, Train_Loss 50.2213
+Epoch: 0, Step 90 | 473, Train_Loss 48.0107
+Epoch: 0, Step 100 | 473, Train_Loss 48.4094
+Epoch: 0, Step 110 | 473, Train_Loss 48.4639
+Epoch: 0, Step 120 | 473, Train_Loss 50.9957
+Epoch: 0, Step 130 | 473, Train_Loss 50.7267
+Epoch: 0, Step 140 | 473, Train_Loss 46.3396
+Epoch: 0, Step 150 | 473, Train_Loss 48.5020
+Epoch: 0, Step 160 | 473, Train_Loss 47.8060
+Epoch: 0, Step 170 | 473, Train_Loss 47.3048
+Epoch: 0, Step 180 | 473, Train_Loss 47.2965
+Epoch: 0, Step 190 | 473, Train_Loss 46.1007
+Epoch: 0, Step 200 | 473, Train_Loss 46.6040
+Epoch: 0, Step 210 | 473, Train_Loss 47.8853
+Epoch: 0, Step 220 | 473, Train_Loss 49.1911
+Epoch: 0, Step 230 | 473, Train_Loss 45.6692
+Epoch: 0, Step 240 | 473, Train_Loss 46.1772
+Epoch: 0, Step 250 | 473, Train_Loss 47.2728
+Epoch: 0, Step 260 | 473, Train_Loss 46.4148
+Epoch: 0, Step 270 | 473, Train_Loss 43.7986
+Epoch: 0, Step 280 | 473, Train_Loss 43.8353
+Epoch: 0, Step 290 | 473, Train_Loss 41.5114
+Epoch: 0, Step 300 | 473, Train_Loss 44.8960
+Epoch: 0, Step 310 | 473, Train_Loss 42.0444
+Epoch: 0, Step 320 | 473, Train_Loss 41.3643
+Epoch: 0, Step 330 | 473, Train_Loss 42.5503
+Epoch: 0, Step 340 | 473, Train_Loss 39.7595
+Epoch: 0, Step 350 | 473, Train_Loss 40.9558
+Epoch: 0, Step 360 | 473, Train_Loss 41.2923
+Epoch: 0, Step 370 | 473, Train_Loss 39.8431
+Epoch: 0, Step 380 | 473, Train_Loss 39.2219
+Epoch: 0, Step 390 | 473, Train_Loss 37.5345
+Epoch: 0, Step 400 | 473, Train_Loss 39.2021
+Epoch: 0, Step 410 | 473, Train_Loss 37.5762
+Epoch: 0, Step 420 | 473, Train_Loss 37.2840
+Epoch: 0, Step 430 | 473, Train_Loss 36.9214
+Epoch: 0, Step 440 | 473, Train_Loss 37.6231
+Epoch: 0, Step 450 | 473, Train_Loss 34.7449
+Epoch: 0, Step 460 | 473, Train_Loss 36.1420
+Epoch: 0, Step 470 | 473, Train_Loss 36.1999
+Current Time: Wed Nov  4 07:46:36 2020
+Epoch 0,  Accuracy 24.4264%
+Epoch: 1, Step 0 | 473, Train_Loss 3.3031
+Epoch: 1, Step 10 | 473, Train_Loss 35.0252
+Epoch: 1, Step 20 | 473, Train_Loss 35.8927
+Epoch: 1, Step 30 | 473, Train_Loss 34.7704
+Epoch: 1, Step 40 | 473, Train_Loss 33.9535
+Epoch: 1, Step 50 | 473, Train_Loss 34.1507
+Epoch: 1, Step 60 | 473, Train_Loss 33.2300
+Epoch: 1, Step 70 | 473, Train_Loss 33.6474
+Epoch: 1, Step 80 | 473, Train_Loss 35.4936
+Epoch: 1, Step 90 | 473, Train_Loss 33.1956
+Epoch: 1, Step 100 | 473, Train_Loss 32.6975
+Epoch: 1, Step 110 | 473, Train_Loss 33.3033
+Epoch: 1, Step 120 | 473, Train_Loss 32.5438
+Epoch: 1, Step 130 | 473, Train_Loss 32.6805
+Epoch: 1, Step 140 | 473, Train_Loss 33.4044
+Epoch: 1, Step 150 | 473, Train_Loss 31.8081
+Epoch: 1, Step 160 | 473, Train_Loss 31.4373
+Epoch: 1, Step 170 | 473, Train_Loss 32.5264
+Epoch: 1, Step 180 | 473, Train_Loss 30.2207
+Epoch: 1, Step 190 | 473, Train_Loss 32.3316
+Epoch: 1, Step 200 | 473, Train_Loss 31.4882
+Epoch: 1, Step 210 | 473, Train_Loss 30.7374
+Epoch: 1, Step 220 | 473, Train_Loss 29.6391
+Epoch: 1, Step 230 | 473, Train_Loss 29.2532
+Epoch: 1, Step 240 | 473, Train_Loss 28.8585
+Epoch: 1, Step 250 | 473, Train_Loss 30.2587
+Epoch: 1, Step 260 | 473, Train_Loss 30.6857
+Epoch: 1, Step 270 | 473, Train_Loss 30.2542
+Epoch: 1, Step 280 | 473, Train_Loss 29.9323
+Epoch: 1, Step 290 | 473, Train_Loss 29.7523
+Epoch: 1, Step 300 | 473, Train_Loss 29.3550
+Epoch: 1, Step 310 | 473, Train_Loss 28.7849
+Epoch: 1, Step 320 | 473, Train_Loss 30.3046
+Epoch: 1, Step 330 | 473, Train_Loss 29.8726
+Epoch: 1, Step 340 | 473, Train_Loss 29.2093
+Epoch: 1, Step 350 | 473, Train_Loss 28.4050
+Epoch: 1, Step 360 | 473, Train_Loss 28.7421
+Epoch: 1, Step 370 | 473, Train_Loss 27.9600
+Epoch: 1, Step 380 | 473, Train_Loss 28.1238
+Epoch: 1, Step 390 | 473, Train_Loss 27.2294
+Epoch: 1, Step 400 | 473, Train_Loss 28.6595
+Epoch: 1, Step 410 | 473, Train_Loss 27.8866
+Epoch: 1, Step 420 | 473, Train_Loss 25.8452
+Epoch: 1, Step 430 | 473, Train_Loss 26.7468
+Epoch: 1, Step 440 | 473, Train_Loss 25.6673
+Epoch: 1, Step 450 | 473, Train_Loss 26.2557
+Epoch: 1, Step 460 | 473, Train_Loss 25.3612
+Epoch: 1, Step 470 | 473, Train_Loss 26.1816
+Current Time: Wed Nov  4 08:04:36 2020
+Epoch 1,  Accuracy 48.6155%
+Epoch: 2, Step 0 | 473, Train_Loss 2.8881
+Epoch: 2, Step 10 | 473, Train_Loss 26.3923
+Epoch: 2, Step 20 | 473, Train_Loss 25.3710
+Epoch: 2, Step 30 | 473, Train_Loss 25.3279
+Epoch: 2, Step 40 | 473, Train_Loss 25.4883
+Epoch: 2, Step 50 | 473, Train_Loss 25.5362
+Epoch: 2, Step 60 | 473, Train_Loss 24.6800
+Epoch: 2, Step 70 | 473, Train_Loss 25.8296
+Epoch: 2, Step 80 | 473, Train_Loss 24.5154
+Epoch: 2, Step 90 | 473, Train_Loss 24.5521
+Epoch: 2, Step 100 | 473, Train_Loss 23.8496
+Epoch: 2, Step 110 | 473, Train_Loss 24.0396
+Epoch: 2, Step 120 | 473, Train_Loss 24.5356
+Epoch: 2, Step 130 | 473, Train_Loss 24.4650
+Epoch: 2, Step 140 | 473, Train_Loss 25.6513
+Epoch: 2, Step 150 | 473, Train_Loss 25.3438
+Epoch: 2, Step 160 | 473, Train_Loss 25.1372
+Epoch: 2, Step 170 | 473, Train_Loss 25.8737
+Epoch: 2, Step 180 | 473, Train_Loss 23.8259
+Epoch: 2, Step 190 | 473, Train_Loss 25.3127
+Epoch: 2, Step 200 | 473, Train_Loss 23.9008
+Epoch: 2, Step 210 | 473, Train_Loss 24.8442
+Epoch: 2, Step 220 | 473, Train_Loss 24.1365
+Epoch: 2, Step 230 | 473, Train_Loss 26.7067
+Epoch: 2, Step 240 | 473, Train_Loss 24.9597
+Epoch: 2, Step 250 | 473, Train_Loss 24.0559
+Epoch: 2, Step 260 | 473, Train_Loss 23.0394
+Epoch: 2, Step 270 | 473, Train_Loss 23.3382
+Epoch: 2, Step 280 | 473, Train_Loss 23.1151
+Epoch: 2, Step 290 | 473, Train_Loss 24.2184
+Epoch: 2, Step 300 | 473, Train_Loss 23.2277
+Epoch: 2, Step 310 | 473, Train_Loss 24.2225
+Epoch: 2, Step 320 | 473, Train_Loss 22.5123
+Epoch: 2, Step 330 | 473, Train_Loss 24.4480
+Epoch: 2, Step 340 | 473, Train_Loss 25.5107
+Epoch: 2, Step 350 | 473, Train_Loss 24.5411
+Epoch: 2, Step 360 | 473, Train_Loss 23.7017
+Epoch: 2, Step 370 | 473, Train_Loss 23.4139
+Epoch: 2, Step 380 | 473, Train_Loss 23.8737
+Epoch: 2, Step 390 | 473, Train_Loss 24.0583
+Epoch: 2, Step 400 | 473, Train_Loss 24.3479
+Epoch: 2, Step 410 | 473, Train_Loss 23.2625
+Epoch: 2, Step 420 | 473, Train_Loss 22.2315
+Epoch: 2, Step 430 | 473, Train_Loss 23.5674
+Epoch: 2, Step 440 | 473, Train_Loss 23.9730
+Epoch: 2, Step 450 | 473, Train_Loss 22.3096
+Epoch: 2, Step 460 | 473, Train_Loss 22.8352
+Epoch: 2, Step 470 | 473, Train_Loss 22.8308
+Current Time: Wed Nov  4 08:22:31 2020
+Epoch 2,  Accuracy 55.4984%
+Epoch: 3, Step 0 | 473, Train_Loss 2.5889
+Epoch: 3, Step 10 | 473, Train_Loss 20.9503
+Epoch: 3, Step 20 | 473, Train_Loss 21.8202
+Epoch: 3, Step 30 | 473, Train_Loss 22.5870
+Epoch: 3, Step 40 | 473, Train_Loss 22.1374
+Epoch: 3, Step 50 | 473, Train_Loss 20.6884
+Epoch: 3, Step 60 | 473, Train_Loss 21.1442
+Epoch: 3, Step 70 | 473, Train_Loss 21.8457
+Epoch: 3, Step 80 | 473, Train_Loss 21.9772
+Epoch: 3, Step 90 | 473, Train_Loss 21.2564
+Epoch: 3, Step 100 | 473, Train_Loss 21.9222
+Epoch: 3, Step 110 | 473, Train_Loss 21.2557
+Epoch: 3, Step 120 | 473, Train_Loss 21.2298
+Epoch: 3, Step 130 | 473, Train_Loss 21.7054
+Epoch: 3, Step 140 | 473, Train_Loss 21.3224
+Epoch: 3, Step 150 | 473, Train_Loss 20.9666
+Epoch: 3, Step 160 | 473, Train_Loss 22.3647
+Epoch: 3, Step 170 | 473, Train_Loss 21.5834
+Epoch: 3, Step 180 | 473, Train_Loss 22.3320
+Epoch: 3, Step 190 | 473, Train_Loss 21.0313
+Epoch: 3, Step 200 | 473, Train_Loss 21.1107
+Epoch: 3, Step 210 | 473, Train_Loss 21.6909
+Epoch: 3, Step 220 | 473, Train_Loss 21.7571
+Epoch: 3, Step 230 | 473, Train_Loss 22.1232
+Epoch: 3, Step 240 | 473, Train_Loss 22.7715
+Epoch: 3, Step 250 | 473, Train_Loss 22.1166
+Epoch: 3, Step 260 | 473, Train_Loss 21.4114
+Epoch: 3, Step 270 | 473, Train_Loss 22.2732
+Epoch: 3, Step 280 | 473, Train_Loss 20.8931
+Epoch: 3, Step 290 | 473, Train_Loss 22.2657
+Epoch: 3, Step 300 | 473, Train_Loss 19.9626
+Epoch: 3, Step 310 | 473, Train_Loss 22.1999
+Epoch: 3, Step 320 | 473, Train_Loss 21.3333
+Epoch: 3, Step 330 | 473, Train_Loss 22.8705
+Epoch: 3, Step 340 | 473, Train_Loss 20.7546
+Epoch: 3, Step 350 | 473, Train_Loss 21.6103
+Epoch: 3, Step 360 | 473, Train_Loss 20.9260
+Epoch: 3, Step 370 | 473, Train_Loss 20.2661
+Epoch: 3, Step 380 | 473, Train_Loss 21.2983
+Epoch: 3, Step 390 | 473, Train_Loss 21.2195
+Epoch: 3, Step 400 | 473, Train_Loss 21.4090
+Epoch: 3, Step 410 | 473, Train_Loss 21.7237
+Epoch: 3, Step 420 | 473, Train_Loss 21.4140
+Epoch: 3, Step 430 | 473, Train_Loss 21.0799
+Epoch: 3, Step 440 | 473, Train_Loss 19.7133
+Epoch: 3, Step 450 | 473, Train_Loss 21.4306
+Epoch: 3, Step 460 | 473, Train_Loss 20.7809
+Epoch: 3, Step 470 | 473, Train_Loss 21.0493
+Current Time: Wed Nov  4 08:40:28 2020
+Epoch 3,  Accuracy 60.7199%
+Epoch: 4, Step 0 | 473, Train_Loss 2.1052
+Epoch: 4, Step 10 | 473, Train_Loss 19.7230
+Epoch: 4, Step 20 | 473, Train_Loss 19.6592
+Epoch: 4, Step 30 | 473, Train_Loss 20.3276
+Epoch: 4, Step 40 | 473, Train_Loss 20.2933
+Epoch: 4, Step 50 | 473, Train_Loss 19.2403
+Epoch: 4, Step 60 | 473, Train_Loss 19.5892
+Epoch: 4, Step 70 | 473, Train_Loss 20.2118
+Epoch: 4, Step 80 | 473, Train_Loss 19.8971
+Epoch: 4, Step 90 | 473, Train_Loss 18.4453
+Epoch: 4, Step 100 | 473, Train_Loss 19.6697
+Epoch: 4, Step 110 | 473, Train_Loss 19.1279
+Epoch: 4, Step 120 | 473, Train_Loss 19.3853
+Epoch: 4, Step 130 | 473, Train_Loss 19.3857
+Epoch: 4, Step 140 | 473, Train_Loss 19.4875
+Epoch: 4, Step 150 | 473, Train_Loss 19.9971
+Epoch: 4, Step 160 | 473, Train_Loss 20.7770
+Epoch: 4, Step 170 | 473, Train_Loss 20.8505
+Epoch: 4, Step 180 | 473, Train_Loss 19.9175
+Epoch: 4, Step 190 | 473, Train_Loss 20.6088
+Epoch: 4, Step 200 | 473, Train_Loss 18.8970
+Epoch: 4, Step 210 | 473, Train_Loss 19.3570
+Epoch: 4, Step 220 | 473, Train_Loss 19.4330
+Epoch: 4, Step 230 | 473, Train_Loss 19.7606
+Epoch: 4, Step 240 | 473, Train_Loss 19.4298
+Epoch: 4, Step 250 | 473, Train_Loss 18.8029
+Epoch: 4, Step 260 | 473, Train_Loss 20.6430
+Epoch: 4, Step 270 | 473, Train_Loss 19.6775
+Epoch: 4, Step 280 | 473, Train_Loss 20.2922
+Epoch: 4, Step 290 | 473, Train_Loss 19.6732
+Epoch: 4, Step 300 | 473, Train_Loss 19.2441
+Epoch: 4, Step 310 | 473, Train_Loss 19.1480
+Epoch: 4, Step 320 | 473, Train_Loss 19.7868
+Epoch: 4, Step 330 | 473, Train_Loss 19.9851
+Epoch: 4, Step 340 | 473, Train_Loss 19.7243
+Epoch: 4, Step 350 | 473, Train_Loss 19.7129
+Epoch: 4, Step 360 | 473, Train_Loss 19.5211
+Epoch: 4, Step 370 | 473, Train_Loss 19.9175
+Epoch: 4, Step 380 | 473, Train_Loss 19.3009
+Epoch: 4, Step 390 | 473, Train_Loss 19.7006
+Epoch: 4, Step 400 | 473, Train_Loss 21.1106
+Epoch: 4, Step 410 | 473, Train_Loss 20.5133
+Epoch: 4, Step 420 | 473, Train_Loss 20.2993
+Epoch: 4, Step 430 | 473, Train_Loss 19.8453
+Epoch: 4, Step 440 | 473, Train_Loss 21.0135
+Epoch: 4, Step 450 | 473, Train_Loss 19.2253
+Epoch: 4, Step 460 | 473, Train_Loss 20.4205
+Epoch: 4, Step 470 | 473, Train_Loss 19.7583
+Current Time: Wed Nov  4 08:58:22 2020
+Epoch 4,  Accuracy 62.7967%
+Epoch: 5, Step 0 | 473, Train_Loss 1.8155
+Epoch: 5, Step 10 | 473, Train_Loss 18.9570
+Epoch: 5, Step 20 | 473, Train_Loss 17.6885
+Epoch: 5, Step 30 | 473, Train_Loss 17.2502
+Epoch: 5, Step 40 | 473, Train_Loss 16.4413
+Epoch: 5, Step 50 | 473, Train_Loss 17.0606
+Epoch: 5, Step 60 | 473, Train_Loss 16.3193
+Epoch: 5, Step 70 | 473, Train_Loss 16.7277
+Epoch: 5, Step 80 | 473, Train_Loss 16.4693
+Epoch: 5, Step 90 | 473, Train_Loss 16.3411
+Epoch: 5, Step 100 | 473, Train_Loss 16.0227
+Epoch: 5, Step 110 | 473, Train_Loss 15.6043
+Epoch: 5, Step 120 | 473, Train_Loss 15.2139
+Epoch: 5, Step 130 | 473, Train_Loss 15.6525
+Epoch: 5, Step 140 | 473, Train_Loss 15.2983
+Epoch: 5, Step 150 | 473, Train_Loss 15.4602
+Epoch: 5, Step 160 | 473, Train_Loss 15.7538
+Epoch: 5, Step 170 | 473, Train_Loss 15.8979
+Epoch: 5, Step 180 | 473, Train_Loss 14.4174
+Epoch: 5, Step 190 | 473, Train_Loss 15.2363
+Epoch: 5, Step 200 | 473, Train_Loss 15.3324
+Epoch: 5, Step 210 | 473, Train_Loss 15.4335
+Epoch: 5, Step 220 | 473, Train_Loss 15.4785
+Epoch: 5, Step 230 | 473, Train_Loss 14.7309
+Epoch: 5, Step 240 | 473, Train_Loss 14.7774
+Epoch: 5, Step 250 | 473, Train_Loss 15.6466
+Epoch: 5, Step 260 | 473, Train_Loss 14.7759
+Epoch: 5, Step 270 | 473, Train_Loss 15.5681
+Epoch: 5, Step 280 | 473, Train_Loss 14.6738
+Epoch: 5, Step 290 | 473, Train_Loss 15.2773
+Epoch: 5, Step 300 | 473, Train_Loss 15.0350
+Epoch: 5, Step 310 | 473, Train_Loss 14.7834
+Epoch: 5, Step 320 | 473, Train_Loss 15.4246
+Epoch: 5, Step 330 | 473, Train_Loss 14.9252
+Epoch: 5, Step 340 | 473, Train_Loss 15.2150
+Epoch: 5, Step 350 | 473, Train_Loss 14.5897
+Epoch: 5, Step 360 | 473, Train_Loss 15.9204
+Epoch: 5, Step 370 | 473, Train_Loss 15.2483
+Epoch: 5, Step 380 | 473, Train_Loss 15.4203
+Epoch: 5, Step 390 | 473, Train_Loss 14.7011
+Epoch: 5, Step 400 | 473, Train_Loss 15.2145
+Epoch: 5, Step 410 | 473, Train_Loss 15.2453
+Epoch: 5, Step 420 | 473, Train_Loss 14.6653
+Epoch: 5, Step 430 | 473, Train_Loss 14.7064
+Epoch: 5, Step 440 | 473, Train_Loss 15.0272
+Epoch: 5, Step 450 | 473, Train_Loss 14.6533
+Epoch: 5, Step 460 | 473, Train_Loss 15.8528
+Epoch: 5, Step 470 | 473, Train_Loss 15.1013
+Current Time: Wed Nov  4 09:16:21 2020
+Epoch 5,  Accuracy 77.2943%
+Epoch: 6, Step 0 | 473, Train_Loss 1.4849
+Epoch: 6, Step 10 | 473, Train_Loss 13.9873
+Epoch: 6, Step 20 | 473, Train_Loss 13.8393
+Epoch: 6, Step 30 | 473, Train_Loss 14.4231
+Epoch: 6, Step 40 | 473, Train_Loss 14.3312
+Epoch: 6, Step 50 | 473, Train_Loss 14.3832
+Epoch: 6, Step 60 | 473, Train_Loss 14.2328
+Epoch: 6, Step 70 | 473, Train_Loss 13.8421
+Epoch: 6, Step 80 | 473, Train_Loss 13.6680
+Epoch: 6, Step 90 | 473, Train_Loss 13.9333
+Epoch: 6, Step 100 | 473, Train_Loss 14.2196
+Epoch: 6, Step 110 | 473, Train_Loss 14.3122
+Epoch: 6, Step 120 | 473, Train_Loss 14.5835
+Epoch: 6, Step 130 | 473, Train_Loss 13.8778
+Epoch: 6, Step 140 | 473, Train_Loss 13.7157
+Epoch: 6, Step 150 | 473, Train_Loss 14.2361
+Epoch: 6, Step 160 | 473, Train_Loss 14.2608
+Epoch: 6, Step 170 | 473, Train_Loss 14.5851
+Epoch: 6, Step 180 | 473, Train_Loss 14.1751
+Epoch: 6, Step 190 | 473, Train_Loss 13.9281
+Epoch: 6, Step 200 | 473, Train_Loss 14.3570
+Epoch: 6, Step 210 | 473, Train_Loss 13.7057
+Epoch: 6, Step 220 | 473, Train_Loss 14.0442
+Epoch: 6, Step 230 | 473, Train_Loss 14.0578
+Epoch: 6, Step 240 | 473, Train_Loss 14.4257
+Epoch: 6, Step 250 | 473, Train_Loss 14.6067
+Epoch: 6, Step 260 | 473, Train_Loss 14.2695
+Epoch: 6, Step 270 | 473, Train_Loss 13.7329
+Epoch: 6, Step 280 | 473, Train_Loss 14.4132
+Epoch: 6, Step 290 | 473, Train_Loss 14.1266
+Epoch: 6, Step 300 | 473, Train_Loss 14.4323
+Epoch: 6, Step 310 | 473, Train_Loss 14.6269
+Epoch: 6, Step 320 | 473, Train_Loss 14.0473
+Epoch: 6, Step 330 | 473, Train_Loss 14.3448
+Epoch: 6, Step 340 | 473, Train_Loss 14.2719
+Epoch: 6, Step 350 | 473, Train_Loss 14.3407
+Epoch: 6, Step 360 | 473, Train_Loss 14.3241
+Epoch: 6, Step 370 | 473, Train_Loss 14.0454
+Epoch: 6, Step 380 | 473, Train_Loss 14.5970
+Epoch: 6, Step 390 | 473, Train_Loss 14.1910
+Epoch: 6, Step 400 | 473, Train_Loss 14.3396
+Epoch: 6, Step 410 | 473, Train_Loss 14.3533
+Epoch: 6, Step 420 | 473, Train_Loss 14.3455
+Epoch: 6, Step 430 | 473, Train_Loss 13.7780
+Epoch: 6, Step 440 | 473, Train_Loss 14.4303
+Epoch: 6, Step 450 | 473, Train_Loss 14.8018
+Epoch: 6, Step 460 | 473, Train_Loss 14.6632
+Epoch: 6, Step 470 | 473, Train_Loss 14.5528
+Current Time: Wed Nov  4 09:34:21 2020
+Epoch 6,  Accuracy 78.8964%
+Epoch: 7, Step 0 | 473, Train_Loss 1.4355
+Epoch: 7, Step 10 | 473, Train_Loss 13.6843
+Epoch: 7, Step 20 | 473, Train_Loss 14.1077
+Epoch: 7, Step 30 | 473, Train_Loss 13.5123
+Epoch: 7, Step 40 | 473, Train_Loss 13.8328
+Epoch: 7, Step 50 | 473, Train_Loss 13.0994
+Epoch: 7, Step 60 | 473, Train_Loss 13.0546
+Epoch: 7, Step 70 | 473, Train_Loss 13.4207
+Epoch: 7, Step 80 | 473, Train_Loss 13.3171
+Epoch: 7, Step 90 | 473, Train_Loss 13.1868
+Epoch: 7, Step 100 | 473, Train_Loss 13.2619
+Epoch: 7, Step 110 | 473, Train_Loss 13.1671
+Epoch: 7, Step 120 | 473, Train_Loss 13.5128
+Epoch: 7, Step 130 | 473, Train_Loss 13.0502
+Epoch: 7, Step 140 | 473, Train_Loss 14.1612
+Epoch: 7, Step 150 | 473, Train_Loss 12.9841
+Epoch: 7, Step 160 | 473, Train_Loss 12.7157
+Epoch: 7, Step 170 | 473, Train_Loss 13.4949
+Epoch: 7, Step 180 | 473, Train_Loss 14.0150
+Epoch: 7, Step 190 | 473, Train_Loss 13.4515
+Epoch: 7, Step 200 | 473, Train_Loss 13.6829
+Epoch: 7, Step 210 | 473, Train_Loss 13.6012
+Epoch: 7, Step 220 | 473, Train_Loss 13.8917
+Epoch: 7, Step 230 | 473, Train_Loss 13.9697
+Epoch: 7, Step 240 | 473, Train_Loss 13.6925
+Epoch: 7, Step 250 | 473, Train_Loss 13.8530
+Epoch: 7, Step 260 | 473, Train_Loss 14.1225
+Epoch: 7, Step 270 | 473, Train_Loss 13.2354
+Epoch: 7, Step 280 | 473, Train_Loss 13.6955
+Epoch: 7, Step 290 | 473, Train_Loss 13.4799
+Epoch: 7, Step 300 | 473, Train_Loss 13.5156
+Epoch: 7, Step 310 | 473, Train_Loss 13.0754
+Epoch: 7, Step 320 | 473, Train_Loss 13.9534
+Epoch: 7, Step 330 | 473, Train_Loss 13.8972
+Epoch: 7, Step 340 | 473, Train_Loss 13.5657
+Epoch: 7, Step 350 | 473, Train_Loss 13.7161
+Epoch: 7, Step 360 | 473, Train_Loss 13.6758
+Epoch: 7, Step 370 | 473, Train_Loss 13.5516
+Epoch: 7, Step 380 | 473, Train_Loss 13.5252
+Epoch: 7, Step 390 | 473, Train_Loss 13.5102
+Epoch: 7, Step 400 | 473, Train_Loss 13.4446
+Epoch: 7, Step 410 | 473, Train_Loss 13.5015
+Epoch: 7, Step 420 | 473, Train_Loss 13.5205
+Epoch: 7, Step 430 | 473, Train_Loss 13.8139
+Epoch: 7, Step 440 | 473, Train_Loss 13.0971
+Epoch: 7, Step 450 | 473, Train_Loss 13.7852
+Epoch: 7, Step 460 | 473, Train_Loss 13.5320
+Epoch: 7, Step 470 | 473, Train_Loss 13.0691
+Current Time: Wed Nov  4 09:52:23 2020
+Epoch 7,  Accuracy 78.7975%
+Epoch: 8, Step 0 | 473, Train_Loss 1.2755
+Epoch: 8, Step 10 | 473, Train_Loss 12.6165
+Epoch: 8, Step 20 | 473, Train_Loss 12.9508
+Epoch: 8, Step 30 | 473, Train_Loss 12.2305
+Epoch: 8, Step 40 | 473, Train_Loss 13.0283
+Epoch: 8, Step 50 | 473, Train_Loss 12.5906
+Epoch: 8, Step 60 | 473, Train_Loss 12.6362
+Epoch: 8, Step 70 | 473, Train_Loss 12.7918
+Epoch: 8, Step 80 | 473, Train_Loss 12.7367
+Epoch: 8, Step 90 | 473, Train_Loss 13.1823
+Epoch: 8, Step 100 | 473, Train_Loss 12.9294
+Epoch: 8, Step 110 | 473, Train_Loss 12.2382
+Epoch: 8, Step 120 | 473, Train_Loss 12.6365
+Epoch: 8, Step 130 | 473, Train_Loss 12.7928
+Epoch: 8, Step 140 | 473, Train_Loss 12.2744
+Epoch: 8, Step 150 | 473, Train_Loss 12.3694
+Epoch: 8, Step 160 | 473, Train_Loss 13.0762
+Epoch: 8, Step 170 | 473, Train_Loss 12.7439
+Epoch: 8, Step 180 | 473, Train_Loss 12.9110
+Epoch: 8, Step 190 | 473, Train_Loss 13.3677
+Epoch: 8, Step 200 | 473, Train_Loss 12.6160
+Epoch: 8, Step 210 | 473, Train_Loss 13.0889
+Epoch: 8, Step 220 | 473, Train_Loss 12.9364
+Epoch: 8, Step 230 | 473, Train_Loss 12.9828
+Epoch: 8, Step 240 | 473, Train_Loss 12.7964
+Epoch: 8, Step 250 | 473, Train_Loss 12.9027
+Epoch: 8, Step 260 | 473, Train_Loss 13.0078
+Epoch: 8, Step 270 | 473, Train_Loss 13.5100
+Epoch: 8, Step 280 | 473, Train_Loss 12.5214
+Epoch: 8, Step 290 | 473, Train_Loss 13.0987
+Epoch: 8, Step 300 | 473, Train_Loss 13.4473
+Epoch: 8, Step 310 | 473, Train_Loss 13.6594
+Epoch: 8, Step 320 | 473, Train_Loss 13.2323
+Epoch: 8, Step 330 | 473, Train_Loss 13.6165
+Epoch: 8, Step 340 | 473, Train_Loss 13.1837
+Epoch: 8, Step 350 | 473, Train_Loss 13.1803
+Epoch: 8, Step 360 | 473, Train_Loss 12.8613
+Epoch: 8, Step 370 | 473, Train_Loss 13.0026
+Epoch: 8, Step 380 | 473, Train_Loss 13.4653
+Epoch: 8, Step 390 | 473, Train_Loss 12.7663
+Epoch: 8, Step 400 | 473, Train_Loss 13.3503
+Epoch: 8, Step 410 | 473, Train_Loss 13.2838
+Epoch: 8, Step 420 | 473, Train_Loss 13.5386
+Epoch: 8, Step 430 | 473, Train_Loss 13.0240
+Epoch: 8, Step 440 | 473, Train_Loss 13.0146
+Epoch: 8, Step 450 | 473, Train_Loss 12.7604
+Epoch: 8, Step 460 | 473, Train_Loss 13.4275
+Epoch: 8, Step 470 | 473, Train_Loss 13.3848
+Current Time: Wed Nov  4 10:09:51 2020
+Epoch 8,  Accuracy 79.8062%
+Epoch: 9, Step 0 | 473, Train_Loss 1.1243
+Epoch: 9, Step 10 | 473, Train_Loss 12.2189
+Epoch: 9, Step 20 | 473, Train_Loss 12.4448
+Epoch: 9, Step 30 | 473, Train_Loss 11.9228
+Epoch: 9, Step 40 | 473, Train_Loss 12.2922
+Epoch: 9, Step 50 | 473, Train_Loss 12.6409
+Epoch: 9, Step 60 | 473, Train_Loss 12.1496
+Epoch: 9, Step 70 | 473, Train_Loss 11.9676
+Epoch: 9, Step 80 | 473, Train_Loss 12.0197
+Epoch: 9, Step 90 | 473, Train_Loss 12.0433
+Epoch: 9, Step 100 | 473, Train_Loss 11.8157
+Epoch: 9, Step 110 | 473, Train_Loss 11.8879
+Epoch: 9, Step 120 | 473, Train_Loss 11.8935
+Epoch: 9, Step 130 | 473, Train_Loss 12.0331
+Epoch: 9, Step 140 | 473, Train_Loss 11.9591
+Epoch: 9, Step 150 | 473, Train_Loss 12.1196
+Epoch: 9, Step 160 | 473, Train_Loss 12.0999
+Epoch: 9, Step 170 | 473, Train_Loss 12.1177
+Epoch: 9, Step 180 | 473, Train_Loss 11.8264
+Epoch: 9, Step 190 | 473, Train_Loss 11.5449
+Epoch: 9, Step 200 | 473, Train_Loss 12.0943
+Epoch: 9, Step 210 | 473, Train_Loss 12.0578
+Epoch: 9, Step 220 | 473, Train_Loss 11.9242
+Epoch: 9, Step 230 | 473, Train_Loss 11.7081
+Epoch: 9, Step 240 | 473, Train_Loss 11.4856
+Epoch: 9, Step 250 | 473, Train_Loss 11.9558
+Epoch: 9, Step 260 | 473, Train_Loss 11.5447
+Epoch: 9, Step 270 | 473, Train_Loss 11.6947
+Epoch: 9, Step 280 | 473, Train_Loss 11.3778
+Epoch: 9, Step 290 | 473, Train_Loss 11.6468
+Epoch: 9, Step 300 | 473, Train_Loss 11.8329
+Epoch: 9, Step 310 | 473, Train_Loss 11.8198
+Epoch: 9, Step 320 | 473, Train_Loss 12.2133
+Epoch: 9, Step 330 | 473, Train_Loss 12.1737
+Epoch: 9, Step 340 | 473, Train_Loss 12.0359
+Epoch: 9, Step 350 | 473, Train_Loss 11.6309
+Epoch: 9, Step 360 | 473, Train_Loss 12.2367
+Epoch: 9, Step 370 | 473, Train_Loss 11.5973
+Epoch: 9, Step 380 | 473, Train_Loss 11.9462
+Epoch: 9, Step 390 | 473, Train_Loss 11.8690
+Epoch: 9, Step 400 | 473, Train_Loss 12.1637
+Epoch: 9, Step 410 | 473, Train_Loss 11.4824
+Epoch: 9, Step 420 | 473, Train_Loss 11.5844
+Epoch: 9, Step 430 | 473, Train_Loss 11.2368
+Epoch: 9, Step 440 | 473, Train_Loss 12.0260
+Epoch: 9, Step 450 | 473, Train_Loss 11.6236
+Epoch: 9, Step 460 | 473, Train_Loss 11.8717
+Epoch: 9, Step 470 | 473, Train_Loss 11.7978
+Current Time: Wed Nov  4 10:21:06 2020
+Epoch 9,  Accuracy 81.6456%
+Epoch: 10, Step 0 | 473, Train_Loss 1.0524
+Epoch: 10, Step 10 | 473, Train_Loss 11.2294
+Epoch: 10, Step 20 | 473, Train_Loss 11.6007
+Epoch: 10, Step 30 | 473, Train_Loss 11.2418
+Epoch: 10, Step 40 | 473, Train_Loss 11.2086
+Epoch: 10, Step 50 | 473, Train_Loss 11.7202
+Epoch: 10, Step 60 | 473, Train_Loss 11.5437
+Epoch: 10, Step 70 | 473, Train_Loss 11.5022
+Epoch: 10, Step 80 | 473, Train_Loss 11.5315
+Epoch: 10, Step 90 | 473, Train_Loss 11.3172
+Epoch: 10, Step 100 | 473, Train_Loss 11.6931
+Epoch: 10, Step 110 | 473, Train_Loss 11.6566
+Epoch: 10, Step 120 | 473, Train_Loss 11.6687
+Epoch: 10, Step 130 | 473, Train_Loss 11.5384
+Epoch: 10, Step 140 | 473, Train_Loss 11.5739
+Epoch: 10, Step 150 | 473, Train_Loss 11.5731
+Epoch: 10, Step 160 | 473, Train_Loss 11.8695
+Epoch: 10, Step 170 | 473, Train_Loss 11.6832
+Epoch: 10, Step 180 | 473, Train_Loss 11.4217
+Epoch: 10, Step 190 | 473, Train_Loss 11.1795
+Epoch: 10, Step 200 | 473, Train_Loss 11.5067
+Epoch: 10, Step 210 | 473, Train_Loss 11.6366
+Epoch: 10, Step 220 | 473, Train_Loss 11.6330
+Epoch: 10, Step 230 | 473, Train_Loss 11.5633
+Epoch: 10, Step 240 | 473, Train_Loss 12.0511
+Epoch: 10, Step 250 | 473, Train_Loss 11.4100
+Epoch: 10, Step 260 | 473, Train_Loss 11.4364
+Epoch: 10, Step 270 | 473, Train_Loss 11.4898
+Epoch: 10, Step 280 | 473, Train_Loss 11.5385
+Epoch: 10, Step 290 | 473, Train_Loss 11.4395
+Epoch: 10, Step 300 | 473, Train_Loss 11.4901
+Epoch: 10, Step 310 | 473, Train_Loss 11.5392
+Epoch: 10, Step 320 | 473, Train_Loss 11.1662
+Epoch: 10, Step 330 | 473, Train_Loss 11.2518
+Epoch: 10, Step 340 | 473, Train_Loss 11.3879
+Epoch: 10, Step 350 | 473, Train_Loss 11.6657
+Epoch: 10, Step 360 | 473, Train_Loss 11.8343
+Epoch: 10, Step 370 | 473, Train_Loss 11.7218
+Epoch: 10, Step 380 | 473, Train_Loss 11.2034
+Epoch: 10, Step 390 | 473, Train_Loss 11.5322
+Epoch: 10, Step 400 | 473, Train_Loss 11.9568
+Epoch: 10, Step 410 | 473, Train_Loss 11.4776
+Epoch: 10, Step 420 | 473, Train_Loss 11.6004
+Epoch: 10, Step 430 | 473, Train_Loss 11.2396
+Epoch: 10, Step 440 | 473, Train_Loss 11.6530
+Epoch: 10, Step 450 | 473, Train_Loss 11.4552
+Epoch: 10, Step 460 | 473, Train_Loss 12.1083
+Epoch: 10, Step 470 | 473, Train_Loss 11.7962
+Current Time: Wed Nov  4 10:29:58 2020
+Epoch 10,  Accuracy 82.2191%
+Epoch: 11, Step 0 | 473, Train_Loss 1.2132
+Epoch: 11, Step 10 | 473, Train_Loss 11.1291
+Epoch: 11, Step 20 | 473, Train_Loss 11.3010
+Epoch: 11, Step 30 | 473, Train_Loss 11.3915
+Epoch: 11, Step 40 | 473, Train_Loss 10.9734
+Epoch: 11, Step 50 | 473, Train_Loss 11.1917
+Epoch: 11, Step 60 | 473, Train_Loss 11.7855
+Epoch: 11, Step 70 | 473, Train_Loss 11.3301
+Epoch: 11, Step 80 | 473, Train_Loss 11.4581
+Epoch: 11, Step 90 | 473, Train_Loss 11.0728
+Epoch: 11, Step 100 | 473, Train_Loss 11.1811
+Epoch: 11, Step 110 | 473, Train_Loss 11.3627
+Epoch: 11, Step 120 | 473, Train_Loss 11.3216
+Epoch: 11, Step 130 | 473, Train_Loss 10.9799
+Epoch: 11, Step 140 | 473, Train_Loss 11.0137
+Epoch: 11, Step 150 | 473, Train_Loss 11.1160
+Epoch: 11, Step 160 | 473, Train_Loss 11.4326
+Epoch: 11, Step 170 | 473, Train_Loss 10.9953
+Epoch: 11, Step 180 | 473, Train_Loss 11.2818
+Epoch: 11, Step 190 | 473, Train_Loss 11.6016
+Epoch: 11, Step 200 | 473, Train_Loss 11.3376
+Epoch: 11, Step 210 | 473, Train_Loss 11.1881
+Epoch: 11, Step 220 | 473, Train_Loss 11.0774
+Epoch: 11, Step 230 | 473, Train_Loss 11.2872
+Epoch: 11, Step 240 | 473, Train_Loss 11.2720
+Epoch: 11, Step 250 | 473, Train_Loss 11.4759
+Epoch: 11, Step 260 | 473, Train_Loss 11.3516
+Epoch: 11, Step 270 | 473, Train_Loss 11.3159
+Epoch: 11, Step 280 | 473, Train_Loss 11.3429
+Epoch: 11, Step 290 | 473, Train_Loss 11.3049
+Epoch: 11, Step 300 | 473, Train_Loss 11.1996
+Epoch: 11, Step 310 | 473, Train_Loss 11.3674
+Epoch: 11, Step 320 | 473, Train_Loss 11.4410
+Epoch: 11, Step 330 | 473, Train_Loss 11.0754
+Epoch: 11, Step 340 | 473, Train_Loss 11.1510
+Epoch: 11, Step 350 | 473, Train_Loss 11.4559
+Epoch: 11, Step 360 | 473, Train_Loss 11.1736
+Epoch: 11, Step 370 | 473, Train_Loss 11.3472
+Epoch: 11, Step 380 | 473, Train_Loss 11.1678
+Epoch: 11, Step 390 | 473, Train_Loss 11.1701
+Epoch: 11, Step 400 | 473, Train_Loss 11.0137
+Epoch: 11, Step 410 | 473, Train_Loss 11.2446
+Epoch: 11, Step 420 | 473, Train_Loss 10.9511
+Epoch: 11, Step 430 | 473, Train_Loss 11.4344
+Epoch: 11, Step 440 | 473, Train_Loss 10.8119
+Epoch: 11, Step 450 | 473, Train_Loss 11.5967
+Epoch: 11, Step 460 | 473, Train_Loss 11.3231
+Epoch: 11, Step 470 | 473, Train_Loss 11.5081
+Current Time: Wed Nov  4 10:38:45 2020
+Epoch 11,  Accuracy 82.1994%
+Epoch: 12, Step 0 | 473, Train_Loss 1.1858
+Epoch: 12, Step 10 | 473, Train_Loss 11.1585
+Epoch: 12, Step 20 | 473, Train_Loss 10.9631
+Epoch: 12, Step 30 | 473, Train_Loss 11.0302
+Epoch: 12, Step 40 | 473, Train_Loss 10.9872
+Epoch: 12, Step 50 | 473, Train_Loss 11.2217
+Epoch: 12, Step 60 | 473, Train_Loss 11.1750
+Epoch: 12, Step 70 | 473, Train_Loss 11.4465
+Epoch: 12, Step 80 | 473, Train_Loss 10.8634
+Epoch: 12, Step 90 | 473, Train_Loss 11.1649
+Epoch: 12, Step 100 | 473, Train_Loss 11.2489
+Epoch: 12, Step 110 | 473, Train_Loss 11.1525
+Epoch: 12, Step 120 | 473, Train_Loss 11.1330
+Epoch: 12, Step 130 | 473, Train_Loss 11.0055
+Epoch: 12, Step 140 | 473, Train_Loss 11.3222
+Epoch: 12, Step 150 | 473, Train_Loss 10.9658
+Epoch: 12, Step 160 | 473, Train_Loss 11.2785
+Epoch: 12, Step 170 | 473, Train_Loss 10.7447
+Epoch: 12, Step 180 | 473, Train_Loss 11.2609
+Epoch: 12, Step 190 | 473, Train_Loss 11.2911
+Epoch: 12, Step 200 | 473, Train_Loss 11.0592
+Epoch: 12, Step 210 | 473, Train_Loss 11.2674
+Epoch: 12, Step 220 | 473, Train_Loss 11.2745
+Epoch: 12, Step 230 | 473, Train_Loss 11.0172
+Epoch: 12, Step 240 | 473, Train_Loss 11.0966
+Epoch: 12, Step 250 | 473, Train_Loss 11.0799
+Epoch: 12, Step 260 | 473, Train_Loss 11.2116
+Epoch: 12, Step 270 | 473, Train_Loss 11.1024
+Epoch: 12, Step 280 | 473, Train_Loss 11.0155
+Epoch: 12, Step 290 | 473, Train_Loss 11.1305
+Epoch: 12, Step 300 | 473, Train_Loss 11.4929
+Epoch: 12, Step 310 | 473, Train_Loss 11.0581
+Epoch: 12, Step 320 | 473, Train_Loss 11.2477
+Epoch: 12, Step 330 | 473, Train_Loss 11.1486
+Epoch: 12, Step 340 | 473, Train_Loss 11.2596
+Epoch: 12, Step 350 | 473, Train_Loss 11.2487
+Epoch: 12, Step 360 | 473, Train_Loss 10.8673
+Epoch: 12, Step 370 | 473, Train_Loss 10.9132
+Epoch: 12, Step 380 | 473, Train_Loss 11.2761
+Epoch: 12, Step 390 | 473, Train_Loss 10.9046
+Epoch: 12, Step 400 | 473, Train_Loss 11.5057
+Epoch: 12, Step 410 | 473, Train_Loss 11.1599
+Epoch: 12, Step 420 | 473, Train_Loss 11.1963
+Epoch: 12, Step 430 | 473, Train_Loss 11.1481
+Epoch: 12, Step 440 | 473, Train_Loss 11.2232
+Epoch: 12, Step 450 | 473, Train_Loss 11.2478
+Epoch: 12, Step 460 | 473, Train_Loss 11.3037
+Epoch: 12, Step 470 | 473, Train_Loss 11.0694
+Current Time: Wed Nov  4 10:47:46 2020
+Epoch 12,  Accuracy 82.4367%
+Current model ends, saved the model.
+len(tmp_label): 200
+['Euploea_core', 'Papilio_maackii', 'Kallima_inachus', 'Pieris_napi', 'Cyrestis_thyodamas', 'Papilio_xuthus', 'Symbrenthia_lilaea', 'Byasa_polyeuctes', 'Abisara_echerius', 'Stibochiona_nicea', 'Polygonia_caureum', 'Junonia_hierta', 'Parantica_sita', 'Papilio_Krishna', 'Hestina_assimilis', 'Junonia_almana', 'Tongeia_potanini', 'Byasa_dasarada', 'Clossiana_euphrosyne', 'Kaniska_canace', 'Libythea_myrrha', 'Danaus_genutia', 'Parantica_aglea', 'Erionota_torus', 'Polyura_eudamippus', 'Melanitis_phedima', 'Papilio_prexaspes', 'Papilio_machaon', 'Vanessa_cardui', 'Graphium_agamemnon', 'Gonepteryx_amintha', 'Papilio_hermosanus', 'Hebomoia_glaucippe', 'Aemona_amathusia', 'Neptis_hylas', 'Danaus_plexippus', 'Cethosia_cyane', 'Pieris_melete', 'Colias_palaeno', 'Badamia_exclamationis', 'Lethe_chandica', 'Ypthima_baldus', 'Artipe_eryx', 'Cethosia_biblis', 'Papilio_hoppo', 'Gonepteryx_rhamni', 'Lamproptera_curius', 'Colias_erate', 'Luehdorfia_chinensis', 'Zemeros_flegyas', 'Sephisa_chandra', 'Tirumala_septentrionis', 'Delias_pasithoe', 'Papilio_dialis', 'Parnassius_apollo', 'Penthema_darlisa', 'Mycalesis_perseus', 'Curetis_acuta', 'Delias_acalis', 'Byasa_alcinous', 'Damora_sagana', 'Acraea_issoria', 'Acraea_terpsicore', 'Junonia_iphita', 'Euploea_sylvester', 'Tirumala_limniace', 'Issoria_lathonia', 'Udaspes_folus', 'Clossiana_freija', 'Danaus_chrysippus', 'Parnassius_phoebus', 'Pazala_mullah', 'Catopsilia_pomona', 'Ampittia_virgata', 'Seseria_dohertyi', 'Neope_pulaha', 'Charaxes_bernardus', 'Odontoptilum_angulatum', 'Taraka_hamada', 'Ancistroides_nigrita', 'Loxura_atymnus', 'Troides_magellanus', 'Junonia_orithya', 'Teinopalpus_imperialis', 'Pazala_eurous', 'Horaga_albimacula', 'Pachliopta_aristolochiae', 'Ypthima_praenubila', 'Papilio_paris', 'Papilio_bianor', 'Arhopala_rama', 'Eurema_hecabe', 'Colias_fieldii', 'Papilio_alcmenor', 'Iraota_timoleon', 'Apatura_ilia', 'Delias_descombesi', 'Limenitis_sulpitia', 'Eurema_laeta', 'Polyura_athamas', 'Hypolimnas_bolina', 'Eurema_blanda', 'Ariadne_ariadne', 'Hasora_badra', 'Euploea_midamus', 'Ideopsis_similis', 'Stichophthalma_howqua', 'Iphiclides_podalirius', 'Leptidea_sinapis', 'Athyma_ranga', 'Proclossiana_eunomia', 'Papilio_polytes', 'Clossiana_dia', 'Melanitis_leda', 'Eurema_brigitta', 'Dodona_eugenes', 'Clossiana_titania', 'Daimio_tethys', 'Amblopala_avidiena', 'Athyma_perius', 'Apatura_iris', 'Vanessa_indica', 'Celaenorrhinus_maculosus', 'Tagiades_menaka', 'Teinopalpus_aureus', 'Arhopala_paramuta', 'Atrophaneura_varuna', 'Lethe_confusa', 'Calinaga_buddha', 'Colias_hyale', 'Lethe_syrcis', 'Pseudocoladenia_dan', 'Troides_helena', 'Notocrypta_curvifascia', 'Horaga_onyx', 'Iambrix_salsala', 'Pathysa_antiphates', 'Leptidea_amurensis', 'Rapala_nissa', 'Faunis_eumeus', 'Papilio_protenor', 'Idea_leuconoe', 'Bhutanitis_lidderdalii', 'Junonia_atlites', 'Meandrusa_payeni', 'Mycalesis_intermedia', 'Euploea_tulliolus', 'Penthema_formosanum', 'Polyura_narcaea', 'Pieris_rapae', 'Abraximorpha_davidii', 'Burara_gomata', 'Hasora_anura', 'Doleschallia_bisaltide', 'Catopsilia_scylla', 'SpinDasis_syama', 'Hasora_vitta', 'Isoteinon_lamprospilus', 'Papilio_nephelus', 'Libythea_lepita', 'Eurema_mandarina', 'Jamides_bochus', 'Papilio_arcturus', 'Euthalia_niepelti', 'Mycalesis_gotama', 'Ussuriana_michaelis', 'Pieris_canidia', 'Parnara_guttata', 'Sericinus_montelus', 'Cepora_nerissa', 'Graphium_cloanthus', 'Elymnias_hypermnestra', 'Papilio_memnon', 'Astictopterus_jama', 'Neptis_miah', 'Atrophaneura_horishanus', 'Mahathala_ameria', 'Rohana_parisatis', 'Lamproptera_meges', 'Catopsilia_pyranthe', 'Parantica_melaneus', 'Graphium_sarpedon', 'Troides_aeacus', 'Sasakia_charonda', 'Meandrusa_sciron', 'Zizeeria_maha', 'Miletus_chinensis', 'Eurema_andersoni', 'Lampides_boeticus', 'Leptidea_morsei', 'Ideopsis_vulgaris', 'Ariadne_merione', 'Gandaca_harina', 'Delias_belladonna', 'Chitoria_ulupi', 'Parnassius_nomion', 'Allotinus_drumila', 'Timelaea_albescens', 'Mandarinia_regalis', 'Losaria_coon']
+num_count: [('Gonepteryx_rhamni', 702), ('Catopsilia_pomona', 342), ('Eurema_hecabe', 338), ('Neptis_hylas', 330), ('Hebomoia_glaucippe', 310), ('Apatura_ilia', 292), ('Apatura_iris', 256), ('Eurema_blanda', 250), ('Junonia_orithya', 229), ('Junonia_iphita', 228), ('Delias_pasithoe', 219), ('Junonia_atlites', 217), ('Junonia_almana', 209), ('Symbrenthia_lilaea', 201), ('Cethosia_biblis', 201), ('Danaus_chrysippus', 194), ('Clossiana_euphrosyne', 188), ('Kallima_inachus', 180), ('Parnara_guttata', 177), ('Vanessa_cardui', 175), ('Colias_palaeno', 175), ('Junonia_hierta', 173), ('Zemeros_flegyas', 172), ('Parnassius_phoebus', 168), ('Acraea_issoria', 167), ('Pazala_eurous', 167), ('Iphiclides_podalirius', 167), ('Parantica_aglea', 166), ('Ideopsis_similis', 166), ('Colias_erate', 164), ('Danaus_plexippus', 157), ('Papilio_maackii', 154), ('Cethosia_cyane', 148), ('Tirumala_septentrionis', 144), ('Pathysa_antiphates', 142), ('Atrophaneura_horishanus', 142), ('Pachliopta_aristolochiae', 138), ('Byasa_alcinous', 136), ('Troides_magellanus', 133), ('Byasa_polyeuctes', 130), ('Colias_hyale', 129), ('Hypolimnas_bolina', 127), ('Pieris_canidia', 126), ('Sericinus_montelus', 126), ('Hestina_assimilis', 125), ('Kaniska_canace', 125), ('Polyura_athamas', 125), ('Faunis_eumeus', 125), ('Libythea_lepita', 125), ('Abisara_echerius', 124), ('Pieris_melete', 121), ('Cyrestis_thyodamas', 119), ('Elymnias_hypermnestra', 119), ('Mycalesis_perseus', 118), ('Udaspes_folus', 117), ('Mycalesis_gotama', 117), ('Papilio_hermosanus', 116), ('Melanitis_leda', 113), ('Iambrix_salsala', 110), ('Papilio_hoppo', 109), ('Melanitis_phedima', 108), ('Loxura_atymnus', 108), ('Notocrypta_curvifascia', 106), ('Polygonia_caureum', 105), ('Curetis_acuta', 105), ('Hasora_badra', 105), ('Pieris_rapae', 104), ('Parantica_sita', 103), ('Lethe_confusa', 103), ('Parnassius_apollo', 102), ('Pseudocoladenia_dan', 102), ('Tirumala_limniace', 101), ('Danaus_genutia', 98), ('Athyma_perius', 98), ('Odontoptilum_angulatum', 97), ('Stichophthalma_howqua', 97), ('Lethe_chandica', 96), ('Pieris_napi', 95), ('Cepora_nerissa', 94), ('Vanessa_indica', 93), ('Acraea_terpsicore', 92), ('Iraota_timoleon', 92), ('Leptidea_sinapis', 92), ('Eurema_laeta', 91), ('Clossiana_dia', 91), ('Daimio_tethys', 91), ('Troides_helena', 91), ('Badamia_exclamationis', 89), ('Papilio_machaon', 88), ('Ypthima_baldus', 87), ('Parantica_melaneus', 87), ('Papilio_prexaspes', 86), ('Taraka_hamada', 86), ('Rohana_parisatis', 86), ('Papilio_bianor', 85), ('Atrophaneura_varuna', 85), ('Troides_aeacus', 84), ('Lampides_boeticus', 84), ('Gonepteryx_amintha', 83), ('Papilio_dialis', 83), ('Horaga_onyx', 83), ('Burara_gomata', 79), ('Papilio_memnon', 79), ('Erionota_torus', 78), ('Athyma_ranga', 78), ('Euploea_tulliolus', 76), ('Isoteinon_lamprospilus', 76), ('Eurema_mandarina', 76), ('Euploea_core', 75), ('Artipe_eryx', 75), ('Dodona_eugenes', 75), ('Papilio_arcturus', 75), ('Stibochiona_nicea', 74), ('Luehdorfia_chinensis', 74), ('Eurema_andersoni', 74), ('Neope_pulaha', 72), ('Euploea_midamus', 72), ('Sasakia_charonda', 72), ('Charaxes_bernardus', 71), ('Ariadne_ariadne', 71), ('Clossiana_titania', 71), ('Papilio_xuthus', 68), ('Issoria_lathonia', 68), ('Colias_fieldii', 68), ('Mycalesis_intermedia', 68), ('Polyura_narcaea', 68), ('Astictopterus_jama', 68), ('Pazala_mullah', 67), ('Limenitis_sulpitia', 67), ('Amblopala_avidiena', 67), ('Timelaea_albescens', 67), ('Ampittia_virgata', 65), ('Polyura_eudamippus', 64), ('Abraximorpha_davidii', 64), ('Neptis_miah', 64), ('Calinaga_buddha', 63), ('Zizeeria_maha', 63), ('Miletus_chinensis', 63), ('Parnassius_nomion', 63), ('Graphium_sarpedon', 62), ('Libythea_myrrha', 61), ('Papilio_alcmenor', 61), ('Papilio_polytes', 61), ('Hasora_anura', 61), ('Papilio_paris', 60), ('Delias_descombesi', 60), ('Gandaca_harina', 58), ('Lamproptera_curius', 57), ('Clossiana_freija', 57), ('Catopsilia_scylla', 57), ('SpinDasis_syama', 57), ('Ariadne_merione', 57), ('Byasa_dasarada', 56), ('Delias_acalis', 56), ('Ancistroides_nigrita', 56), ('Proclossiana_eunomia', 56), ('Lamproptera_meges', 56), ('Teinopalpus_imperialis', 55), ('Lethe_syrcis', 55), ('Rapala_nissa', 55), ('Losaria_coon', 55), ('Tagiades_menaka', 54), ('Graphium_agamemnon', 52), ('Papilio_protenor', 52), ('Hasora_vitta', 51), ('Delias_belladonna', 51), ('Euploea_sylvester', 50), ('Teinopalpus_aureus', 50), ('Catopsilia_pyranthe', 50), ('Aemona_amathusia', 49), ('Celaenorrhinus_maculosus', 49), ('Doleschallia_bisaltide', 49), ('Bhutanitis_lidderdalii', 48), ('Meandrusa_payeni', 48), ('Penthema_darlisa', 47), ('Damora_sagana', 47), ('Ideopsis_vulgaris', 47), ('Eurema_brigitta', 46), ('Tongeia_potanini', 45), ('Horaga_albimacula', 45), ('Papilio_nephelus', 44), ('Graphium_cloanthus', 43), ('Jamides_bochus', 42), ('Meandrusa_sciron', 42), ('Mandarinia_regalis', 42), ('Leptidea_amurensis', 41), ('Idea_leuconoe', 41), ('Penthema_formosanum', 41), ('Ussuriana_michaelis', 40), ('Mahathala_ameria', 39), ('Sephisa_chandra', 38), ('Leptidea_morsei', 35), ('Papilio_Krishna', 34), ('Arhopala_rama', 34), ('Allotinus_drumila', 33), ('Ypthima_praenubila', 31), ('Chitoria_ulupi', 31), ('Arhopala_paramuta', 28), ('Euthalia_niepelti', 28), ('Seseria_dohertyi', 20)]
+Eurema_blanda
+Current Pred: 1/5056
+Polyura_athamas
+Parnassius_phoebus
+Parantica_aglea
+Apatura_ilia
+Junonia_orithya
+Byasa_polyeuctes
+Eurema_hecabe
+Graphium_sarpedon
+Acraea_issoria
+Delias_pasithoe
+Iphiclides_podalirius
+Symbrenthia_lilaea
+Udaspes_folus
+Neptis_hylas
+Colias_fieldii
+Eurema_laeta
+Gonepteryx_rhamni
+Gonepteryx_rhamni
+Pieris_napi
+Atrophaneura_horishanus
+Clossiana_euphrosyne
+Taraka_hamada
+Pazala_eurous
+Sericinus_montelus
+Catopsilia_pomona
+Apatura_ilia
+Parantica_sita
+Abraximorpha_davidii
+Cyrestis_thyodamas
+Hypolimnas_bolina
+Mycalesis_gotama
+Ideopsis_similis
+Issoria_lathonia
+Taraka_hamada
+Leptidea_sinapis
+Leptidea_sinapis
+Doleschallia_bisaltide
+Kaniska_canace
+Clossiana_euphrosyne
+Kallima_inachus
+Atrophaneura_horishanus
+Sericinus_montelus
+Cethosia_cyane
+Colias_erate
+Kallima_inachus
+Colias_erate
+Troides_magellanus
+Limenitis_sulpitia
+Eurema_hecabe
+Cyrestis_thyodamas
+Neptis_hylas
+Iambrix_salsala
+Papilio_hermosanus
+Zizeeria_maha
+Ariadne_merione
+Catopsilia_pomona
+Pachliopta_aristolochiae
+Parantica_aglea
+Rapala_nissa
+Tirumala_septentrionis
+Abisara_echerius
+Cethosia_biblis
+Clossiana_euphrosyne
+Pazala_mullah
+Luehdorfia_chinensis
+Parantica_sita
+Eurema_laeta
+Gonepteryx_rhamni
+Pieris_napi
+Hebomoia_glaucippe
+Polyura_eudamippus
+Catopsilia_pomona
+Tirumala_limniace
+Lampides_boeticus
+Libythea_myrrha
+Atrophaneura_horishanus
+Parnara_guttata
+Eurema_laeta
+Eurema_hecabe
+Papilio_hoppo
+Mahathala_ameria
+Catopsilia_pomona
+Graphium_sarpedon
+Idea_leuconoe
+Libythea_lepita
+Cyrestis_thyodamas
+Junonia_orithya
+Vanessa_cardui
+Apatura_iris
+Colias_hyale
+Iphiclides_podalirius
+Acraea_issoria
+Zemeros_flegyas
+Hypolimnas_bolina
+Ideopsis_similis
+Acraea_issoria
+Vanessa_cardui
+Abisara_echerius
+Abisara_echerius
+Junonia_iphita
+Melanitis_leda
+Iphiclides_podalirius
+Horaga_onyx
+Junonia_hierta
+Apatura_ilia
+Ampittia_virgata
+Rohana_parisatis
+Eurema_hecabe
+Euploea_midamus
+Danaus_genutia
+Daimio_tethys
+Hypolimnas_bolina
+Parnara_guttata
+Junonia_iphita
+Colias_fieldii
+Apatura_ilia
+Eurema_blanda
+Sericinus_montelus
+Papilio_bianor
+Apatura_ilia
+Papilio_alcmenor
+Neptis_hylas
+Catopsilia_pomona
+Ariadne_ariadne
+Junonia_orithya
+Timelaea_albescens
+Catopsilia_scylla
+Hypolimnas_bolina
+Hebomoia_glaucippe
+Colias_palaeno
+Bhutanitis_lidderdalii
+Gonepteryx_rhamni
+Junonia_iphita
+Melanitis_phedima
+Papilio_bianor
+Abisara_echerius
+Udaspes_folus
+Eurema_hecabe
+Eurema_mandarina
+Catopsilia_pomona
+Lethe_chandica
+Cethosia_biblis
+Daimio_tethys
+Delias_pasithoe
+Tirumala_limniace
+Charaxes_bernardus
+Hasora_badra
+Doleschallia_bisaltide
+Leptidea_sinapis
+Hasora_badra
+Ideopsis_similis
+Jamides_bochus
+Neptis_hylas
+Colias_erate
+Papilio_bianor
+Clossiana_euphrosyne
+Abisara_echerius
+Cethosia_cyane
+Kallima_inachus
+Clossiana_euphrosyne
+Symbrenthia_lilaea
+Delias_pasithoe
+Atrophaneura_horishanus
+Parnara_guttata
+Papilio_alcmenor
+Junonia_atlites
+Abisara_echerius
+Timelaea_albescens
+Eurema_laeta
+Kallima_inachus
+Junonia_hierta
+Apatura_ilia
+Acraea_issoria
+Clossiana_euphrosyne
+Cethosia_biblis
+Ideopsis_similis
+Symbrenthia_lilaea
+Ypthima_baldus
+Leptidea_sinapis
+Junonia_atlites
+Colias_hyale
+Eurema_hecabe
+Vanessa_cardui
+Hebomoia_glaucippe
+Daimio_tethys
+Mycalesis_gotama
+Ampittia_virgata
+Mycalesis_perseus
+Polygonia_caureum
+Hypolimnas_bolina
+Pieris_canidia
+Junonia_atlites
+Eurema_hecabe
+Clossiana_euphrosyne
+Catopsilia_pomona
+Gonepteryx_rhamni
+Papilio_hoppo
+Lamproptera_curius
+Issoria_lathonia
+Eurema_blanda
+Current Pred: 201/5056
+Danaus_chrysippus
+Acraea_issoria
+Melanitis_leda
+Junonia_iphita
+Sericinus_montelus
+Hebomoia_glaucippe
+Junonia_hierta
+Ideopsis_similis
+Parnassius_phoebus
+Clossiana_titania
+Parnara_guttata
+Apatura_iris
+Danaus_plexippus
+Gonepteryx_amintha
+Junonia_iphita
+Tirumala_septentrionis
+Mycalesis_perseus
+Danaus_plexippus
+Zemeros_flegyas
+Elymnias_hypermnestra
+Junonia_orithya
+Loxura_atymnus
+Eurema_hecabe
+Parantica_aglea
+Colias_erate
+Parnara_guttata
+Neptis_hylas
+Junonia_almana
+Libythea_myrrha
+Junonia_iphita
+Iraota_timoleon
+Charaxes_bernardus
+Parantica_aglea
+Iphiclides_podalirius
+Parnassius_apollo
+Byasa_alcinous
+Tirumala_septentrionis
+Papilio_maackii
+Zizeeria_maha
+Burara_gomata
+Colias_erate
+Sephisa_chandra
+Odontoptilum_angulatum
+Ypthima_praenubila
+Sasakia_charonda
+Troides_helena
+Horaga_onyx
+Tirumala_septentrionis
+Junonia_almana
+Athyma_ranga
+Gonepteryx_rhamni
+Ussuriana_michaelis
+Mycalesis_perseus
+Pathysa_antiphates
+Taraka_hamada
+Polyura_narcaea
+Clossiana_dia
+Danaus_genutia
+Delias_acalis
+Ussuriana_michaelis
+Faunis_eumeus
+Papilio_machaon
+Papilio_hoppo
+Eurema_hecabe
+Parnassius_phoebus
+Apatura_iris
+Pseudocoladenia_dan
+Limenitis_sulpitia
+Junonia_orithya
+Byasa_dasarada
+Limenitis_sulpitia
+Parantica_sita
+Ideopsis_vulgaris
+Symbrenthia_lilaea
+Dodona_eugenes
+Catopsilia_pomona
+Pazala_mullah
+Pathysa_antiphates
+Eurema_hecabe
+Papilio_arcturus
+Luehdorfia_chinensis
+Danaus_plexippus
+Tirumala_septentrionis
+Graphium_agamemnon
+Meandrusa_payeni
+Losaria_coon
+Rohana_parisatis
+Junonia_atlites
+Stibochiona_nicea
+Catopsilia_pomona
+Burara_gomata
+Parantica_sita
+Papilio_maackii
+Catopsilia_pomona
+Faunis_eumeus
+Artipe_eryx
+Hypolimnas_bolina
+Polygonia_caureum
+Danaus_genutia
+Pazala_eurous
+Euploea_core
+Bhutanitis_lidderdalii
+Mycalesis_gotama
+Hestina_assimilis
+Acraea_terpsicore
+Udaspes_folus
+Melanitis_phedima
+Euploea_core
+Eurema_hecabe
+Junonia_atlites
+Calinaga_buddha
+Pieris_melete
+Curetis_acuta
+Ypthima_baldus
+Celaenorrhinus_maculosus
+Eurema_blanda
+Tirumala_septentrionis
+Badamia_exclamationis
+Papilio_protenor
+Graphium_cloanthus
+Cyrestis_thyodamas
+Eurema_hecabe
+Danaus_chrysippus
+Danaus_genutia
+Troides_aeacus
+Eurema_brigitta
+Ariadne_ariadne
+Cethosia_biblis
+Faunis_eumeus
+Polygonia_caureum
+Gonepteryx_amintha
+Pazala_eurous
+Kallima_inachus
+Melanitis_phedima
+Colias_palaeno
+Parantica_sita
+Hasora_anura
+Ussuriana_michaelis
+Stichophthalma_howqua
+Tirumala_limniace
+Hebomoia_glaucippe
+Zemeros_flegyas
+Cepora_nerissa
+Acraea_terpsicore
+Cethosia_cyane
+Hasora_vitta
+Papilio_arcturus
+Colias_palaeno
+Catopsilia_pomona
+Apatura_ilia
+Gonepteryx_rhamni
+Catopsilia_pomona
+Catopsilia_pomona
+Junonia_iphita
+Cethosia_cyane
+Kallima_inachus
+Eurema_laeta
+Cethosia_biblis
+Papilio_paris
+Pseudocoladenia_dan
+Colias_fieldii
+Danaus_plexippus
+Colias_palaeno
+Notocrypta_curvifascia
+Polygonia_caureum
+Rapala_nissa
+Gonepteryx_rhamni
+Libythea_lepita
+Polygonia_caureum
+Graphium_cloanthus
+Hasora_anura
+Pachliopta_aristolochiae
+Kallima_inachus
+Eurema_hecabe
+Abisara_echerius
+Cethosia_cyane
+Notocrypta_curvifascia
+Parantica_aglea
+Burara_gomata
+Abisara_echerius
+Odontoptilum_angulatum
+Losaria_coon
+Danaus_plexippus
+Papilio_prexaspes
+Amblopala_avidiena
+Polyura_narcaea
+Ypthima_baldus
+Udaspes_folus
+Delias_pasithoe
+Parnassius_apollo
+Polyura_athamas
+Leptidea_morsei
+Papilio_maackii
+Euploea_sylvester
+Sasakia_charonda
+Odontoptilum_angulatum
+Delias_acalis
+Eurema_laeta
+Acraea_issoria
+Pazala_eurous
+Current Pred: 401/5056
+Teinopalpus_aureus
+Ideopsis_similis
+Neptis_hylas
+Tirumala_limniace
+Pieris_rapae
+Papilio_xuthus
+Athyma_ranga
+Delias_acalis
+Gonepteryx_rhamni
+Neptis_miah
+Neptis_hylas
+Hestina_assimilis
+Parnara_guttata
+Lamproptera_meges
+Junonia_hierta
+Udaspes_folus
+Gonepteryx_rhamni
+Papilio_memnon
+Eurema_hecabe
+Gonepteryx_rhamni
+Papilio_hoppo
+Hasora_vitta
+Hypolimnas_bolina
+Papilio_machaon
+Delias_belladonna
+Catopsilia_pomona
+Jamides_bochus
+Colias_hyale
+Pachliopta_aristolochiae
+Danaus_genutia
+Kaniska_canace
+Eurema_hecabe
+Neptis_hylas
+Eurema_hecabe
+Troides_helena
+Elymnias_hypermnestra
+Amblopala_avidiena
+Athyma_perius
+Gonepteryx_rhamni
+Curetis_acuta
+Euploea_tulliolus
+Catopsilia_pyranthe
+Mycalesis_intermedia
+Burara_gomata
+Apatura_iris
+Papilio_maackii
+Lamproptera_curius
+Udaspes_folus
+Parnara_guttata
+Teinopalpus_aureus
+Junonia_atlites
+Ideopsis_similis
+Papilio_memnon
+Gonepteryx_rhamni
+Catopsilia_pomona
+Mycalesis_perseus
+Abraximorpha_davidii
+Papilio_machaon
+Athyma_ranga
+Eurema_andersoni
+Eurema_andersoni
+Vanessa_cardui
+Vanessa_cardui
+Danaus_chrysippus
+Cethosia_biblis
+Polygonia_caureum
+Danaus_chrysippus
+Junonia_atlites
+Horaga_onyx
+Parnassius_apollo
+Cepora_nerissa
+Athyma_perius
+Danaus_genutia
+Parantica_melaneus
+Udaspes_folus
+Horaga_albimacula
+Parnara_guttata
+Cyrestis_thyodamas
+Cethosia_cyane
+Papilio_maackii
+Taraka_hamada
+Sephisa_chandra
+Danaus_plexippus
+Pieris_rapae
+Troides_helena
+Cethosia_cyane
+Cyrestis_thyodamas
+Hasora_vitta
+Papilio_maackii
+Iphiclides_podalirius
+Hypolimnas_bolina
+Euploea_core
+Papilio_maackii
+Parnassius_nomion
+Atrophaneura_horishanus
+Arhopala_rama
+Cepora_nerissa
+Stibochiona_nicea
+Apatura_iris
+Pachliopta_aristolochiae
+Symbrenthia_lilaea
+Junonia_atlites
+Symbrenthia_lilaea
+Polyura_athamas
+Byasa_polyeuctes
+Danaus_genutia
+Meandrusa_payeni
+Troides_helena
+Charaxes_bernardus
+Clossiana_titania
+Pieris_rapae
+Melanitis_phedima
+Charaxes_bernardus
+Limenitis_sulpitia
+Clossiana_euphrosyne
+Abraximorpha_davidii
+Neptis_hylas
+Byasa_polyeuctes
+Acraea_issoria
+Parantica_sita
+Lampides_boeticus
+Melanitis_leda
+Pieris_napi
+Libythea_lepita
+Acraea_issoria
+Odontoptilum_angulatum
+Polyura_narcaea
+Danaus_plexippus
+Gonepteryx_rhamni
+Colias_palaeno
+Leptidea_sinapis
+Pachliopta_aristolochiae
+Sephisa_chandra
+Charaxes_bernardus
+Athyma_ranga
+Papilio_dialis
+Gonepteryx_rhamni
+Taraka_hamada
+Gonepteryx_rhamni
+Euploea_core
+Lamproptera_curius
+Colias_fieldii
+Papilio_arcturus
+Cethosia_biblis
+Apatura_ilia
+Colias_palaeno
+Udaspes_folus
+Isoteinon_lamprospilus
+Ideopsis_similis
+Gonepteryx_rhamni
+Eurema_blanda
+Cepora_nerissa
+Pathysa_antiphates
+Catopsilia_pomona
+Luehdorfia_chinensis
+Delias_belladonna
+Byasa_alcinous
+Apatura_ilia
+Junonia_orithya
+Elymnias_hypermnestra
+Faunis_eumeus
+Iphiclides_podalirius
+Junonia_almana
+Ideopsis_similis
+Catopsilia_pomona
+Kaniska_canace
+Proclossiana_eunomia
+Clossiana_euphrosyne
+Lamproptera_meges
+Euploea_midamus
+Melanitis_leda
+Gandaca_harina
+Parantica_aglea
+Papilio_prexaspes
+Udaspes_folus
+Charaxes_bernardus
+Troides_magellanus
+Zemeros_flegyas
+Libythea_lepita
+Papilio_hoppo
+Junonia_atlites
+Pieris_melete
+Parnara_guttata
+Delias_pasithoe
+Neptis_miah
+Papilio_prexaspes
+Papilio_maackii
+Lampides_boeticus
+Stichophthalma_howqua
+Eurema_hecabe
+Hebomoia_glaucippe
+Tirumala_septentrionis
+Leptidea_sinapis
+Faunis_eumeus
+SpinDasis_syama
+Pieris_napi
+Udaspes_folus
+Gonepteryx_rhamni
+Catopsilia_pomona
+Polyura_athamas
+Current Pred: 601/5056
+Aemona_amathusia
+Mycalesis_perseus
+Junonia_atlites
+Papilio_alcmenor
+Danaus_genutia
+Catopsilia_pomona
+Vanessa_cardui
+Daimio_tethys
+Polyura_narcaea
+Hebomoia_glaucippe
+Parnara_guttata
+Kallima_inachus
+Vanessa_cardui
+Danaus_chrysippus
+Colias_hyale
+Meandrusa_sciron
+Limenitis_sulpitia
+Danaus_chrysippus
+Parantica_aglea
+Gonepteryx_rhamni
+Euploea_midamus
+Junonia_iphita
+Eurema_andersoni
+Idea_leuconoe
+Sericinus_montelus
+Pathysa_antiphates
+Hebomoia_glaucippe
+Delias_belladonna
+Eurema_hecabe
+Kallima_inachus
+Apatura_ilia
+Colias_hyale
+Papilio_nephelus
+Horaga_onyx
+Leptidea_sinapis
+Burara_gomata
+Papilio_arcturus
+Pieris_canidia
+Ariadne_merione
+Pieris_canidia
+Dodona_eugenes
+Papilio_prexaspes
+Ideopsis_similis
+Elymnias_hypermnestra
+Mycalesis_perseus
+Doleschallia_bisaltide
+Horaga_onyx
+Ideopsis_similis
+Parnara_guttata
+Melanitis_leda
+Odontoptilum_angulatum
+Eurema_hecabe
+Calinaga_buddha
+Parnara_guttata
+Papilio_alcmenor
+Pieris_napi
+Cethosia_biblis
+Athyma_perius
+Athyma_perius
+Clossiana_dia
+Mycalesis_gotama
+Hebomoia_glaucippe
+Apatura_ilia
+Junonia_orithya
+Pazala_eurous
+Symbrenthia_lilaea
+Eurema_hecabe
+Kallima_inachus
+Papilio_arcturus
+Lethe_chandica
+Teinopalpus_aureus
+Gonepteryx_amintha
+Abisara_echerius
+Papilio_nephelus
+Hebomoia_glaucippe
+Pazala_eurous
+Polygonia_caureum
+Lethe_confusa
+Danaus_plexippus
+Apatura_iris
+Papilio_dialis
+Taraka_hamada
+Danaus_genutia
+Pachliopta_aristolochiae
+Amblopala_avidiena
+Gonepteryx_rhamni
+Sasakia_charonda
+Neptis_hylas
+Mycalesis_intermedia
+Neptis_hylas
+Catopsilia_pomona
+Isoteinon_lamprospilus
+Papilio_dialis
+Apatura_ilia
+Ypthima_praenubila
+Junonia_iphita
+Acraea_terpsicore
+Kallima_inachus
+Delias_pasithoe
+Junonia_iphita
+Colias_fieldii
+Cethosia_cyane
+Neptis_hylas
+Ariadne_ariadne
+Delias_pasithoe
+Ideopsis_similis
+Atrophaneura_varuna
+Gonepteryx_rhamni
+Junonia_orithya
+Hasora_badra
+Papilio_arcturus
+Parantica_aglea
+Neptis_hylas
+Horaga_onyx
+Eurema_hecabe
+Iambrix_salsala
+Tirumala_limniace
+Luehdorfia_chinensis
+Junonia_orithya
+Kallima_inachus
+Acraea_issoria
+Ancistroides_nigrita
+Gandaca_harina
+Lethe_syrcis
+Eurema_hecabe
+Losaria_coon
+Colias_fieldii
+Notocrypta_curvifascia
+Gonepteryx_rhamni
+Lethe_syrcis
+Troides_magellanus
+Polyura_athamas
+Catopsilia_pomona
+Luehdorfia_chinensis
+Papilio_prexaspes
+Danaus_chrysippus
+Byasa_polyeuctes
+Hasora_badra
+Gonepteryx_rhamni
+Daimio_tethys
+Junonia_orithya
+Dodona_eugenes
+Acraea_issoria
+Idea_leuconoe
+Tirumala_limniace
+Apatura_iris
+Gonepteryx_rhamni
+Pieris_canidia
+Delias_pasithoe
+Daimio_tethys
+Lethe_confusa
+Clossiana_euphrosyne
+Curetis_acuta
+Euploea_sylvester
+Clossiana_dia
+Eurema_hecabe
+Parnassius_phoebus
+Eurema_laeta
+Eurema_hecabe
+Polyura_eudamippus
+Pieris_melete
+Isoteinon_lamprospilus
+Catopsilia_pomona
+Parantica_aglea
+Gonepteryx_amintha
+Hebomoia_glaucippe
+Neptis_hylas
+Pathysa_antiphates
+Erionota_torus
+Catopsilia_pomona
+Mycalesis_gotama
+Catopsilia_pomona
+Eurema_brigitta
+Catopsilia_pyranthe
+Papilio_hermosanus
+Eurema_hecabe
+Apatura_iris
+Byasa_polyeuctes
+Junonia_atlites
+Miletus_chinensis
+Elymnias_hypermnestra
+Zizeeria_maha
+Pieris_rapae
+Gonepteryx_rhamni
+Neptis_miah
+Papilio_Krishna
+Papilio_xuthus
+Cethosia_biblis
+Eurema_blanda
+Junonia_orithya
+Pazala_eurous
+Neptis_hylas
+Ariadne_ariadne
+Eurema_blanda
+Delias_pasithoe
+Acraea_issoria
+Delias_descombesi
+Danaus_plexippus
+Eurema_hecabe
+Charaxes_bernardus
+Current Pred: 801/5056
+Cethosia_biblis
+Zemeros_flegyas
+Pieris_canidia
+Euthalia_niepelti
+Danaus_plexippus
+Acraea_issoria
+Teinopalpus_aureus
+Gonepteryx_rhamni
+Gonepteryx_rhamni
+Junonia_almana
+Colias_erate
+Abisara_echerius
+Curetis_acuta
+Penthema_formosanum
+Catopsilia_pomona
+Melanitis_phedima
+Papilio_xuthus
+Odontoptilum_angulatum
+Iraota_timoleon
+Cyrestis_thyodamas
+Stichophthalma_howqua
+Hebomoia_glaucippe
+Danaus_plexippus
+Ypthima_praenubila
+Pieris_melete
+Astictopterus_jama
+Mycalesis_intermedia
+Clossiana_euphrosyne
+Athyma_perius
+Parnassius_phoebus
+Libythea_lepita
+Hasora_vitta
+Ideopsis_similis
+Hypolimnas_bolina
+Mycalesis_perseus
+Ypthima_praenubila
+Junonia_hierta
+Colias_erate
+Udaspes_folus
+Vanessa_cardui
+Papilio_dialis
+Papilio_machaon
+Penthema_formosanum
+Ancistroides_nigrita
+Ideopsis_similis
+Jamides_bochus
+Meandrusa_payeni
+Gonepteryx_rhamni
+Acraea_issoria
+Athyma_ranga
+Eurema_hecabe
+Eurema_mandarina
+Cethosia_biblis
+Gonepteryx_amintha
+Atrophaneura_varuna
+Graphium_cloanthus
+Colias_palaeno
+Pathysa_antiphates
+Atrophaneura_varuna
+Gonepteryx_rhamni
+Acraea_issoria
+Acraea_issoria
+Pieris_napi
+Junonia_iphita
+Libythea_myrrha
+Dodona_eugenes
+Neptis_miah
+Ancistroides_nigrita
+Apatura_iris
+Parnassius_nomion
+Athyma_perius
+Gonepteryx_rhamni
+Junonia_almana
+Odontoptilum_angulatum
+Gonepteryx_rhamni
+Byasa_polyeuctes
+Luehdorfia_chinensis
+Pieris_canidia
+Parnassius_apollo
+Horaga_onyx
+Pieris_melete
+Miletus_chinensis
+Iraota_timoleon
+Arhopala_rama
+Pseudocoladenia_dan
+Vanessa_cardui
+Jamides_bochus
+Hebomoia_glaucippe
+Zizeeria_maha
+Pachliopta_aristolochiae
+Stibochiona_nicea
+Iambrix_salsala
+Faunis_eumeus
+Artipe_eryx
+Delias_belladonna
+Taraka_hamada
+Kaniska_canace
+Amblopala_avidiena
+Elymnias_hypermnestra
+Daimio_tethys
+Tirumala_septentrionis
+Polyura_athamas
+Eurema_hecabe
+Atrophaneura_horishanus
+Arhopala_rama
+Pieris_canidia
+Symbrenthia_lilaea
+Pazala_eurous
+Apatura_ilia
+Ypthima_baldus
+Troides_magellanus
+Pieris_rapae
+Parantica_melaneus
+Sasakia_charonda
+Leptidea_morsei
+Iraota_timoleon
+Lampides_boeticus
+Papilio_hermosanus
+Lethe_confusa
+Tirumala_septentrionis
+Mycalesis_perseus
+Eurema_hecabe
+Papilio_protenor
+Abisara_echerius
+Cethosia_biblis
+Byasa_alcinous
+Vanessa_indica
+Lamproptera_curius
+Acraea_issoria
+Lethe_chandica
+Astictopterus_jama
+Colias_erate
+Junonia_atlites
+Burara_gomata
+Apatura_iris
+Atrophaneura_varuna
+Parnara_guttata
+Graphium_sarpedon
+Graphium_agamemnon
+Cethosia_cyane
+Horaga_onyx
+Papilio_hoppo
+Pieris_napi
+Gonepteryx_rhamni
+Junonia_iphita
+Pieris_rapae
+Papilio_machaon
+Colias_erate
+Danaus_plexippus
+Apatura_iris
+Taraka_hamada
+Gonepteryx_amintha
+Timelaea_albescens
+Atrophaneura_varuna
+Euploea_tulliolus
+Papilio_dialis
+Isoteinon_lamprospilus
+Troides_magellanus
+Burara_gomata
+Euploea_sylvester
+Papilio_hoppo
+Kallima_inachus
+Papilio_protenor
+Luehdorfia_chinensis
+Odontoptilum_angulatum
+Danaus_plexippus
+Apatura_iris
+Pseudocoladenia_dan
+Tagiades_menaka
+Apatura_ilia
+Zemeros_flegyas
+Ariadne_ariadne
+Apatura_iris
+Sericinus_montelus
+Abisara_echerius
+Pazala_eurous
+Pachliopta_aristolochiae
+Apatura_iris
+Cepora_nerissa
+Tirumala_limniace
+Ancistroides_nigrita
+Ypthima_praenubila
+Amblopala_avidiena
+Ideopsis_similis
+Faunis_eumeus
+Meandrusa_payeni
+Parnara_guttata
+Meandrusa_payeni
+Lethe_confusa
+Papilio_machaon
+Isoteinon_lamprospilus
+Parnassius_phoebus
+Vanessa_indica
+Acraea_issoria
+Astictopterus_jama
+Euploea_tulliolus
+Papilio_bianor
+Gonepteryx_rhamni
+Papilio_xuthus
+Ussuriana_michaelis
+Current Pred: 1001/5056
+Aemona_amathusia
+Hestina_assimilis
+Pieris_napi
+Sericinus_montelus
+Apatura_iris
+Junonia_orithya
+Rapala_nissa
+Zizeeria_maha
+Notocrypta_curvifascia
+Doleschallia_bisaltide
+Parnassius_apollo
+Cyrestis_thyodamas
+Papilio_hoppo
+Atrophaneura_varuna
+Papilio_paris
+Ampittia_virgata
+Symbrenthia_lilaea
+Papilio_maackii
+SpinDasis_syama
+Graphium_agamemnon
+Papilio_polytes
+Gonepteryx_rhamni
+Amblopala_avidiena
+Sephisa_chandra
+Delias_pasithoe
+Catopsilia_pomona
+Tongeia_potanini
+Sericinus_montelus
+Colias_fieldii
+Parnassius_phoebus
+SpinDasis_syama
+Eurema_hecabe
+Junonia_almana
+Libythea_lepita
+Apatura_ilia
+Colias_erate
+Horaga_onyx
+Junonia_orithya
+Papilio_protenor
+Graphium_sarpedon
+Stichophthalma_howqua
+Acraea_issoria
+Miletus_chinensis
+Udaspes_folus
+Calinaga_buddha
+Clossiana_euphrosyne
+Tirumala_limniace
+Gonepteryx_amintha
+Pieris_napi
+Graphium_cloanthus
+Ypthima_praenubila
+Delias_pasithoe
+Badamia_exclamationis
+Polyura_athamas
+Neptis_hylas
+Troides_helena
+Graphium_sarpedon
+Gonepteryx_amintha
+Junonia_hierta
+Cethosia_biblis
+Papilio_hermosanus
+Polygonia_caureum
+Junonia_orithya
+Lethe_chandica
+Acraea_terpsicore
+Junonia_iphita
+Parnassius_apollo
+Hasora_badra
+Colias_palaeno
+Charaxes_bernardus
+Ideopsis_similis
+Mycalesis_intermedia
+Leptidea_morsei
+Luehdorfia_chinensis
+Troides_magellanus
+Clossiana_freija
+Hebomoia_glaucippe
+Pieris_rapae
+Athyma_perius
+Lethe_confusa
+Gonepteryx_rhamni
+Junonia_almana
+Catopsilia_pomona
+Penthema_formosanum
+Melanitis_leda
+Parantica_melaneus
+Idea_leuconoe
+Eurema_hecabe
+Tirumala_septentrionis
+Byasa_alcinous
+Athyma_perius
+Papilio_polytes
+Junonia_iphita
+Apatura_iris
+Atrophaneura_varuna
+Gonepteryx_amintha
+Stichophthalma_howqua
+Eurema_hecabe
+Athyma_ranga
+Apatura_ilia
+Vanessa_indica
+Neptis_hylas
+Junonia_almana
+Ypthima_praenubila
+Gonepteryx_rhamni
+Parantica_sita
+Colias_hyale
+Graphium_cloanthus
+Apatura_iris
+Mycalesis_intermedia
+Elymnias_hypermnestra
+Artipe_eryx
+Badamia_exclamationis
+Cyrestis_thyodamas
+Loxura_atymnus
+Badamia_exclamationis
+Parnara_guttata
+Dodona_eugenes
+Papilio_alcmenor
+Hestina_assimilis
+Papilio_alcmenor
+Pieris_rapae
+Junonia_iphita
+Kallima_inachus
+Gonepteryx_rhamni
+Catopsilia_pomona
+Ypthima_baldus
+Cethosia_biblis
+Teinopalpus_aureus
+Junonia_orithya
+Tagiades_menaka
+Neptis_hylas
+Luehdorfia_chinensis
+Hestina_assimilis
+Apatura_ilia
+Papilio_hoppo
+Ariadne_merione
+Parnassius_phoebus
+Atrophaneura_varuna
+Zemeros_flegyas
+Libythea_lepita
+Hypolimnas_bolina
+Arhopala_rama
+Apatura_ilia
+Pazala_eurous
+Gonepteryx_rhamni
+Kallima_inachus
+Daimio_tethys
+Pieris_canidia
+Danaus_genutia
+Parantica_aglea
+Gonepteryx_rhamni
+Cepora_nerissa
+Eurema_brigitta
+Gonepteryx_rhamni
+Sericinus_montelus
+Melanitis_leda
+Hebomoia_glaucippe
+Erionota_torus
+Ampittia_virgata
+Horaga_onyx
+Isoteinon_lamprospilus
+Iphiclides_podalirius
+Papilio_nephelus
+Gonepteryx_rhamni
+Acraea_terpsicore
+Vanessa_cardui
+Curetis_acuta
+Libythea_lepita
+Gonepteryx_amintha
+Eurema_hecabe
+SpinDasis_syama
+Euploea_core
+Parantica_sita
+Parnassius_apollo
+Pathysa_antiphates
+Junonia_iphita
+Pieris_canidia
+Abisara_echerius
+Limenitis_sulpitia
+Leptidea_morsei
+Ypthima_baldus
+Dodona_eugenes
+Papilio_dialis
+Ideopsis_similis
+Apatura_iris
+Eurema_hecabe
+Delias_pasithoe
+Tirumala_septentrionis
+Acraea_issoria
+Ideopsis_similis
+Badamia_exclamationis
+Rohana_parisatis
+Eurema_blanda
+Sasakia_charonda
+Lethe_syrcis
+Parnassius_phoebus
+Cyrestis_thyodamas
+Lethe_confusa
+Parantica_aglea
+Current Pred: 1201/5056
+Catopsilia_pomona
+Junonia_almana
+Cethosia_cyane
+Tirumala_limniace
+Parantica_melaneus
+Horaga_onyx
+Parantica_sita
+Eurema_blanda
+Junonia_iphita
+Danaus_genutia
+Colias_palaeno
+Vanessa_indica
+Zemeros_flegyas
+Papilio_polytes
+Zemeros_flegyas
+Zemeros_flegyas
+Danaus_plexippus
+Junonia_hierta
+Papilio_dialis
+Polyura_athamas
+Cyrestis_thyodamas
+Cethosia_biblis
+Pachliopta_aristolochiae
+Curetis_acuta
+Pieris_rapae
+Ancistroides_nigrita
+Colias_hyale
+Papilio_maackii
+Eurema_andersoni
+Tirumala_septentrionis
+Lamproptera_curius
+Lethe_chandica
+Apatura_iris
+Colias_palaeno
+Luehdorfia_chinensis
+Cethosia_biblis
+Erionota_torus
+Miletus_chinensis
+Apatura_ilia
+Danaus_chrysippus
+Byasa_dasarada
+Dodona_eugenes
+Parantica_sita
+Pazala_mullah
+Apatura_ilia
+Apatura_iris
+Zizeeria_maha
+Cethosia_biblis
+Hebomoia_glaucippe
+Troides_magellanus
+Papilio_maackii
+Horaga_onyx
+Vanessa_indica
+Melanitis_leda
+Pazala_mullah
+Libythea_lepita
+Abisara_echerius
+Acraea_issoria
+Athyma_ranga
+Ypthima_baldus
+Colias_palaeno
+Colias_fieldii
+Athyma_ranga
+Gonepteryx_rhamni
+Ideopsis_similis
+Gonepteryx_rhamni
+Junonia_orithya
+Neptis_miah
+Pathysa_antiphates
+Lethe_chandica
+Catopsilia_pomona
+Zemeros_flegyas
+Kallima_inachus
+Kallima_inachus
+Junonia_orithya
+Teinopalpus_aureus
+Delias_pasithoe
+Seseria_dohertyi
+Iraota_timoleon
+Junonia_atlites
+Acraea_terpsicore
+Gonepteryx_rhamni
+Junonia_almana
+Parnara_guttata
+Horaga_onyx
+Gonepteryx_rhamni
+Parantica_aglea
+Danaus_chrysippus
+Neptis_hylas
+Apatura_iris
+Apatura_ilia
+Ampittia_virgata
+Abisara_echerius
+Apatura_iris
+Troides_magellanus
+Faunis_eumeus
+Hebomoia_glaucippe
+Tagiades_menaka
+Cyrestis_thyodamas
+Gonepteryx_rhamni
+Tongeia_potanini
+Colias_erate
+Ampittia_virgata
+Loxura_atymnus
+Pazala_eurous
+Junonia_atlites
+Colias_fieldii
+Losaria_coon
+Acraea_terpsicore
+Danaus_plexippus
+Iambrix_salsala
+Tirumala_septentrionis
+Gonepteryx_rhamni
+Hestina_assimilis
+Papilio_prexaspes
+Papilio_maackii
+Parnassius_phoebus
+Issoria_lathonia
+Atrophaneura_horishanus
+Mycalesis_gotama
+Jamides_bochus
+Danaus_genutia
+Hebomoia_glaucippe
+Calinaga_buddha
+Junonia_hierta
+Junonia_iphita
+Pathysa_antiphates
+Hasora_anura
+Danaus_chrysippus
+Stichophthalma_howqua
+Papilio_hoppo
+Hebomoia_glaucippe
+Cepora_nerissa
+Polyura_narcaea
+Hasora_vitta
+Catopsilia_pomona
+Junonia_iphita
+Eurema_blanda
+Apatura_ilia
+Junonia_iphita
+Tirumala_limniace
+Symbrenthia_lilaea
+Papilio_polytes
+Parantica_aglea
+Idea_leuconoe
+Hestina_assimilis
+Parantica_melaneus
+Limenitis_sulpitia
+Mycalesis_gotama
+Leptidea_sinapis
+Polyura_athamas
+Tagiades_menaka
+Polyura_eudamippus
+Ariadne_ariadne
+Isoteinon_lamprospilus
+Udaspes_folus
+Stichophthalma_howqua
+Damora_sagana
+Hasora_badra
+Stibochiona_nicea
+Gonepteryx_rhamni
+Junonia_iphita
+Colias_fieldii
+Acraea_issoria
+Atrophaneura_varuna
+Troides_magellanus
+Clossiana_euphrosyne
+Pieris_rapae
+Melanitis_phedima
+Parnassius_phoebus
+Eurema_hecabe
+Catopsilia_pomona
+Stichophthalma_howqua
+Elymnias_hypermnestra
+Stichophthalma_howqua
+Junonia_iphita
+Acraea_issoria
+Hestina_assimilis
+Junonia_orithya
+Mycalesis_perseus
+Junonia_almana
+Rohana_parisatis
+Idea_leuconoe
+Miletus_chinensis
+Sephisa_chandra
+Dodona_eugenes
+Pachliopta_aristolochiae
+Junonia_iphita
+Hebomoia_glaucippe
+Cethosia_biblis
+Clossiana_euphrosyne
+Delias_descombesi
+Elymnias_hypermnestra
+Tirumala_septentrionis
+Rapala_nissa
+Danaus_chrysippus
+Delias_pasithoe
+Byasa_polyeuctes
+Polyura_athamas
+Euploea_core
+Current Pred: 1401/5056
+Abisara_echerius
+Clossiana_titania
+Colias_palaeno
+Isoteinon_lamprospilus
+Gonepteryx_amintha
+Mandarinia_regalis
+Mandarinia_regalis
+Jamides_bochus
+Apatura_ilia
+Elymnias_hypermnestra
+Odontoptilum_angulatum
+Lampides_boeticus
+Clossiana_dia
+Gonepteryx_rhamni
+Acraea_issoria
+Eurema_hecabe
+Pseudocoladenia_dan
+Parnassius_phoebus
+Cethosia_cyane
+Troides_aeacus
+Losaria_coon
+Vanessa_indica
+Euploea_tulliolus
+Cethosia_biblis
+Melanitis_phedima
+Junonia_almana
+Meandrusa_sciron
+Neptis_hylas
+Polyura_narcaea
+Papilio_maackii
+Parnassius_phoebus
+Junonia_orithya
+Acraea_terpsicore
+Pazala_eurous
+Colias_erate
+Catopsilia_pomona
+Junonia_atlites
+Papilio_memnon
+Neptis_miah
+Delias_belladonna
+Delias_pasithoe
+Athyma_perius
+Acraea_issoria
+Symbrenthia_lilaea
+Gandaca_harina
+Kallima_inachus
+Clossiana_titania
+Danaus_plexippus
+Clossiana_euphrosyne
+Elymnias_hypermnestra
+Papilio_prexaspes
+Pieris_rapae
+Parnara_guttata
+Apatura_iris
+Danaus_chrysippus
+Ancistroides_nigrita
+Junonia_orithya
+Parantica_aglea
+Isoteinon_lamprospilus
+Teinopalpus_aureus
+Papilio_arcturus
+Notocrypta_curvifascia
+Euploea_core
+Hebomoia_glaucippe
+Mycalesis_gotama
+Junonia_orithya
+Troides_helena
+Kallima_inachus
+Parnassius_apollo
+Pseudocoladenia_dan
+Gonepteryx_rhamni
+Acraea_terpsicore
+Apatura_ilia
+Gonepteryx_rhamni
+Acraea_terpsicore
+Issoria_lathonia
+Vanessa_cardui
+Polyura_athamas
+Cethosia_biblis
+Gonepteryx_rhamni
+Clossiana_titania
+Eurema_blanda
+Miletus_chinensis
+Delias_pasithoe
+Kaniska_canace
+Gonepteryx_rhamni
+Cyrestis_thyodamas
+Losaria_coon
+Badamia_exclamationis
+Pachliopta_aristolochiae
+Apatura_iris
+Eurema_blanda
+Daimio_tethys
+Cethosia_cyane
+Parnara_guttata
+Papilio_polytes
+Eurema_hecabe
+Acraea_terpsicore
+Gonepteryx_rhamni
+Danaus_genutia
+Apatura_iris
+Astictopterus_jama
+Eurema_hecabe
+Cepora_nerissa
+Eurema_hecabe
+Pseudocoladenia_dan
+Neptis_hylas
+Neptis_hylas
+Bhutanitis_lidderdalii
+Papilio_hermosanus
+Acraea_terpsicore
+Papilio_bianor
+Tagiades_menaka
+Penthema_formosanum
+Junonia_hierta
+Ariadne_ariadne
+Apatura_ilia
+Eurema_hecabe
+Colias_erate
+Neptis_hylas
+Colias_erate
+Hebomoia_glaucippe
+Hebomoia_glaucippe
+Catopsilia_pomona
+Atrophaneura_horishanus
+Sericinus_montelus
+Lethe_confusa
+Zemeros_flegyas
+Apatura_iris
+Artipe_eryx
+Odontoptilum_angulatum
+Abisara_echerius
+Udaspes_folus
+Danaus_chrysippus
+Athyma_perius
+Junonia_hierta
+Byasa_polyeuctes
+Leptidea_sinapis
+Junonia_iphita
+Zemeros_flegyas
+Delias_acalis
+Clossiana_euphrosyne
+Colias_hyale
+Loxura_atymnus
+Ypthima_baldus
+Issoria_lathonia
+Proclossiana_eunomia
+Losaria_coon
+Udaspes_folus
+Danaus_plexippus
+Acraea_terpsicore
+Papilio_maackii
+Melanitis_leda
+Udaspes_folus
+Clossiana_euphrosyne
+Vanessa_cardui
+Horaga_onyx
+Papilio_arcturus
+Hebomoia_glaucippe
+Acraea_terpsicore
+Iraota_timoleon
+Apatura_ilia
+Udaspes_folus
+Clossiana_freija
+Cethosia_cyane
+Pieris_canidia
+Sasakia_charonda
+Hasora_badra
+Papilio_paris
+Aemona_amathusia
+Junonia_iphita
+Colias_erate
+Horaga_onyx
+Proclossiana_eunomia
+Troides_helena
+Junonia_hierta
+Papilio_polytes
+Vanessa_cardui
+Cyrestis_thyodamas
+Neptis_hylas
+Faunis_eumeus
+Delias_belladonna
+Papilio_prexaspes
+Danaus_chrysippus
+Catopsilia_pomona
+Pieris_melete
+Pazala_eurous
+Loxura_atymnus
+Clossiana_freija
+Zizeeria_maha
+Junonia_hierta
+Troides_aeacus
+Junonia_hierta
+Parnara_guttata
+Troides_magellanus
+Abraximorpha_davidii
+Apatura_iris
+Stibochiona_nicea
+Apatura_iris
+Neptis_hylas
+Current Pred: 1601/5056
+Euploea_midamus
+Junonia_almana
+Hestina_assimilis
+Libythea_myrrha
+Colias_palaeno
+Neptis_hylas
+Apatura_ilia
+Papilio_nephelus
+Eurema_andersoni
+Leptidea_amurensis
+Udaspes_folus
+Artipe_eryx
+Parnara_guttata
+Hebomoia_glaucippe
+Lethe_chandica
+Papilio_maackii
+Cethosia_biblis
+Mycalesis_perseus
+Cethosia_biblis
+Colias_palaeno
+Eurema_hecabe
+Sericinus_montelus
+Troides_helena
+Catopsilia_pomona
+Ideopsis_vulgaris
+Clossiana_euphrosyne
+Papilio_polytes
+Pazala_eurous
+Graphium_sarpedon
+Parnassius_phoebus
+Colias_erate
+Vanessa_indica
+Ideopsis_vulgaris
+Hebomoia_glaucippe
+Notocrypta_curvifascia
+Iphiclides_podalirius
+Colias_erate
+Apatura_ilia
+Pieris_napi
+Eurema_blanda
+Dodona_eugenes
+Troides_magellanus
+Daimio_tethys
+Parnassius_apollo
+Delias_descombesi
+Astictopterus_jama
+Symbrenthia_lilaea
+Abisara_echerius
+Mandarinia_regalis
+Astictopterus_jama
+Kaniska_canace
+Pieris_canidia
+Luehdorfia_chinensis
+Clossiana_euphrosyne
+Byasa_alcinous
+Parnara_guttata
+Pieris_rapae
+Tagiades_menaka
+Apatura_ilia
+Catopsilia_scylla
+Iambrix_salsala
+Kallima_inachus
+Symbrenthia_lilaea
+Proclossiana_eunomia
+Eurema_hecabe
+Celaenorrhinus_maculosus
+Papilio_protenor
+Parnassius_phoebus
+Delias_pasithoe
+Ideopsis_vulgaris
+Proclossiana_eunomia
+Mahathala_ameria
+Symbrenthia_lilaea
+Curetis_acuta
+Pathysa_antiphates
+Luehdorfia_chinensis
+Clossiana_titania
+Pieris_rapae
+Astictopterus_jama
+Hebomoia_glaucippe
+Bhutanitis_lidderdalii
+Stichophthalma_howqua
+Papilio_arcturus
+Mycalesis_gotama
+Neptis_hylas
+Graphium_sarpedon
+Eurema_hecabe
+Delias_acalis
+Neptis_hylas
+Eurema_blanda
+Hypolimnas_bolina
+Papilio_memnon
+Gonepteryx_rhamni
+Eurema_brigitta
+Pachliopta_aristolochiae
+Leptidea_sinapis
+Iphiclides_podalirius
+Horaga_onyx
+Eurema_mandarina
+Apatura_ilia
+Teinopalpus_imperialis
+Leptidea_morsei
+Neptis_hylas
+Kallima_inachus
+Melanitis_phedima
+Lethe_chandica
+Parnassius_apollo
+Pieris_melete
+Parantica_sita
+Horaga_onyx
+Iambrix_salsala
+Pachliopta_aristolochiae
+Iphiclides_podalirius
+Colias_palaeno
+Byasa_alcinous
+Artipe_eryx
+Libythea_lepita
+Kaniska_canace
+Pazala_eurous
+Hasora_vitta
+Eurema_hecabe
+Junonia_atlites
+Rohana_parisatis
+Eurema_brigitta
+Junonia_hierta
+Cethosia_biblis
+Papilio_hermosanus
+Gonepteryx_rhamni
+Tirumala_septentrionis
+Vanessa_cardui
+Pieris_rapae
+Gonepteryx_amintha
+Parnassius_phoebus
+Junonia_almana
+Melanitis_leda
+Gonepteryx_rhamni
+Elymnias_hypermnestra
+Parantica_sita
+Papilio_protenor
+Mycalesis_perseus
+Sericinus_montelus
+Gonepteryx_amintha
+Doleschallia_bisaltide
+Junonia_orithya
+Vanessa_indica
+Parnassius_phoebus
+Artipe_eryx
+Hebomoia_glaucippe
+Apatura_ilia
+Colias_erate
+Faunis_eumeus
+Ariadne_ariadne
+Hebomoia_glaucippe
+Byasa_alcinous
+Papilio_hoppo
+Lamproptera_curius
+Papilio_polytes
+Junonia_atlites
+Curetis_acuta
+Parantica_sita
+Junonia_hierta
+Euploea_core
+Pathysa_antiphates
+Colias_hyale
+Acraea_issoria
+Melanitis_leda
+Papilio_alcmenor
+Danaus_plexippus
+Catopsilia_pomona
+Iphiclides_podalirius
+Gonepteryx_amintha
+Proclossiana_eunomia
+Kallima_inachus
+Parantica_sita
+Clossiana_euphrosyne
+Danaus_chrysippus
+Faunis_eumeus
+Zemeros_flegyas
+Junonia_orithya
+Apatura_ilia
+Clossiana_titania
+Junonia_orithya
+Stichophthalma_howqua
+Colias_erate
+Gonepteryx_rhamni
+Symbrenthia_lilaea
+Gonepteryx_rhamni
+Zizeeria_maha
+Penthema_darlisa
+Atrophaneura_varuna
+Pathysa_antiphates
+Apatura_ilia
+Parnara_guttata
+Curetis_acuta
+Limenitis_sulpitia
+Apatura_ilia
+Parnassius_nomion
+Loxura_atymnus
+Papilio_prexaspes
+Vanessa_indica
+Current Pred: 1801/5056
+Erionota_torus
+Catopsilia_pomona
+Catopsilia_pomona
+Clossiana_titania
+Vanessa_indica
+Junonia_iphita
+Idea_leuconoe
+Eurema_hecabe
+Rapala_nissa
+Troides_magellanus
+Papilio_Krishna
+Danaus_plexippus
+Lamproptera_meges
+Odontoptilum_angulatum
+Iphiclides_podalirius
+Lamproptera_curius
+Danaus_chrysippus
+Parnara_guttata
+Pathysa_antiphates
+Kaniska_canace
+Delias_pasithoe
+Dodona_eugenes
+Delias_pasithoe
+Seseria_dohertyi
+Eurema_hecabe
+Tirumala_septentrionis
+Gonepteryx_rhamni
+Junonia_almana
+Lethe_confusa
+Lampides_boeticus
+Hasora_anura
+Gonepteryx_rhamni
+Erionota_torus
+Apatura_ilia
+Gonepteryx_rhamni
+Apatura_iris
+Leptidea_sinapis
+Catopsilia_pomona
+Polygonia_caureum
+Parantica_sita
+Ariadne_ariadne
+Graphium_sarpedon
+Polyura_eudamippus
+Mycalesis_gotama
+Eurema_blanda
+Pachliopta_aristolochiae
+Loxura_atymnus
+Doleschallia_bisaltide
+Eurema_brigitta
+Issoria_lathonia
+Cethosia_biblis
+Mycalesis_gotama
+Junonia_orithya
+Eurema_hecabe
+Polyura_eudamippus
+Catopsilia_pomona
+Papilio_maackii
+Symbrenthia_lilaea
+Cethosia_biblis
+Pachliopta_aristolochiae
+Troides_helena
+SpinDasis_syama
+Junonia_hierta
+Athyma_perius
+Artipe_eryx
+Junonia_orithya
+Apatura_iris
+Pieris_canidia
+Iphiclides_podalirius
+Eurema_mandarina
+Neptis_hylas
+Troides_magellanus
+Melanitis_leda
+Ancistroides_nigrita
+Odontoptilum_angulatum
+Mycalesis_intermedia
+Acraea_terpsicore
+Parnassius_phoebus
+Acraea_terpsicore
+Amblopala_avidiena
+Danaus_plexippus
+Cethosia_cyane
+Cyrestis_thyodamas
+Euploea_midamus
+Catopsilia_pomona
+Tirumala_septentrionis
+Isoteinon_lamprospilus
+Hestina_assimilis
+Iambrix_salsala
+Iphiclides_podalirius
+Clossiana_euphrosyne
+Papilio_memnon
+Timelaea_albescens
+Pieris_napi
+Celaenorrhinus_maculosus
+Neptis_hylas
+Gonepteryx_rhamni
+Junonia_hierta
+Junonia_orithya
+Neptis_hylas
+Erionota_torus
+Hasora_badra
+Cepora_nerissa
+Apatura_iris
+Delias_pasithoe
+Pathysa_antiphates
+Erionota_torus
+Polyura_eudamippus
+Gonepteryx_rhamni
+Ideopsis_similis
+Zemeros_flegyas
+Papilio_bianor
+Daimio_tethys
+Parantica_melaneus
+Delias_pasithoe
+Apatura_ilia
+Atrophaneura_horishanus
+Colias_erate
+Lampides_boeticus
+Hebomoia_glaucippe
+Kallima_inachus
+Libythea_lepita
+Atrophaneura_varuna
+Hypolimnas_bolina
+Apatura_ilia
+Faunis_eumeus
+Byasa_polyeuctes
+Gonepteryx_amintha
+Danaus_chrysippus
+Sericinus_montelus
+Troides_magellanus
+Tirumala_limniace
+Papilio_maackii
+Eurema_laeta
+Clossiana_euphrosyne
+Apatura_ilia
+Astictopterus_jama
+Papilio_prexaspes
+Ypthima_baldus
+Zizeeria_maha
+Troides_magellanus
+Daimio_tethys
+Eurema_brigitta
+Stibochiona_nicea
+Udaspes_folus
+Junonia_hierta
+Jamides_bochus
+Colias_palaeno
+Idea_leuconoe
+Euploea_tulliolus
+Ancistroides_nigrita
+Eurema_blanda
+Danaus_plexippus
+Pathysa_antiphates
+Pazala_mullah
+Gonepteryx_rhamni
+Junonia_atlites
+Rohana_parisatis
+Meandrusa_sciron
+Libythea_lepita
+Cethosia_cyane
+Gonepteryx_rhamni
+Athyma_ranga
+Lampides_boeticus
+Neope_pulaha
+Colias_palaeno
+Parantica_aglea
+Papilio_memnon
+Artipe_eryx
+Ariadne_ariadne
+Tirumala_septentrionis
+Neope_pulaha
+Hasora_badra
+Ussuriana_michaelis
+Hebomoia_glaucippe
+Notocrypta_curvifascia
+Leptidea_sinapis
+Sericinus_montelus
+Iraota_timoleon
+Astictopterus_jama
+Dodona_eugenes
+Colias_erate
+Papilio_arcturus
+Lampides_boeticus
+Catopsilia_pomona
+Kallima_inachus
+Mandarinia_regalis
+Apatura_iris
+Chitoria_ulupi
+Neptis_hylas
+Melanitis_leda
+Elymnias_hypermnestra
+Parantica_aglea
+Papilio_prexaspes
+Symbrenthia_lilaea
+Parantica_aglea
+Iphiclides_podalirius
+Acraea_issoria
+Catopsilia_pomona
+Iraota_timoleon
+Current Pred: 2001/5056
+Udaspes_folus
+Mycalesis_gotama
+Sasakia_charonda
+Graphium_sarpedon
+Polyura_narcaea
+Timelaea_albescens
+Ypthima_praenubila
+Gonepteryx_rhamni
+Hebomoia_glaucippe
+Libythea_myrrha
+Junonia_atlites
+Gonepteryx_rhamni
+Papilio_xuthus
+Hebomoia_glaucippe
+Catopsilia_pomona
+Colias_palaeno
+Teinopalpus_aureus
+Junonia_almana
+Parantica_aglea
+Cethosia_biblis
+Luehdorfia_chinensis
+Cethosia_biblis
+Eurema_blanda
+Sasakia_charonda
+Eurema_andersoni
+Melanitis_phedima
+Graphium_agamemnon
+Chitoria_ulupi
+Ypthima_praenubila
+Polyura_eudamippus
+Hasora_vitta
+Neptis_hylas
+Colias_palaeno
+Lampides_boeticus
+Junonia_iphita
+Sericinus_montelus
+Polyura_eudamippus
+Junonia_atlites
+Eurema_hecabe
+Hestina_assimilis
+Tongeia_potanini
+Parnassius_nomion
+Gonepteryx_rhamni
+Hebomoia_glaucippe
+Mycalesis_gotama
+Parantica_sita
+Zizeeria_maha
+Pathysa_antiphates
+Papilio_bianor
+Ancistroides_nigrita
+Colias_palaeno
+Danaus_plexippus
+Sericinus_montelus
+Hestina_assimilis
+Apatura_iris
+Kallima_inachus
+Loxura_atymnus
+Kallima_inachus
+Arhopala_paramuta
+Papilio_bianor
+Catopsilia_scylla
+Erionota_torus
+Eurema_hecabe
+Zizeeria_maha
+Junonia_almana
+Papilio_bianor
+Apatura_iris
+Cethosia_biblis
+Hebomoia_glaucippe
+Polyura_athamas
+Luehdorfia_chinensis
+Eurema_hecabe
+Hypolimnas_bolina
+Neptis_hylas
+Neptis_hylas
+Libythea_myrrha
+Jamides_bochus
+Parantica_aglea
+Catopsilia_pomona
+Eurema_hecabe
+Junonia_hierta
+Acraea_issoria
+Pieris_napi
+Gonepteryx_rhamni
+Eurema_blanda
+Lethe_confusa
+Hypolimnas_bolina
+Leptidea_sinapis
+Kallima_inachus
+Papilio_prexaspes
+Abraximorpha_davidii
+Clossiana_euphrosyne
+Polygonia_caureum
+Atrophaneura_horishanus
+Mycalesis_gotama
+Euploea_core
+Colias_erate
+Parnassius_nomion
+Vanessa_indica
+Losaria_coon
+Notocrypta_curvifascia
+Ideopsis_similis
+Curetis_acuta
+Apatura_ilia
+Polyura_athamas
+Junonia_almana
+Danaus_genutia
+Charaxes_bernardus
+Melanitis_phedima
+Colias_erate
+Parantica_sita
+Cethosia_cyane
+Symbrenthia_lilaea
+Polygonia_caureum
+Papilio_memnon
+Astictopterus_jama
+Cepora_nerissa
+Leptidea_amurensis
+Pazala_eurous
+Eurema_hecabe
+Limenitis_sulpitia
+Parnassius_apollo
+Papilio_protenor
+Euploea_midamus
+Gonepteryx_amintha
+Parnassius_phoebus
+Hasora_badra
+Artipe_eryx
+Mycalesis_gotama
+Apatura_iris
+Penthema_formosanum
+Curetis_acuta
+Abisara_echerius
+Colias_palaeno
+Clossiana_euphrosyne
+Lampides_boeticus
+Eurema_mandarina
+Abisara_echerius
+Pathysa_antiphates
+Stichophthalma_howqua
+Libythea_myrrha
+Colias_hyale
+Troides_magellanus
+Pieris_melete
+Delias_pasithoe
+Vanessa_cardui
+Acraea_issoria
+Acraea_issoria
+Melanitis_leda
+Atrophaneura_horishanus
+Clossiana_euphrosyne
+Catopsilia_pomona
+Ideopsis_similis
+Horaga_onyx
+Graphium_agamemnon
+Gonepteryx_rhamni
+Rohana_parisatis
+Abraximorpha_davidii
+Neptis_hylas
+Colias_hyale
+Hebomoia_glaucippe
+Hebomoia_glaucippe
+Loxura_atymnus
+Loxura_atymnus
+Byasa_polyeuctes
+Apatura_ilia
+Libythea_lepita
+Hebomoia_glaucippe
+Papilio_hoppo
+Sephisa_chandra
+Mycalesis_gotama
+Cethosia_biblis
+Papilio_hoppo
+Loxura_atymnus
+Gonepteryx_rhamni
+Eurema_laeta
+Celaenorrhinus_maculosus
+Catopsilia_pomona
+Troides_aeacus
+Papilio_hoppo
+Apatura_iris
+Lethe_confusa
+Ideopsis_similis
+Abisara_echerius
+Damora_sagana
+Catopsilia_pomona
+Ariadne_merione
+Parantica_sita
+Eurema_blanda
+Neptis_hylas
+Melanitis_phedima
+Troides_magellanus
+Gonepteryx_rhamni
+Papilio_machaon
+Junonia_iphita
+Iphiclides_podalirius
+Mycalesis_perseus
+Cethosia_cyane
+Eurema_andersoni
+Danaus_genutia
+Current Pred: 2201/5056
+Polygonia_caureum
+Libythea_lepita
+Hypolimnas_bolina
+Catopsilia_pomona
+Daimio_tethys
+Ideopsis_vulgaris
+Pazala_eurous
+Cethosia_biblis
+Kallima_inachus
+Parnassius_phoebus
+Calinaga_buddha
+Junonia_orithya
+Curetis_acuta
+Sericinus_montelus
+Gonepteryx_rhamni
+Kallima_inachus
+Gonepteryx_rhamni
+Faunis_eumeus
+Artipe_eryx
+Ariadne_ariadne
+Lampides_boeticus
+Ideopsis_similis
+Neptis_hylas
+Graphium_sarpedon
+Colias_erate
+Cethosia_cyane
+Hebomoia_glaucippe
+Eurema_brigitta
+Aemona_amathusia
+Papilio_hoppo
+Odontoptilum_angulatum
+Parnassius_phoebus
+Meandrusa_payeni
+Colias_fieldii
+Pazala_eurous
+Pachliopta_aristolochiae
+Cyrestis_thyodamas
+Papilio_hoppo
+Cepora_nerissa
+Amblopala_avidiena
+Atrophaneura_varuna
+Teinopalpus_aureus
+Charaxes_bernardus
+Hebomoia_glaucippe
+Mycalesis_intermedia
+Atrophaneura_horishanus
+Elymnias_hypermnestra
+Eurema_hecabe
+Lethe_chandica
+Junonia_iphita
+Hasora_badra
+Catopsilia_pomona
+Colias_erate
+Polyura_athamas
+Gonepteryx_rhamni
+Cethosia_cyane
+Papilio_polytes
+Daimio_tethys
+Lamproptera_curius
+Iphiclides_podalirius
+Libythea_lepita
+Burara_gomata
+Kaniska_canace
+Junonia_orithya
+Apatura_ilia
+Parantica_aglea
+Isoteinon_lamprospilus
+Junonia_atlites
+Kaniska_canace
+Pseudocoladenia_dan
+Apatura_ilia
+Neptis_hylas
+Delias_pasithoe
+Gonepteryx_amintha
+Hestina_assimilis
+Troides_helena
+Junonia_orithya
+Lamproptera_meges
+Cepora_nerissa
+Leptidea_sinapis
+Tagiades_menaka
+Isoteinon_lamprospilus
+Polyura_narcaea
+Papilio_memnon
+Clossiana_freija
+Danaus_chrysippus
+Troides_helena
+Erionota_torus
+Mycalesis_gotama
+Hebomoia_glaucippe
+Mahathala_ameria
+Gonepteryx_rhamni
+Faunis_eumeus
+Papilio_hermosanus
+Ancistroides_nigrita
+Junonia_atlites
+Iambrix_salsala
+Iphiclides_podalirius
+Lethe_confusa
+Junonia_almana
+Ideopsis_similis
+Papilio_alcmenor
+Colias_fieldii
+Colias_fieldii
+Kaniska_canace
+Damora_sagana
+Limenitis_sulpitia
+Hypolimnas_bolina
+Junonia_atlites
+Eurema_blanda
+Junonia_orithya
+Neptis_hylas
+Symbrenthia_lilaea
+Colias_erate
+Gonepteryx_rhamni
+Eurema_laeta
+Erionota_torus
+Libythea_lepita
+Teinopalpus_imperialis
+Neptis_hylas
+Gonepteryx_rhamni
+Euploea_tulliolus
+Teinopalpus_aureus
+Stibochiona_nicea
+Polygonia_caureum
+Neptis_miah
+Eurema_hecabe
+Vanessa_cardui
+Parantica_sita
+Gonepteryx_rhamni
+Pachliopta_aristolochiae
+Gonepteryx_rhamni
+Pieris_napi
+Aemona_amathusia
+Junonia_atlites
+Papilio_machaon
+Pieris_napi
+Iphiclides_podalirius
+Neptis_hylas
+Pieris_napi
+Athyma_ranga
+Colias_hyale
+Tirumala_septentrionis
+Eurema_blanda
+Papilio_prexaspes
+Melanitis_leda
+Gonepteryx_amintha
+Libythea_lepita
+Apatura_iris
+Junonia_orithya
+Cyrestis_thyodamas
+Junonia_iphita
+Burara_gomata
+Allotinus_drumila
+Sasakia_charonda
+Zizeeria_maha
+Colias_palaeno
+Lethe_chandica
+Junonia_hierta
+Catopsilia_pomona
+Amblopala_avidiena
+Vanessa_cardui
+Euploea_tulliolus
+Faunis_eumeus
+Pieris_rapae
+Dodona_eugenes
+Junonia_almana
+Apatura_ilia
+Delias_acalis
+Vanessa_cardui
+Polygonia_caureum
+Elymnias_hypermnestra
+Apatura_ilia
+Kaniska_canace
+Catopsilia_pomona
+Iambrix_salsala
+Athyma_perius
+Eurema_hecabe
+Symbrenthia_lilaea
+Cethosia_cyane
+Sericinus_montelus
+Junonia_orithya
+Curetis_acuta
+Pieris_napi
+Gonepteryx_rhamni
+Notocrypta_curvifascia
+Cepora_nerissa
+Ideopsis_similis
+Curetis_acuta
+Papilio_hoppo
+Pieris_napi
+Delias_pasithoe
+Hebomoia_glaucippe
+Ampittia_virgata
+Clossiana_freija
+Libythea_myrrha
+Lethe_chandica
+Lamproptera_curius
+Eurema_hecabe
+Elymnias_hypermnestra
+Current Pred: 2401/5056
+Apatura_iris
+Delias_pasithoe
+Euploea_sylvester
+Iraota_timoleon
+Gandaca_harina
+Ypthima_praenubila
+Lamproptera_meges
+Mycalesis_perseus
+Parnassius_phoebus
+Parnassius_phoebus
+Byasa_polyeuctes
+Faunis_eumeus
+Faunis_eumeus
+Junonia_hierta
+Hebomoia_glaucippe
+Ariadne_merione
+Iphiclides_podalirius
+Papilio_paris
+Parantica_aglea
+Pieris_canidia
+Papilio_Krishna
+Melanitis_phedima
+Parnara_guttata
+Abisara_echerius
+Kaniska_canace
+Atrophaneura_varuna
+Tirumala_septentrionis
+Papilio_paris
+Papilio_arcturus
+Junonia_atlites
+Notocrypta_curvifascia
+Melanitis_leda
+Euploea_tulliolus
+Acraea_terpsicore
+Junonia_atlites
+Ypthima_baldus
+Parnassius_phoebus
+Delias_pasithoe
+Euploea_sylvester
+Graphium_cloanthus
+Catopsilia_pomona
+Mandarinia_regalis
+Catopsilia_pomona
+Graphium_sarpedon
+Junonia_almana
+Neptis_hylas
+Papilio_prexaspes
+Delias_pasithoe
+Aemona_amathusia
+Colias_palaeno
+Pieris_rapae
+Neope_pulaha
+Timelaea_albescens
+Clossiana_dia
+Danaus_plexippus
+Hestina_assimilis
+Parnara_guttata
+Catopsilia_pomona
+Gonepteryx_rhamni
+Graphium_cloanthus
+Notocrypta_curvifascia
+Zemeros_flegyas
+Junonia_orithya
+Astictopterus_jama
+Horaga_onyx
+Delias_acalis
+Danaus_chrysippus
+Papilio_hoppo
+Libythea_myrrha
+Horaga_onyx
+Junonia_orithya
+Aemona_amathusia
+Cepora_nerissa
+Jamides_bochus
+Teinopalpus_imperialis
+Polyura_eudamippus
+Timelaea_albescens
+Isoteinon_lamprospilus
+Apatura_iris
+Colias_hyale
+Polyura_athamas
+Cyrestis_thyodamas
+Junonia_orithya
+Apatura_ilia
+Danaus_chrysippus
+Ariadne_ariadne
+Pazala_eurous
+Zemeros_flegyas
+Troides_magellanus
+Damora_sagana
+Junonia_orithya
+Symbrenthia_lilaea
+Rohana_parisatis
+Charaxes_bernardus
+Troides_magellanus
+Junonia_hierta
+Kaniska_canace
+Lethe_confusa
+Gonepteryx_rhamni
+Hebomoia_glaucippe
+Graphium_cloanthus
+Vanessa_cardui
+Stichophthalma_howqua
+Tirumala_septentrionis
+Acraea_issoria
+Taraka_hamada
+Acraea_issoria
+Acraea_issoria
+Faunis_eumeus
+Papilio_hoppo
+Athyma_perius
+Graphium_sarpedon
+Arhopala_paramuta
+Pieris_canidia
+Ampittia_virgata
+Lampides_boeticus
+Troides_helena
+Ariadne_ariadne
+Mycalesis_gotama
+Hypolimnas_bolina
+Ideopsis_similis
+Graphium_agamemnon
+Lamproptera_curius
+Apatura_iris
+Pachliopta_aristolochiae
+Gonepteryx_rhamni
+Acraea_issoria
+Curetis_acuta
+Ariadne_ariadne
+Issoria_lathonia
+Graphium_agamemnon
+Parnara_guttata
+Tirumala_septentrionis
+Byasa_alcinous
+Eurema_mandarina
+Hasora_badra
+Ideopsis_similis
+Cethosia_biblis
+Delias_pasithoe
+Athyma_ranga
+Zizeeria_maha
+Luehdorfia_chinensis
+Catopsilia_scylla
+Curetis_acuta
+Junonia_iphita
+Cyrestis_thyodamas
+Vanessa_cardui
+Hypolimnas_bolina
+Vanessa_cardui
+Apatura_ilia
+Tagiades_menaka
+Ampittia_virgata
+Eurema_mandarina
+Pieris_canidia
+Gonepteryx_rhamni
+Zizeeria_maha
+Pathysa_antiphates
+Seseria_dohertyi
+Junonia_hierta
+Mandarinia_regalis
+Gonepteryx_amintha
+Iphiclides_podalirius
+Papilio_alcmenor
+Amblopala_avidiena
+Pieris_rapae
+Stichophthalma_howqua
+Papilio_arcturus
+Gonepteryx_rhamni
+Troides_helena
+Teinopalpus_aureus
+Junonia_atlites
+Vanessa_indica
+Clossiana_titania
+Delias_belladonna
+Zemeros_flegyas
+Meandrusa_sciron
+Papilio_memnon
+Hasora_badra
+Rohana_parisatis
+Eurema_andersoni
+Melanitis_leda
+Celaenorrhinus_maculosus
+Sephisa_chandra
+Parnassius_apollo
+Eurema_hecabe
+Allotinus_drumila
+Libythea_myrrha
+Papilio_alcmenor
+Delias_descombesi
+Eurema_blanda
+Eurema_hecabe
+Gonepteryx_rhamni
+Troides_helena
+Papilio_xuthus
+Lethe_chandica
+Pachliopta_aristolochiae
+Parnassius_phoebus
+Arhopala_rama
+Apatura_ilia
+Neptis_miah
+Current Pred: 2601/5056
+Gandaca_harina
+Ypthima_baldus
+Leptidea_sinapis
+Polyura_athamas
+Melanitis_leda
+Pazala_eurous
+Acraea_terpsicore
+Gandaca_harina
+Papilio_maackii
+Junonia_almana
+Apatura_iris
+Colias_hyale
+Erionota_torus
+Symbrenthia_lilaea
+Taraka_hamada
+Papilio_maackii
+Parnara_guttata
+Junonia_hierta
+Libythea_myrrha
+Hebomoia_glaucippe
+Cethosia_cyane
+Clossiana_euphrosyne
+Ariadne_ariadne
+Elymnias_hypermnestra
+Libythea_lepita
+Pazala_eurous
+Apatura_iris
+Gonepteryx_rhamni
+Tagiades_menaka
+Pieris_rapae
+Junonia_hierta
+Neope_pulaha
+Damora_sagana
+Hasora_badra
+Mycalesis_gotama
+Neptis_hylas
+Apatura_iris
+Loxura_atymnus
+Eurema_hecabe
+Tirumala_septentrionis
+Miletus_chinensis
+Neope_pulaha
+Euploea_core
+Kaniska_canace
+Hestina_assimilis
+Ideopsis_similis
+Pieris_melete
+Gonepteryx_rhamni
+Miletus_chinensis
+Hasora_vitta
+Kaniska_canace
+Teinopalpus_aureus
+Cethosia_biblis
+Junonia_orithya
+SpinDasis_syama
+Lamproptera_meges
+Acraea_terpsicore
+Pieris_napi
+Catopsilia_pomona
+Troides_magellanus
+Gonepteryx_amintha
+Delias_descombesi
+Hebomoia_glaucippe
+Eurema_blanda
+Colias_hyale
+Curetis_acuta
+Troides_magellanus
+Byasa_dasarada
+Gonepteryx_rhamni
+Polygonia_caureum
+Udaspes_folus
+Ypthima_baldus
+Athyma_perius
+Junonia_orithya
+Apatura_iris
+Delias_belladonna
+Pieris_melete
+Parnassius_phoebus
+Gonepteryx_rhamni
+Byasa_polyeuctes
+Parnassius_phoebus
+Iambrix_salsala
+Rapala_nissa
+Ideopsis_similis
+Cethosia_biblis
+Papilio_dialis
+Pieris_rapae
+Colias_palaeno
+Odontoptilum_angulatum
+Pieris_melete
+Catopsilia_pomona
+Cyrestis_thyodamas
+Jamides_bochus
+Junonia_iphita
+Faunis_eumeus
+Troides_magellanus
+Euploea_sylvester
+Apatura_ilia
+Neptis_hylas
+Loxura_atymnus
+Hypolimnas_bolina
+Zemeros_flegyas
+Delias_pasithoe
+Clossiana_euphrosyne
+Kaniska_canace
+Danaus_chrysippus
+Udaspes_folus
+Sasakia_charonda
+Euploea_tulliolus
+Timelaea_albescens
+Parantica_aglea
+Notocrypta_curvifascia
+Graphium_sarpedon
+Burara_gomata
+Papilio_maackii
+Eurema_hecabe
+Hasora_badra
+Gonepteryx_rhamni
+Vanessa_cardui
+Delias_pasithoe
+Iraota_timoleon
+Daimio_tethys
+Cethosia_biblis
+Apatura_iris
+Iraota_timoleon
+Libythea_lepita
+Gonepteryx_rhamni
+Allotinus_drumila
+Gonepteryx_rhamni
+Papilio_machaon
+Junonia_orithya
+Allotinus_drumila
+Delias_descombesi
+Colias_palaeno
+Junonia_almana
+Hebomoia_glaucippe
+Papilio_machaon
+Troides_magellanus
+Horaga_onyx
+Graphium_sarpedon
+Apatura_ilia
+Pieris_rapae
+Parnassius_apollo
+Apatura_iris
+Gonepteryx_rhamni
+Lethe_chandica
+Faunis_eumeus
+Mycalesis_gotama
+Danaus_chrysippus
+Luehdorfia_chinensis
+Colias_erate
+Elymnias_hypermnestra
+Gonepteryx_rhamni
+Vanessa_cardui
+Mandarinia_regalis
+Neptis_hylas
+Colias_erate
+Eurema_hecabe
+Papilio_polytes
+Atrophaneura_varuna
+Danaus_chrysippus
+Melanitis_leda
+Artipe_eryx
+Arhopala_rama
+Mycalesis_gotama
+Eurema_laeta
+Papilio_maackii
+Troides_aeacus
+Hebomoia_glaucippe
+Junonia_almana
+Gonepteryx_rhamni
+Atrophaneura_horishanus
+Parnassius_phoebus
+Gonepteryx_rhamni
+Atrophaneura_horishanus
+Gonepteryx_rhamni
+Curetis_acuta
+Pathysa_antiphates
+Catopsilia_pomona
+Byasa_dasarada
+Parnassius_phoebus
+Pachliopta_aristolochiae
+Neptis_miah
+Eurema_blanda
+Junonia_almana
+Pathysa_antiphates
+Charaxes_bernardus
+Symbrenthia_lilaea
+Papilio_polytes
+Gonepteryx_rhamni
+Cethosia_cyane
+Parnassius_phoebus
+Eurema_hecabe
+Parnassius_phoebus
+Hasora_badra
+Lethe_confusa
+Tirumala_septentrionis
+Abisara_echerius
+Graphium_sarpedon
+Iphiclides_podalirius
+Current Pred: 2801/5056
+Acraea_issoria
+Parnara_guttata
+Junonia_iphita
+Hebomoia_glaucippe
+Papilio_prexaspes
+Melanitis_phedima
+Junonia_atlites
+Pieris_napi
+Teinopalpus_imperialis
+Danaus_chrysippus
+Elymnias_hypermnestra
+Symbrenthia_lilaea
+Euploea_midamus
+Papilio_hermosanus
+Pieris_rapae
+Tagiades_menaka
+Erionota_torus
+Gonepteryx_rhamni
+Loxura_atymnus
+Libythea_lepita
+Papilio_hoppo
+Junonia_atlites
+Lethe_chandica
+Junonia_hierta
+Leptidea_morsei
+Kaniska_canace
+Melanitis_leda
+Ypthima_baldus
+Colias_erate
+Colias_fieldii
+Lamproptera_curius
+Leptidea_sinapis
+Danaus_chrysippus
+Taraka_hamada
+Apatura_ilia
+Limenitis_sulpitia
+Badamia_exclamationis
+Byasa_alcinous
+Danaus_plexippus
+Pieris_rapae
+Athyma_perius
+Lethe_syrcis
+Junonia_atlites
+Notocrypta_curvifascia
+Pachliopta_aristolochiae
+Cyrestis_thyodamas
+Pieris_canidia
+Papilio_maackii
+Parnara_guttata
+Junonia_iphita
+Apatura_ilia
+Hebomoia_glaucippe
+Apatura_iris
+Symbrenthia_lilaea
+Taraka_hamada
+Ariadne_ariadne
+Parnassius_phoebus
+Atrophaneura_varuna
+Junonia_hierta
+Clossiana_euphrosyne
+Hebomoia_glaucippe
+Junonia_almana
+Charaxes_bernardus
+Apatura_ilia
+Cethosia_cyane
+Colias_erate
+Ideopsis_similis
+Teinopalpus_aureus
+Eurema_brigitta
+Amblopala_avidiena
+Hebomoia_glaucippe
+Hypolimnas_bolina
+Catopsilia_pyranthe
+Chitoria_ulupi
+Pazala_eurous
+Udaspes_folus
+Iraota_timoleon
+Burara_gomata
+Junonia_almana
+Cethosia_cyane
+Apatura_ilia
+Kallima_inachus
+Junonia_hierta
+Atrophaneura_horishanus
+Catopsilia_pomona
+Junonia_hierta
+Junonia_atlites
+Cepora_nerissa
+Gonepteryx_rhamni
+Ideopsis_vulgaris
+Ideopsis_similis
+Gonepteryx_rhamni
+Neope_pulaha
+Catopsilia_pomona
+Mycalesis_gotama
+Junonia_atlites
+Elymnias_hypermnestra
+Athyma_perius
+Hebomoia_glaucippe
+Polyura_athamas
+Clossiana_euphrosyne
+Rapala_nissa
+Meandrusa_payeni
+Leptidea_amurensis
+Odontoptilum_angulatum
+Troides_magellanus
+Cethosia_biblis
+Symbrenthia_lilaea
+Cepora_nerissa
+Luehdorfia_chinensis
+Lampides_boeticus
+Byasa_dasarada
+Curetis_acuta
+Libythea_lepita
+Troides_aeacus
+Limenitis_sulpitia
+Eurema_laeta
+Gonepteryx_amintha
+Papilio_machaon
+Astictopterus_jama
+Papilio_maackii
+Euploea_midamus
+Byasa_dasarada
+Chitoria_ulupi
+Gonepteryx_rhamni
+Curetis_acuta
+Elymnias_hypermnestra
+Tirumala_limniace
+Lethe_chandica
+Apatura_iris
+Lethe_confusa
+Hasora_badra
+Mycalesis_gotama
+Parantica_aglea
+Delias_pasithoe
+Clossiana_euphrosyne
+Pieris_rapae
+Burara_gomata
+Eurema_hecabe
+Zizeeria_maha
+Eurema_hecabe
+Junonia_iphita
+Clossiana_titania
+Clossiana_titania
+Catopsilia_pomona
+Artipe_eryx
+Euploea_midamus
+Pseudocoladenia_dan
+Iphiclides_podalirius
+Pachliopta_aristolochiae
+Papilio_bianor
+Curetis_acuta
+Abraximorpha_davidii
+Junonia_almana
+Gonepteryx_rhamni
+Apatura_iris
+Gonepteryx_rhamni
+Apatura_iris
+Loxura_atymnus
+Tirumala_limniace
+Junonia_iphita
+Hasora_badra
+Cethosia_biblis
+Faunis_eumeus
+Melanitis_phedima
+Danaus_plexippus
+Gonepteryx_rhamni
+Polyura_eudamippus
+Melanitis_phedima
+Gonepteryx_amintha
+Apatura_iris
+Ideopsis_vulgaris
+Papilio_hermosanus
+Clossiana_euphrosyne
+Ypthima_praenubila
+Leptidea_morsei
+Miletus_chinensis
+Eurema_laeta
+Miletus_chinensis
+Eurema_brigitta
+Symbrenthia_lilaea
+Hypolimnas_bolina
+Lethe_chandica
+Delias_belladonna
+Gonepteryx_rhamni
+Vanessa_cardui
+Junonia_iphita
+Danaus_genutia
+Erionota_torus
+Clossiana_euphrosyne
+Ariadne_ariadne
+Eurema_blanda
+Tirumala_septentrionis
+Catopsilia_pomona
+Gonepteryx_rhamni
+Clossiana_freija
+Apatura_iris
+Cethosia_biblis
+Gonepteryx_rhamni
+Tongeia_potanini
+Current Pred: 3001/5056
+Polyura_athamas
+Papilio_xuthus
+Symbrenthia_lilaea
+Polygonia_caureum
+Gonepteryx_rhamni
+Delias_acalis
+Teinopalpus_aureus
+Ariadne_merione
+Papilio_alcmenor
+Apatura_iris
+Junonia_iphita
+Graphium_agamemnon
+Cethosia_cyane
+Colias_palaeno
+Sephisa_chandra
+Hebomoia_glaucippe
+Colias_erate
+Papilio_memnon
+Cethosia_biblis
+Gonepteryx_rhamni
+Lethe_confusa
+Damora_sagana
+Melanitis_leda
+Damora_sagana
+Junonia_hierta
+Hebomoia_glaucippe
+Zemeros_flegyas
+Parnara_guttata
+Byasa_polyeuctes
+Loxura_atymnus
+Papilio_machaon
+Acraea_terpsicore
+Troides_helena
+Teinopalpus_aureus
+Papilio_maackii
+Kaniska_canace
+Luehdorfia_chinensis
+Neptis_hylas
+Sericinus_montelus
+Pachliopta_aristolochiae
+Libythea_myrrha
+Luehdorfia_chinensis
+Tirumala_septentrionis
+Astictopterus_jama
+Tirumala_septentrionis
+Symbrenthia_lilaea
+Gonepteryx_rhamni
+Gonepteryx_rhamni
+Hasora_badra
+Junonia_almana
+Papilio_dialis
+Mycalesis_intermedia
+Celaenorrhinus_maculosus
+Neptis_hylas
+Abisara_echerius
+Faunis_eumeus
+Lethe_chandica
+Leptidea_sinapis
+Delias_belladonna
+Papilio_arcturus
+Catopsilia_pomona
+Faunis_eumeus
+Bhutanitis_lidderdalii
+Iphiclides_podalirius
+Zizeeria_maha
+Papilio_arcturus
+Byasa_alcinous
+Troides_aeacus
+Pazala_eurous
+Parnara_guttata
+Zemeros_flegyas
+Byasa_dasarada
+Junonia_orithya
+Pathysa_antiphates
+Artipe_eryx
+Neptis_miah
+Daimio_tethys
+Troides_magellanus
+Junonia_atlites
+Stibochiona_nicea
+Kallima_inachus
+Eurema_hecabe
+Parnara_guttata
+Arhopala_paramuta
+Euploea_midamus
+Delias_descombesi
+Byasa_polyeuctes
+Pachliopta_aristolochiae
+Euploea_core
+Cethosia_biblis
+Pieris_canidia
+Odontoptilum_angulatum
+Euploea_midamus
+Byasa_polyeuctes
+Apatura_iris
+Pazala_mullah
+Apatura_ilia
+Gonepteryx_rhamni
+Eurema_blanda
+Junonia_orithya
+Cyrestis_thyodamas
+Faunis_eumeus
+Neptis_hylas
+Lampides_boeticus
+Vanessa_cardui
+Aemona_amathusia
+Graphium_sarpedon
+Parnassius_nomion
+Athyma_perius
+Lampides_boeticus
+Udaspes_folus
+Clossiana_dia
+Delias_pasithoe
+Clossiana_euphrosyne
+Pathysa_antiphates
+Melanitis_phedima
+Calinaga_buddha
+Catopsilia_pomona
+Neptis_hylas
+Taraka_hamada
+Eurema_hecabe
+Ideopsis_similis
+Elymnias_hypermnestra
+Astictopterus_jama
+Neptis_hylas
+Hasora_badra
+Junonia_atlites
+Eurema_blanda
+Danaus_plexippus
+Doleschallia_bisaltide
+Gonepteryx_rhamni
+Stichophthalma_howqua
+Hasora_vitta
+Catopsilia_pomona
+Losaria_coon
+Eurema_laeta
+Catopsilia_pomona
+Papilio_hoppo
+Melanitis_leda
+Eurema_blanda
+Libythea_myrrha
+Cepora_nerissa
+Junonia_orithya
+Seseria_dohertyi
+Iphiclides_podalirius
+Ideopsis_similis
+Hestina_assimilis
+Mycalesis_perseus
+Zemeros_flegyas
+Burara_gomata
+Sericinus_montelus
+Danaus_genutia
+Acraea_terpsicore
+Papilio_alcmenor
+Eurema_hecabe
+Lamproptera_meges
+Artipe_eryx
+Leptidea_morsei
+Hypolimnas_bolina
+Abraximorpha_davidii
+Apatura_ilia
+Parnassius_phoebus
+Byasa_polyeuctes
+Eurema_mandarina
+Miletus_chinensis
+Gonepteryx_rhamni
+Lethe_confusa
+Papilio_hoppo
+Junonia_atlites
+Junonia_orithya
+Eurema_brigitta
+Parantica_aglea
+Ideopsis_similis
+Papilio_maackii
+Colias_erate
+Ariadne_ariadne
+Libythea_myrrha
+Zemeros_flegyas
+Parnassius_apollo
+Tirumala_limniace
+Curetis_acuta
+Isoteinon_lamprospilus
+Symbrenthia_lilaea
+Gonepteryx_rhamni
+Polygonia_caureum
+Lethe_chandica
+Pachliopta_aristolochiae
+Sericinus_montelus
+Apatura_iris
+Atrophaneura_horishanus
+Acraea_issoria
+Ampittia_virgata
+Vanessa_cardui
+Colias_erate
+Gonepteryx_rhamni
+Artipe_eryx
+Junonia_orithya
+Acraea_issoria
+Faunis_eumeus
+Apatura_ilia
+Current Pred: 3201/5056
+SpinDasis_syama
+Catopsilia_pomona
+Mycalesis_gotama
+Gonepteryx_rhamni
+Zizeeria_maha
+Danaus_genutia
+Gonepteryx_rhamni
+Catopsilia_pomona
+Catopsilia_pomona
+Leptidea_sinapis
+Apatura_iris
+Polygonia_caureum
+Astictopterus_jama
+Danaus_genutia
+Colias_erate
+Colias_palaeno
+Eurema_hecabe
+Dodona_eugenes
+Damora_sagana
+Colias_fieldii
+Junonia_almana
+Charaxes_bernardus
+Papilio_machaon
+Papilio_bianor
+Catopsilia_scylla
+Badamia_exclamationis
+Ideopsis_similis
+Leptidea_sinapis
+Kaniska_canace
+Papilio_xuthus
+Curetis_acuta
+Lethe_confusa
+Junonia_orithya
+Lamproptera_curius
+Colias_fieldii
+Kallima_inachus
+Damora_sagana
+Eurema_hecabe
+Calinaga_buddha
+Cethosia_biblis
+Euploea_core
+Hasora_badra
+Vanessa_indica
+Libythea_myrrha
+Parnara_guttata
+Papilio_hoppo
+Eurema_laeta
+Byasa_dasarada
+Tagiades_menaka
+Junonia_atlites
+Gonepteryx_rhamni
+Colias_erate
+Colias_erate
+Kallima_inachus
+Isoteinon_lamprospilus
+Apatura_ilia
+Horaga_onyx
+Junonia_almana
+Eurema_brigitta
+Delias_pasithoe
+Parnassius_phoebus
+Iambrix_salsala
+Clossiana_euphrosyne
+Pieris_melete
+Vanessa_indica
+Mycalesis_intermedia
+Parantica_aglea
+Atrophaneura_horishanus
+Parnassius_phoebus
+Astictopterus_jama
+Lampides_boeticus
+Cethosia_biblis
+Eurema_hecabe
+Delias_pasithoe
+Hebomoia_glaucippe
+Tirumala_limniace
+Sericinus_montelus
+Lamproptera_meges
+Iambrix_salsala
+Mahathala_ameria
+Udaspes_folus
+Amblopala_avidiena
+Horaga_onyx
+Junonia_orithya
+Idea_leuconoe
+Symbrenthia_lilaea
+Delias_belladonna
+Mandarinia_regalis
+Pachliopta_aristolochiae
+Colias_erate
+Tirumala_septentrionis
+Mycalesis_intermedia
+Stibochiona_nicea
+Eurema_blanda
+Mahathala_ameria
+Odontoptilum_angulatum
+Atrophaneura_horishanus
+Notocrypta_curvifascia
+Hasora_badra
+Penthema_darlisa
+Neptis_hylas
+Doleschallia_bisaltide
+Melanitis_leda
+Charaxes_bernardus
+Elymnias_hypermnestra
+Graphium_agamemnon
+Cethosia_biblis
+Hebomoia_glaucippe
+Acraea_issoria
+Isoteinon_lamprospilus
+Badamia_exclamationis
+Symbrenthia_lilaea
+Pachliopta_aristolochiae
+Mycalesis_perseus
+Tagiades_menaka
+Eurema_hecabe
+Junonia_iphita
+Junonia_iphita
+Junonia_atlites
+Byasa_alcinous
+Sericinus_montelus
+Junonia_orithya
+Troides_magellanus
+Cyrestis_thyodamas
+Papilio_bianor
+Papilio_dialis
+Odontoptilum_angulatum
+Polygonia_caureum
+Eurema_hecabe
+Zizeeria_maha
+Polyura_athamas
+Sericinus_montelus
+Athyma_ranga
+Isoteinon_lamprospilus
+Erionota_torus
+Symbrenthia_lilaea
+Pazala_eurous
+Colias_palaeno
+Colias_erate
+Odontoptilum_angulatum
+Neptis_hylas
+Hasora_badra
+Ypthima_baldus
+Apatura_ilia
+Parnassius_apollo
+Delias_pasithoe
+Isoteinon_lamprospilus
+Eurema_brigitta
+Cethosia_cyane
+Tirumala_limniace
+Aemona_amathusia
+Eurema_hecabe
+Junonia_almana
+Lampides_boeticus
+Artipe_eryx
+Issoria_lathonia
+Junonia_hierta
+Apatura_ilia
+Eurema_hecabe
+Gandaca_harina
+Burara_gomata
+Udaspes_folus
+Eurema_hecabe
+Kallima_inachus
+Pathysa_antiphates
+Ypthima_baldus
+Ideopsis_similis
+Junonia_iphita
+Zemeros_flegyas
+Tirumala_limniace
+Hypolimnas_bolina
+Troides_magellanus
+Parnassius_phoebus
+Lethe_confusa
+Papilio_nephelus
+Apatura_iris
+Gonepteryx_rhamni
+Junonia_almana
+Gonepteryx_rhamni
+Loxura_atymnus
+Cethosia_cyane
+Hypolimnas_bolina
+Junonia_atlites
+Colias_hyale
+Papilio_prexaspes
+Tirumala_septentrionis
+Eurema_blanda
+Zemeros_flegyas
+Euploea_sylvester
+Junonia_orithya
+Neptis_hylas
+Badamia_exclamationis
+Euploea_midamus
+Clossiana_titania
+Pazala_mullah
+Junonia_orithya
+Junonia_almana
+Sericinus_montelus
+Zemeros_flegyas
+Mahathala_ameria
+Current Pred: 3401/5056
+Gandaca_harina
+Eurema_blanda
+Catopsilia_pomona
+Clossiana_euphrosyne
+Mycalesis_perseus
+Iphiclides_podalirius
+Libythea_lepita
+Colias_erate
+Chitoria_ulupi
+Junonia_almana
+Papilio_hermosanus
+Junonia_atlites
+Cepora_nerissa
+Neptis_hylas
+Polyura_eudamippus
+Abraximorpha_davidii
+Miletus_chinensis
+Apatura_iris
+Parantica_sita
+Stichophthalma_howqua
+Iphiclides_podalirius
+Isoteinon_lamprospilus
+Rohana_parisatis
+Papilio_dialis
+Rohana_parisatis
+Zemeros_flegyas
+Papilio_alcmenor
+Eurema_blanda
+Hebomoia_glaucippe
+Euthalia_niepelti
+Papilio_maackii
+Pieris_canidia
+Abraximorpha_davidii
+Notocrypta_curvifascia
+Lethe_confusa
+Jamides_bochus
+Neptis_hylas
+Leptidea_sinapis
+Tirumala_septentrionis
+Euploea_core
+Eurema_hecabe
+Apatura_ilia
+Mycalesis_intermedia
+Colias_palaeno
+Junonia_orithya
+Hasora_badra
+Parnara_guttata
+Celaenorrhinus_maculosus
+Gonepteryx_amintha
+Colias_fieldii
+Libythea_lepita
+Rohana_parisatis
+Catopsilia_pomona
+Atrophaneura_horishanus
+Pazala_mullah
+Parantica_sita
+Tongeia_potanini
+Junonia_atlites
+Loxura_atymnus
+Hestina_assimilis
+Lethe_chandica
+Clossiana_euphrosyne
+Eurema_mandarina
+Colias_fieldii
+Cepora_nerissa
+Hebomoia_glaucippe
+Pieris_melete
+Papilio_prexaspes
+Lethe_syrcis
+Eurema_blanda
+Euploea_core
+Leptidea_sinapis
+Papilio_alcmenor
+Parantica_sita
+Byasa_alcinous
+Ideopsis_similis
+Pathysa_antiphates
+Atrophaneura_horishanus
+Pazala_mullah
+Polyura_eudamippus
+Papilio_hoppo
+Apatura_ilia
+Libythea_lepita
+Delias_descombesi
+Catopsilia_scylla
+Danaus_chrysippus
+Kaniska_canace
+Iphiclides_podalirius
+Artipe_eryx
+Kallima_inachus
+Danaus_chrysippus
+Lamproptera_meges
+Ypthima_baldus
+Neptis_hylas
+Vanessa_indica
+Proclossiana_eunomia
+Gonepteryx_rhamni
+Abisara_echerius
+Athyma_perius
+Melanitis_leda
+Lethe_chandica
+Troides_aeacus
+Lethe_chandica
+Horaga_onyx
+Cethosia_biblis
+Pachliopta_aristolochiae
+Junonia_hierta
+Pazala_eurous
+Delias_descombesi
+Catopsilia_scylla
+Junonia_orithya
+Papilio_Krishna
+Graphium_sarpedon
+Pazala_eurous
+Troides_magellanus
+Isoteinon_lamprospilus
+Papilio_hoppo
+Junonia_orithya
+Junonia_hierta
+Hasora_vitta
+Catopsilia_pomona
+Delias_descombesi
+Kallima_inachus
+Horaga_onyx
+Calinaga_buddha
+Pieris_canidia
+Loxura_atymnus
+Parnara_guttata
+Rohana_parisatis
+Zemeros_flegyas
+Leptidea_sinapis
+Kaniska_canace
+Parnassius_phoebus
+Mycalesis_perseus
+Leptidea_amurensis
+Parnassius_phoebus
+Aemona_amathusia
+Udaspes_folus
+Colias_erate
+Pazala_eurous
+Cethosia_biblis
+Libythea_lepita
+Byasa_dasarada
+Delias_pasithoe
+Polygonia_caureum
+Sasakia_charonda
+Melanitis_phedima
+Daimio_tethys
+Ampittia_virgata
+Gonepteryx_amintha
+Parnassius_phoebus
+Isoteinon_lamprospilus
+Vanessa_cardui
+Doleschallia_bisaltide
+Athyma_ranga
+Ideopsis_similis
+Kallima_inachus
+Proclossiana_eunomia
+Acraea_issoria
+Ypthima_baldus
+Loxura_atymnus
+Eurema_andersoni
+Libythea_lepita
+Seseria_dohertyi
+Horaga_onyx
+Apatura_ilia
+Pathysa_antiphates
+Tirumala_limniace
+Libythea_lepita
+Clossiana_euphrosyne
+Apatura_iris
+Acraea_terpsicore
+Stibochiona_nicea
+Euploea_tulliolus
+Doleschallia_bisaltide
+Hypolimnas_bolina
+Pazala_mullah
+Atrophaneura_horishanus
+Gonepteryx_rhamni
+Kallima_inachus
+Isoteinon_lamprospilus
+Junonia_almana
+Pachliopta_aristolochiae
+Papilio_alcmenor
+Colias_hyale
+Pathysa_antiphates
+Issoria_lathonia
+Mycalesis_perseus
+Papilio_maackii
+Apatura_ilia
+Acraea_issoria
+Gonepteryx_rhamni
+Pieris_canidia
+Penthema_darlisa
+Iraota_timoleon
+Pieris_rapae
+Isoteinon_lamprospilus
+Papilio_maackii
+Luehdorfia_chinensis
+Papilio_protenor
+Current Pred: 3601/5056
+Stibochiona_nicea
+Acraea_issoria
+Lamproptera_curius
+Papilio_machaon
+Timelaea_albescens
+SpinDasis_syama
+Colias_hyale
+Papilio_maackii
+Gonepteryx_rhamni
+Abisara_echerius
+Acraea_issoria
+Hebomoia_glaucippe
+Junonia_almana
+Hestina_assimilis
+Papilio_Krishna
+Clossiana_titania
+Junonia_iphita
+Cethosia_cyane
+Stibochiona_nicea
+Parnassius_phoebus
+Symbrenthia_lilaea
+Odontoptilum_angulatum
+Loxura_atymnus
+Hebomoia_glaucippe
+Papilio_hoppo
+Hebomoia_glaucippe
+Kaniska_canace
+Horaga_onyx
+Iambrix_salsala
+Pathysa_antiphates
+Apatura_ilia
+Pathysa_antiphates
+Proclossiana_eunomia
+Pazala_eurous
+Zizeeria_maha
+Eurema_laeta
+Gandaca_harina
+Gonepteryx_rhamni
+Junonia_iphita
+Parnara_guttata
+Clossiana_euphrosyne
+Apatura_iris
+Pieris_napi
+Papilio_memnon
+Hebomoia_glaucippe
+Tirumala_septentrionis
+Junonia_atlites
+Ideopsis_vulgaris
+Catopsilia_pomona
+Apatura_ilia
+Teinopalpus_imperialis
+Parnassius_phoebus
+Papilio_hoppo
+Vanessa_cardui
+Clossiana_euphrosyne
+Elymnias_hypermnestra
+Hestina_assimilis
+Papilio_dialis
+Papilio_memnon
+Troides_helena
+Acraea_terpsicore
+Ideopsis_similis
+Junonia_almana
+Eurema_hecabe
+Eurema_hecabe
+Pieris_melete
+Issoria_lathonia
+Eurema_blanda
+Leptidea_sinapis
+Junonia_orithya
+Loxura_atymnus
+Euploea_core
+Faunis_eumeus
+Junonia_orithya
+Calinaga_buddha
+Mycalesis_intermedia
+Atrophaneura_horishanus
+Artipe_eryx
+Ideopsis_similis
+Abisara_echerius
+Clossiana_dia
+Papilio_dialis
+Losaria_coon
+Papilio_Krishna
+Cyrestis_thyodamas
+Papilio_machaon
+Leptidea_morsei
+Lampides_boeticus
+Cepora_nerissa
+Cepora_nerissa
+Melanitis_phedima
+Loxura_atymnus
+Hebomoia_glaucippe
+Delias_pasithoe
+Hypolimnas_bolina
+Hasora_vitta
+Lethe_confusa
+Losaria_coon
+Badamia_exclamationis
+Papilio_machaon
+Badamia_exclamationis
+Cyrestis_thyodamas
+Vanessa_indica
+Libythea_lepita
+Pieris_napi
+Vanessa_indica
+Cethosia_biblis
+Junonia_orithya
+Symbrenthia_lilaea
+Iambrix_salsala
+Ypthima_praenubila
+Vanessa_cardui
+Papilio_Krishna
+Leptidea_morsei
+Hestina_assimilis
+Papilio_machaon
+Hestina_assimilis
+Lethe_confusa
+Hebomoia_glaucippe
+Hebomoia_glaucippe
+Pieris_canidia
+Parnassius_nomion
+Junonia_almana
+Cyrestis_thyodamas
+Papilio_prexaspes
+Vanessa_cardui
+Loxura_atymnus
+Eurema_hecabe
+Atrophaneura_horishanus
+Kallima_inachus
+Zemeros_flegyas
+Neope_pulaha
+Athyma_ranga
+Vanessa_cardui
+Eurema_blanda
+Pieris_rapae
+Meandrusa_payeni
+Parantica_sita
+Byasa_alcinous
+Hebomoia_glaucippe
+Miletus_chinensis
+Ideopsis_vulgaris
+Pathysa_antiphates
+Polyura_athamas
+Danaus_chrysippus
+Graphium_agamemnon
+Curetis_acuta
+Mycalesis_gotama
+Apatura_iris
+Colias_erate
+Colias_hyale
+Polygonia_caureum
+Athyma_perius
+Issoria_lathonia
+Catopsilia_pomona
+Erionota_torus
+Papilio_bianor
+Eurema_laeta
+Atrophaneura_horishanus
+Luehdorfia_chinensis
+Parantica_aglea
+Ideopsis_similis
+Sephisa_chandra
+Eurema_blanda
+Neptis_hylas
+Danaus_genutia
+Papilio_memnon
+Gonepteryx_rhamni
+Eurema_hecabe
+Catopsilia_pomona
+Gonepteryx_rhamni
+Pazala_mullah
+Parantica_melaneus
+Neptis_hylas
+Parantica_melaneus
+Gonepteryx_rhamni
+Papilio_maackii
+Danaus_chrysippus
+Clossiana_dia
+Penthema_darlisa
+Artipe_eryx
+Parantica_aglea
+Tirumala_septentrionis
+Bhutanitis_lidderdalii
+Parnara_guttata
+Pathysa_antiphates
+Artipe_eryx
+Elymnias_hypermnestra
+Junonia_orithya
+Euploea_sylvester
+Pazala_eurous
+Atrophaneura_horishanus
+Melanitis_phedima
+Danaus_plexippus
+Libythea_lepita
+Parantica_aglea
+Lampides_boeticus
+Lethe_chandica
+Meandrusa_payeni
+Dodona_eugenes
+Current Pred: 3801/5056
+Ariadne_merione
+Atrophaneura_varuna
+Neptis_hylas
+Parnara_guttata
+Delias_pasithoe
+Erionota_torus
+Kallima_inachus
+Cethosia_biblis
+Mycalesis_intermedia
+Lethe_confusa
+Lethe_syrcis
+Hebomoia_glaucippe
+Sephisa_chandra
+Clossiana_freija
+Ampittia_virgata
+Eurema_laeta
+Lethe_syrcis
+Gonepteryx_rhamni
+Mycalesis_intermedia
+Junonia_hierta
+Catopsilia_pomona
+Neptis_miah
+Lethe_confusa
+Papilio_hoppo
+Kaniska_canace
+Iphiclides_podalirius
+Junonia_orithya
+Ariadne_merione
+Symbrenthia_lilaea
+Kallima_inachus
+Cethosia_biblis
+Polyura_athamas
+Ariadne_ariadne
+Notocrypta_curvifascia
+Catopsilia_scylla
+Tirumala_septentrionis
+Junonia_atlites
+Astictopterus_jama
+Zemeros_flegyas
+Colias_erate
+Rohana_parisatis
+Hebomoia_glaucippe
+Gonepteryx_rhamni
+Delias_belladonna
+Catopsilia_scylla
+Cethosia_biblis
+Apatura_ilia
+Delias_pasithoe
+Troides_magellanus
+Curetis_acuta
+Ypthima_praenubila
+Colias_erate
+Colias_palaeno
+Athyma_perius
+Apatura_iris
+Zemeros_flegyas
+Delias_pasithoe
+Acraea_issoria
+Artipe_eryx
+Parnassius_phoebus
+Papilio_bianor
+Cethosia_biblis
+Timelaea_albescens
+Pathysa_antiphates
+Colias_erate
+Apatura_ilia
+Troides_helena
+Symbrenthia_lilaea
+Daimio_tethys
+Apatura_ilia
+Neptis_hylas
+Parnara_guttata
+Iambrix_salsala
+Papilio_Krishna
+Euploea_midamus
+Mandarinia_regalis
+Athyma_perius
+Danaus_chrysippus
+Byasa_polyeuctes
+Melanitis_phedima
+Atrophaneura_horishanus
+Danaus_chrysippus
+Eurema_hecabe
+Dodona_eugenes
+Graphium_cloanthus
+Penthema_darlisa
+Pathysa_antiphates
+Catopsilia_pomona
+Cethosia_biblis
+Zemeros_flegyas
+Aemona_amathusia
+Junonia_hierta
+Leptidea_sinapis
+Junonia_iphita
+Polyura_athamas
+Delias_pasithoe
+Danaus_plexippus
+Parnara_guttata
+Abisara_echerius
+Mycalesis_intermedia
+Pieris_canidia
+Abisara_echerius
+Mycalesis_gotama
+Parantica_sita
+Hasora_badra
+Faunis_eumeus
+Libythea_lepita
+Symbrenthia_lilaea
+Pieris_melete
+Cethosia_biblis
+Zemeros_flegyas
+Hasora_anura
+Parantica_melaneus
+Euploea_midamus
+Zemeros_flegyas
+Elymnias_hypermnestra
+Colias_palaeno
+Neptis_hylas
+Issoria_lathonia
+Gonepteryx_rhamni
+Leptidea_sinapis
+Libythea_lepita
+Pieris_melete
+Acraea_issoria
+Pieris_melete
+Troides_magellanus
+Athyma_perius
+Polygonia_caureum
+Catopsilia_pomona
+Mycalesis_perseus
+Amblopala_avidiena
+Gonepteryx_rhamni
+Ariadne_ariadne
+Lamproptera_curius
+Mycalesis_gotama
+Daimio_tethys
+Euthalia_niepelti
+Amblopala_avidiena
+Neptis_hylas
+Byasa_alcinous
+Ideopsis_similis
+Gonepteryx_rhamni
+Junonia_atlites
+Acraea_terpsicore
+Parnassius_phoebus
+Colias_palaeno
+Junonia_almana
+Catopsilia_pomona
+Neptis_miah
+Byasa_alcinous
+Horaga_onyx
+Damora_sagana
+Pathysa_antiphates
+Papilio_dialis
+Cethosia_biblis
+Catopsilia_pomona
+Cethosia_biblis
+Melanitis_phedima
+Gonepteryx_amintha
+Seseria_dohertyi
+Colias_palaeno
+Lethe_syrcis
+Artipe_eryx
+Eurema_hecabe
+Abraximorpha_davidii
+Junonia_hierta
+Ideopsis_similis
+Acraea_issoria
+Hypolimnas_bolina
+Cethosia_cyane
+Euploea_sylvester
+Acraea_issoria
+Catopsilia_pomona
+Horaga_onyx
+Neptis_hylas
+Euploea_tulliolus
+Delias_pasithoe
+Cethosia_biblis
+Taraka_hamada
+Idea_leuconoe
+Clossiana_dia
+Parnara_guttata
+Parantica_sita
+Athyma_ranga
+Erionota_torus
+Apatura_iris
+Taraka_hamada
+Lamproptera_meges
+Hebomoia_glaucippe
+Troides_magellanus
+Graphium_cloanthus
+Ariadne_ariadne
+Eurema_blanda
+Tirumala_limniace
+Polyura_athamas
+Ypthima_praenubila
+Eurema_brigitta
+Taraka_hamada
+Junonia_iphita
+Pachliopta_aristolochiae
+Current Pred: 4001/5056
+Junonia_hierta
+Loxura_atymnus
+Danaus_chrysippus
+Elymnias_hypermnestra
+Udaspes_folus
+Gonepteryx_rhamni
+Danaus_genutia
+Teinopalpus_imperialis
+Pazala_eurous
+Tagiades_menaka
+Cethosia_biblis
+Delias_pasithoe
+Colias_erate
+Lethe_confusa
+Eurema_hecabe
+Hestina_assimilis
+Papilio_memnon
+Papilio_memnon
+Notocrypta_curvifascia
+Gandaca_harina
+Papilio_xuthus
+Apatura_iris
+Troides_helena
+Graphium_agamemnon
+Neptis_hylas
+Athyma_perius
+Abraximorpha_davidii
+Tagiades_menaka
+Eurema_hecabe
+Udaspes_folus
+Catopsilia_pomona
+Ussuriana_michaelis
+Ypthima_baldus
+Junonia_hierta
+Hestina_assimilis
+Melanitis_leda
+Gonepteryx_rhamni
+Junonia_orithya
+Mycalesis_intermedia
+Catopsilia_pomona
+Acraea_terpsicore
+Parnara_guttata
+Gonepteryx_rhamni
+Iambrix_salsala
+Parnara_guttata
+Eurema_blanda
+Timelaea_albescens
+Parnara_guttata
+Troides_helena
+Zemeros_flegyas
+Clossiana_euphrosyne
+Byasa_polyeuctes
+Pieris_canidia
+Horaga_onyx
+Polyura_eudamippus
+Daimio_tethys
+Iphiclides_podalirius
+Eurema_hecabe
+Catopsilia_pomona
+Danaus_chrysippus
+Clossiana_euphrosyne
+Astictopterus_jama
+Teinopalpus_aureus
+Pseudocoladenia_dan
+Clossiana_dia
+Papilio_maackii
+Gonepteryx_rhamni
+Papilio_paris
+Papilio_dialis
+Atrophaneura_varuna
+Faunis_eumeus
+Isoteinon_lamprospilus
+Hasora_badra
+Clossiana_titania
+Junonia_hierta
+Gonepteryx_rhamni
+Calinaga_buddha
+Leptidea_sinapis
+Hebomoia_glaucippe
+Gonepteryx_rhamni
+Euploea_core
+Acraea_issoria
+Stichophthalma_howqua
+Catopsilia_pomona
+Papilio_hoppo
+Junonia_orithya
+SpinDasis_syama
+Loxura_atymnus
+Cethosia_cyane
+Acraea_issoria
+Delias_pasithoe
+Eurema_laeta
+Cyrestis_thyodamas
+Eurema_andersoni
+Kallima_inachus
+Pazala_eurous
+Euploea_sylvester
+Pieris_canidia
+Faunis_eumeus
+Danaus_plexippus
+Junonia_iphita
+Charaxes_bernardus
+Papilio_Krishna
+Dodona_eugenes
+Eurema_mandarina
+Clossiana_euphrosyne
+Hasora_badra
+Kaniska_canace
+Iraota_timoleon
+Erionota_torus
+Polygonia_caureum
+Timelaea_albescens
+Papilio_dialis
+Seseria_dohertyi
+Hebomoia_glaucippe
+Apatura_iris
+Delias_pasithoe
+Catopsilia_scylla
+Gonepteryx_rhamni
+Athyma_ranga
+Leptidea_sinapis
+Colias_erate
+Acraea_issoria
+Tirumala_limniace
+Vanessa_indica
+Junonia_iphita
+Eurema_brigitta
+Papilio_hermosanus
+Badamia_exclamationis
+Junonia_orithya
+Troides_helena
+Athyma_ranga
+Gonepteryx_rhamni
+Cyrestis_thyodamas
+Byasa_polyeuctes
+Delias_pasithoe
+Junonia_almana
+Clossiana_euphrosyne
+Kallima_inachus
+Euploea_midamus
+Vanessa_indica
+Charaxes_bernardus
+Neptis_hylas
+Iphiclides_podalirius
+Cethosia_biblis
+Ancistroides_nigrita
+Papilio_bianor
+Melanitis_leda
+Lethe_syrcis
+Hebomoia_glaucippe
+Delias_pasithoe
+Zemeros_flegyas
+Mycalesis_perseus
+Hebomoia_glaucippe
+Parnara_guttata
+Kaniska_canace
+Papilio_alcmenor
+Danaus_chrysippus
+Hebomoia_glaucippe
+Danaus_genutia
+Iambrix_salsala
+Byasa_dasarada
+Clossiana_dia
+Elymnias_hypermnestra
+Vanessa_cardui
+Gonepteryx_rhamni
+Junonia_atlites
+Papilio_prexaspes
+Symbrenthia_lilaea
+Danaus_plexippus
+Colias_palaeno
+Luehdorfia_chinensis
+Junonia_hierta
+Catopsilia_pomona
+Hebomoia_glaucippe
+Junonia_hierta
+Melanitis_phedima
+Issoria_lathonia
+Parantica_melaneus
+Junonia_iphita
+Iraota_timoleon
+Faunis_eumeus
+Timelaea_albescens
+Catopsilia_pomona
+Apatura_ilia
+Symbrenthia_lilaea
+Mycalesis_perseus
+Delias_pasithoe
+Pieris_canidia
+Dodona_eugenes
+Clossiana_freija
+Hasora_badra
+Clossiana_dia
+Junonia_iphita
+Gandaca_harina
+Artipe_eryx
+Junonia_orithya
+Eurema_hecabe
+Doleschallia_bisaltide
+Celaenorrhinus_maculosus
+Current Pred: 4201/5056
+Junonia_iphita
+Colias_erate
+Cethosia_biblis
+Mycalesis_perseus
+Papilio_hermosanus
+Junonia_orithya
+Rapala_nissa
+Mycalesis_perseus
+Calinaga_buddha
+Acraea_terpsicore
+Junonia_hierta
+Artipe_eryx
+Delias_descombesi
+Catopsilia_pomona
+Parnara_guttata
+Dodona_eugenes
+Neope_pulaha
+Neptis_hylas
+Neptis_hylas
+Graphium_cloanthus
+Parnara_guttata
+Cethosia_cyane
+Hestina_assimilis
+Delias_acalis
+Parnassius_apollo
+Iphiclides_podalirius
+Gandaca_harina
+Lethe_syrcis
+Lamproptera_curius
+Eurema_blanda
+Aemona_amathusia
+Neope_pulaha
+Lethe_confusa
+Neope_pulaha
+Symbrenthia_lilaea
+Iphiclides_podalirius
+Atrophaneura_horishanus
+Hebomoia_glaucippe
+Jamides_bochus
+Papilio_memnon
+Sericinus_montelus
+Kallima_inachus
+Colias_hyale
+Gonepteryx_rhamni
+Faunis_eumeus
+Acraea_issoria
+Danaus_genutia
+Iphiclides_podalirius
+Hasora_anura
+Junonia_almana
+Gandaca_harina
+Eurema_mandarina
+Eurema_blanda
+Gonepteryx_rhamni
+Eurema_mandarina
+Pieris_melete
+Iraota_timoleon
+Papilio_maackii
+Lamproptera_curius
+Papilio_maackii
+Gonepteryx_rhamni
+Colias_palaeno
+Clossiana_freija
+Pieris_napi
+Sericinus_montelus
+Clossiana_dia
+Gandaca_harina
+Meandrusa_payeni
+Hebomoia_glaucippe
+Eurema_hecabe
+Elymnias_hypermnestra
+Eurema_hecabe
+Atrophaneura_varuna
+Mandarinia_regalis
+Hasora_badra
+Daimio_tethys
+Gonepteryx_rhamni
+Papilio_prexaspes
+Iraota_timoleon
+Tirumala_limniace
+Abraximorpha_davidii
+Neptis_hylas
+Astictopterus_jama
+Ancistroides_nigrita
+Junonia_hierta
+Pseudocoladenia_dan
+Gonepteryx_rhamni
+Graphium_cloanthus
+Papilio_bianor
+Cethosia_cyane
+Eurema_hecabe
+Parantica_aglea
+Junonia_orithya
+Curetis_acuta
+Horaga_onyx
+Troides_magellanus
+Neptis_hylas
+Delias_acalis
+Junonia_orithya
+Clossiana_euphrosyne
+Troides_helena
+Catopsilia_pomona
+Eurema_hecabe
+Parantica_sita
+Gonepteryx_rhamni
+Tongeia_potanini
+Polyura_athamas
+Iambrix_salsala
+Ideopsis_vulgaris
+Neope_pulaha
+Hestina_assimilis
+Delias_pasithoe
+Delias_pasithoe
+Isoteinon_lamprospilus
+Clossiana_euphrosyne
+Polyura_athamas
+Pathysa_antiphates
+Papilio_maackii
+Lethe_chandica
+Cepora_nerissa
+Colias_erate
+Parnassius_phoebus
+Apatura_ilia
+Neptis_hylas
+Abisara_echerius
+Lethe_confusa
+Parantica_aglea
+Aemona_amathusia
+Polyura_eudamippus
+Sericinus_montelus
+Papilio_protenor
+Catopsilia_scylla
+Neptis_hylas
+Pazala_mullah
+Sericinus_montelus
+Catopsilia_pomona
+Parnassius_phoebus
+Eurema_hecabe
+Acraea_issoria
+Udaspes_folus
+Troides_magellanus
+Colias_palaeno
+Eurema_hecabe
+Eurema_hecabe
+Papilio_hermosanus
+Horaga_onyx
+Ariadne_merione
+Acraea_issoria
+Sasakia_charonda
+Eurema_hecabe
+Apatura_ilia
+Danaus_genutia
+Delias_pasithoe
+Papilio_bianor
+Graphium_sarpedon
+Parnassius_phoebus
+Udaspes_folus
+Gonepteryx_rhamni
+Lamproptera_meges
+Gonepteryx_rhamni
+Parantica_aglea
+Parnassius_phoebus
+Clossiana_euphrosyne
+Pathysa_antiphates
+Pseudocoladenia_dan
+Euploea_sylvester
+Eurema_hecabe
+Apatura_iris
+Neptis_miah
+Parantica_sita
+Lethe_chandica
+Euploea_core
+Cethosia_cyane
+Iphiclides_podalirius
+Pazala_eurous
+Papilio_hermosanus
+Eurema_blanda
+Clossiana_dia
+Hestina_assimilis
+Luehdorfia_chinensis
+Athyma_ranga
+Gonepteryx_rhamni
+Horaga_onyx
+Papilio_polytes
+Cethosia_biblis
+Catopsilia_pomona
+Iraota_timoleon
+Junonia_atlites
+Junonia_hierta
+Lamproptera_curius
+Teinopalpus_imperialis
+Gonepteryx_rhamni
+Kallima_inachus
+Tagiades_menaka
+Athyma_ranga
+Kallima_inachus
+Danaus_plexippus
+Stichophthalma_howqua
+Ampittia_virgata
+Gonepteryx_rhamni
+Current Pred: 4401/5056
+Papilio_maackii
+Junonia_orithya
+Mycalesis_perseus
+Eurema_blanda
+Parantica_melaneus
+Mycalesis_gotama
+Colias_palaeno
+Acraea_issoria
+Sericinus_montelus
+Hestina_assimilis
+Lampides_boeticus
+Clossiana_euphrosyne
+Graphium_sarpedon
+Hasora_vitta
+Iambrix_salsala
+Eurema_laeta
+Charaxes_bernardus
+Junonia_hierta
+Aemona_amathusia
+Papilio_xuthus
+Teinopalpus_imperialis
+Udaspes_folus
+Badamia_exclamationis
+Clossiana_euphrosyne
+Burara_gomata
+Danaus_plexippus
+Clossiana_dia
+Atrophaneura_horishanus
+Meandrusa_sciron
+Zemeros_flegyas
+Gonepteryx_rhamni
+Burara_gomata
+Badamia_exclamationis
+Lamproptera_meges
+Seseria_dohertyi
+Aemona_amathusia
+Junonia_hierta
+Proclossiana_eunomia
+Troides_helena
+Athyma_perius
+Pieris_canidia
+Taraka_hamada
+Delias_pasithoe
+Tirumala_septentrionis
+Allotinus_drumila
+Catopsilia_pomona
+Papilio_bianor
+Celaenorrhinus_maculosus
+Euploea_midamus
+Neptis_hylas
+Taraka_hamada
+Eurema_blanda
+Colias_erate
+Cyrestis_thyodamas
+Losaria_coon
+Apatura_iris
+Polygonia_caureum
+Eurema_laeta
+Iphiclides_podalirius
+Acraea_issoria
+Acraea_issoria
+Ypthima_baldus
+Taraka_hamada
+Delias_pasithoe
+Cepora_nerissa
+Lampides_boeticus
+Pieris_rapae
+Athyma_perius
+Melanitis_phedima
+Danaus_genutia
+Colias_palaeno
+Gonepteryx_rhamni
+Gonepteryx_rhamni
+Faunis_eumeus
+Aemona_amathusia
+Tirumala_limniace
+Clossiana_euphrosyne
+Faunis_eumeus
+Hebomoia_glaucippe
+Lethe_chandica
+Sephisa_chandra
+Eurema_andersoni
+Polyura_athamas
+Cethosia_biblis
+Tirumala_limniace
+Clossiana_freija
+Parnassius_phoebus
+Dodona_eugenes
+Colias_erate
+Troides_helena
+Gonepteryx_rhamni
+Iraota_timoleon
+Lethe_confusa
+Gonepteryx_rhamni
+Melanitis_phedima
+Parantica_aglea
+Ideopsis_vulgaris
+Faunis_eumeus
+Leptidea_sinapis
+Celaenorrhinus_maculosus
+Delias_pasithoe
+Zemeros_flegyas
+Papilio_maackii
+Pseudocoladenia_dan
+Melanitis_phedima
+Polyura_athamas
+Sericinus_montelus
+Danaus_genutia
+Aemona_amathusia
+Junonia_almana
+Troides_helena
+Junonia_atlites
+Leptidea_morsei
+Elymnias_hypermnestra
+Danaus_genutia
+Atrophaneura_varuna
+Iambrix_salsala
+Pazala_eurous
+Colias_erate
+Eurema_laeta
+Papilio_prexaspes
+Junonia_almana
+Elymnias_hypermnestra
+Parantica_sita
+Junonia_atlites
+Tirumala_limniace
+Cethosia_biblis
+Danaus_genutia
+Eurema_blanda
+Ideopsis_similis
+Mycalesis_perseus
+Artipe_eryx
+Iphiclides_podalirius
+Euploea_midamus
+Junonia_orithya
+Zemeros_flegyas
+Apatura_ilia
+Tirumala_septentrionis
+Teinopalpus_aureus
+Junonia_iphita
+Pathysa_antiphates
+Graphium_cloanthus
+Curetis_acuta
+Junonia_iphita
+Symbrenthia_lilaea
+Clossiana_euphrosyne
+Pseudocoladenia_dan
+Papilio_prexaspes
+Jamides_bochus
+Ancistroides_nigrita
+Graphium_agamemnon
+Euploea_midamus
+Sericinus_montelus
+Ideopsis_vulgaris
+Junonia_atlites
+Iraota_timoleon
+Clossiana_freija
+Tagiades_menaka
+Parnara_guttata
+Tirumala_limniace
+Eurema_andersoni
+Libythea_lepita
+Ancistroides_nigrita
+Papilio_alcmenor
+Polyura_eudamippus
+Ancistroides_nigrita
+Pseudocoladenia_dan
+Eurema_blanda
+Colias_fieldii
+Polyura_athamas
+Libythea_lepita
+Parantica_aglea
+Clossiana_euphrosyne
+Amblopala_avidiena
+Junonia_iphita
+Danaus_chrysippus
+Pathysa_antiphates
+Danaus_plexippus
+Papilio_hoppo
+Byasa_alcinous
+Tirumala_septentrionis
+Atrophaneura_varuna
+Horaga_onyx
+Tongeia_potanini
+Junonia_atlites
+Mahathala_ameria
+Papilio_prexaspes
+Colias_palaeno
+Chitoria_ulupi
+Loxura_atymnus
+Papilio_hoppo
+Pathysa_antiphates
+Pieris_canidia
+Polyura_athamas
+Pachliopta_aristolochiae
+Losaria_coon
+Colias_erate
+Junonia_almana
+Iphiclides_podalirius
+Symbrenthia_lilaea
+Current Pred: 4601/5056
+Kallima_inachus
+Pseudocoladenia_dan
+Mycalesis_gotama
+Gonepteryx_rhamni
+Catopsilia_pomona
+Kallima_inachus
+Tirumala_septentrionis
+Pazala_eurous
+Tirumala_limniace
+Parantica_sita
+Clossiana_euphrosyne
+Parnara_guttata
+Gonepteryx_rhamni
+Pieris_napi
+Neptis_hylas
+Burara_gomata
+Athyma_perius
+Eurema_blanda
+Colias_palaeno
+Cyrestis_thyodamas
+Junonia_atlites
+Danaus_chrysippus
+Cyrestis_thyodamas
+Cepora_nerissa
+Troides_magellanus
+Pieris_canidia
+Ancistroides_nigrita
+Arhopala_paramuta
+Delias_pasithoe
+Eurema_hecabe
+Eurema_brigitta
+Kaniska_canace
+Pieris_melete
+Parantica_aglea
+Junonia_atlites
+Graphium_sarpedon
+Pathysa_antiphates
+Libythea_myrrha
+Papilio_Krishna
+Apatura_ilia
+Papilio_prexaspes
+Horaga_onyx
+Vanessa_cardui
+Papilio_maackii
+Pachliopta_aristolochiae
+Parnassius_nomion
+Zizeeria_maha
+Vanessa_cardui
+Neope_pulaha
+Danaus_chrysippus
+Seseria_dohertyi
+Junonia_almana
+Curetis_acuta
+Hestina_assimilis
+Leptidea_morsei
+Mycalesis_gotama
+Arhopala_paramuta
+Parantica_melaneus
+Gonepteryx_rhamni
+Cethosia_biblis
+Symbrenthia_lilaea
+Artipe_eryx
+Sephisa_chandra
+Apatura_iris
+Vanessa_cardui
+Papilio_bianor
+Delias_belladonna
+Iraota_timoleon
+Cethosia_biblis
+Losaria_coon
+Dodona_eugenes
+Eurema_blanda
+Abisara_echerius
+Hypolimnas_bolina
+Danaus_plexippus
+Delias_belladonna
+Eurema_blanda
+Celaenorrhinus_maculosus
+Danaus_chrysippus
+Cethosia_biblis
+Ypthima_baldus
+Erionota_torus
+Hebomoia_glaucippe
+Junonia_hierta
+Ampittia_virgata
+Iphiclides_podalirius
+Acraea_issoria
+Eurema_hecabe
+Hypolimnas_bolina
+Abraximorpha_davidii
+Artipe_eryx
+Pieris_napi
+Athyma_perius
+Gonepteryx_rhamni
+Udaspes_folus
+Gonepteryx_amintha
+Junonia_almana
+Colias_fieldii
+Colias_erate
+Catopsilia_pomona
+Delias_pasithoe
+Eurema_hecabe
+Idea_leuconoe
+Byasa_dasarada
+Euploea_core
+Curetis_acuta
+Parnassius_apollo
+Catopsilia_pomona
+Euploea_tulliolus
+Iraota_timoleon
+Junonia_atlites
+Neptis_hylas
+Celaenorrhinus_maculosus
+Hestina_assimilis
+Catopsilia_pomona
+Colias_hyale
+Horaga_onyx
+Acraea_issoria
+Gonepteryx_rhamni
+Acraea_terpsicore
+Ideopsis_similis
+Faunis_eumeus
+Neptis_hylas
+Pieris_canidia
+Zemeros_flegyas
+Gonepteryx_amintha
+Eurema_laeta
+Euploea_core
+Papilio_machaon
+Cethosia_biblis
+Catopsilia_pomona
+Tirumala_septentrionis
+Mycalesis_gotama
+Catopsilia_pomona
+Daimio_tethys
+Abisara_echerius
+Clossiana_euphrosyne
+Eurema_mandarina
+Symbrenthia_lilaea
+Apatura_iris
+Ideopsis_similis
+Junonia_iphita
+Parnassius_phoebus
+Apatura_iris
+Catopsilia_pomona
+Leptidea_sinapis
+Atrophaneura_varuna
+Parantica_sita
+Melanitis_phedima
+Apatura_ilia
+Gonepteryx_rhamni
+Parnassius_phoebus
+Delias_pasithoe
+Byasa_alcinous
+Lethe_chandica
+Amblopala_avidiena
+SpinDasis_syama
+Pieris_melete
+Cethosia_biblis
+Cethosia_biblis
+Eurema_hecabe
+Pieris_rapae
+Clossiana_titania
+Iphiclides_podalirius
+Ampittia_virgata
+Junonia_almana
+Eurema_laeta
+Acraea_issoria
+Junonia_iphita
+Danaus_plexippus
+Burara_gomata
+Taraka_hamada
+Mycalesis_gotama
+Elymnias_hypermnestra
+Danaus_plexippus
+Danaus_plexippus
+Zemeros_flegyas
+Neptis_hylas
+Sericinus_montelus
+Mahathala_ameria
+Junonia_iphita
+Cethosia_biblis
+Polygonia_caureum
+Acraea_issoria
+Lethe_chandica
+Tirumala_septentrionis
+Elymnias_hypermnestra
+Papilio_machaon
+Danaus_genutia
+Neptis_miah
+Miletus_chinensis
+Catopsilia_pomona
+Vanessa_indica
+Taraka_hamada
+Catopsilia_scylla
+Papilio_nephelus
+Kallima_inachus
+Charaxes_bernardus
+Apatura_ilia
+Acraea_issoria
+Current Pred: 4801/5056
+Troides_magellanus
+Catopsilia_scylla
+Junonia_iphita
+Iambrix_salsala
+Daimio_tethys
+Eurema_andersoni
+Euploea_midamus
+Parantica_aglea
+Pieris_canidia
+Abisara_echerius
+Iambrix_salsala
+Danaus_genutia
+Apatura_iris
+Papilio_bianor
+Parnassius_apollo
+Polyura_narcaea
+Stichophthalma_howqua
+Hestina_assimilis
+Parnara_guttata
+Gonepteryx_rhamni
+Eurema_hecabe
+Abraximorpha_davidii
+Cethosia_biblis
+Horaga_onyx
+Lampides_boeticus
+Parnassius_phoebus
+Gonepteryx_rhamni
+Lethe_confusa
+Junonia_iphita
+Tirumala_limniace
+Abisara_echerius
+Gonepteryx_amintha
+Ideopsis_similis
+Papilio_polytes
+Papilio_arcturus
+Catopsilia_pomona
+Troides_helena
+Troides_aeacus
+Symbrenthia_lilaea
+Zizeeria_maha
+Papilio_nephelus
+Sericinus_montelus
+Faunis_eumeus
+Byasa_polyeuctes
+Leptidea_sinapis
+Arhopala_rama
+Pieris_rapae
+Gonepteryx_rhamni
+Gonepteryx_rhamni
+Eurema_hecabe
+Junonia_iphita
+Colias_palaeno
+Ussuriana_michaelis
+Pseudocoladenia_dan
+Zizeeria_maha
+Symbrenthia_lilaea
+Papilio_prexaspes
+Acraea_terpsicore
+Apatura_ilia
+Iraota_timoleon
+Euploea_tulliolus
+Pachliopta_aristolochiae
+Gonepteryx_rhamni
+Dodona_eugenes
+Delias_belladonna
+Hasora_anura
+Junonia_iphita
+Byasa_dasarada
+Junonia_orithya
+Danaus_genutia
+Papilio_maackii
+Cethosia_biblis
+Pieris_rapae
+Atrophaneura_varuna
+Junonia_orithya
+Hebomoia_glaucippe
+Parnassius_apollo
+Astictopterus_jama
+Gonepteryx_rhamni
+Apatura_iris
+Lamproptera_meges
+Ampittia_virgata
+Faunis_eumeus
+Delias_belladonna
+SpinDasis_syama
+Abisara_echerius
+Catopsilia_pomona
+Catopsilia_pomona
+Polyura_athamas
+Apatura_iris
+Gonepteryx_rhamni
+Zemeros_flegyas
+Gonepteryx_rhamni
+Rapala_nissa
+Isoteinon_lamprospilus
+Eurema_hecabe
+Zizeeria_maha
+Acraea_terpsicore
+Gonepteryx_rhamni
+Tirumala_septentrionis
+Euploea_tulliolus
+Eurema_brigitta
+Symbrenthia_lilaea
+Acraea_issoria
+Pachliopta_aristolochiae
+Symbrenthia_lilaea
+Lamproptera_curius
+Catopsilia_pomona
+Troides_aeacus
+Pazala_eurous
+Parantica_sita
+Vanessa_cardui
+Zemeros_flegyas
+Neope_pulaha
+Rohana_parisatis
+Charaxes_bernardus
+Neptis_hylas
+Calinaga_buddha
+Faunis_eumeus
+Clossiana_euphrosyne
+Colias_erate
+Dodona_eugenes
+Horaga_onyx
+Troides_magellanus
+Papilio_maackii
+Catopsilia_pyranthe
+Delias_pasithoe
+Papilio_maackii
+Hypolimnas_bolina
+Neptis_miah
+Danaus_chrysippus
+Pseudocoladenia_dan
+Eurema_blanda
+Papilio_dialis
+Byasa_alcinous
+Papilio_nephelus
+Papilio_arcturus
+Gonepteryx_rhamni
+Junonia_almana
+Euploea_tulliolus
+Symbrenthia_lilaea
+Troides_helena
+Celaenorrhinus_maculosus
+Kallima_inachus
+Cethosia_cyane
+Pathysa_antiphates
+Gonepteryx_rhamni
+Vanessa_cardui
+Neptis_hylas
+Gonepteryx_rhamni
+Iambrix_salsala
+Hebomoia_glaucippe
+Junonia_almana
+Symbrenthia_lilaea
+Lamproptera_curius
+Loxura_atymnus
+Pseudocoladenia_dan
+Troides_helena
+Ariadne_merione
+Eurema_mandarina
+Eurema_andersoni
+Lamproptera_curius
+Lethe_chandica
+Pachliopta_aristolochiae
+Lampides_boeticus
+Tagiades_menaka
+Penthema_darlisa
+Clossiana_dia
+Ariadne_merione
+Vanessa_indica
+Apatura_ilia
+Apatura_ilia
+Libythea_myrrha
+Athyma_perius
+Burara_gomata
+Danaus_plexippus
+Symbrenthia_lilaea
+Melanitis_leda
+Apatura_ilia
+Parnara_guttata
+Horaga_onyx
+Pachliopta_aristolochiae
+Ariadne_ariadne
+Parnara_guttata
+Junonia_iphita
+Catopsilia_pomona
+Gonepteryx_rhamni
+Eurema_brigitta
+Cyrestis_thyodamas
+Colias_palaeno
+Eurema_hecabe
+Symbrenthia_lilaea
+Ideopsis_similis
+Polyura_athamas
+Tirumala_limniace
+Gonepteryx_amintha
+Junonia_iphita
+Junonia_atlites
+Colias_hyale
+Vanessa_cardui
+Current Pred: 5001/5056
+Sericinus_montelus
+Iphiclides_podalirius
+Faunis_eumeus
+Leptidea_amurensis
+Hestina_assimilis
+Dodona_eugenes
+Pieris_napi
+Pazala_eurous
+Iambrix_salsala
+Papilio_dialis
+Daimio_tethys
+Pieris_melete
+Parnara_guttata
+Hebomoia_glaucippe
+Papilio_hoppo
+Gonepteryx_rhamni
+Byasa_polyeuctes
+Pieris_melete
+Clossiana_freija
+Colias_hyale
+Vanessa_cardui
+Gonepteryx_rhamni
+Junonia_almana
+Gonepteryx_rhamni
+Apatura_ilia
+Athyma_perius
+Papilio_hermosanus
+Papilio_memnon
+Papilio_protenor
+Limenitis_sulpitia
+Papilio_bianor
+Byasa_polyeuctes
+Aemona_amathusia
+Bhutanitis_lidderdalii
+Junonia_almana
+Eurema_hecabe
+Kaniska_canace
+Apatura_ilia
+Melanitis_phedima
+Clossiana_euphrosyne
+Delias_pasithoe
+Colias_hyale
+Taraka_hamada
+Catopsilia_pomona
+Junonia_iphita
+Faunis_eumeus
+Parnara_guttata
+Danaus_chrysippus
+Burara_gomata
+Gandaca_harina
+Catopsilia_pomona
+Clossiana_euphrosyne
+Lethe_chandica
+Clossiana_dia
+Papilio_Krishna
+{"score": 82.04, "label": "The Score is Total ACC", "info": ""}

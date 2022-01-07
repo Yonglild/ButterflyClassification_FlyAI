@@ -1,0 +1,2 @@
+cbam_resnet101 99.663%//88.64% 100:25  15epoch  cosin adam
+cbam_resnet101 75:25 30epoch cosin adam

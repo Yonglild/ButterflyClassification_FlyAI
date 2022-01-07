@@ -1,0 +1,11 @@
+flyai
+Pillow
+opencv-python==4.2.0.32
+numpy
+matplotlib
+scipy
+torch
+torchvision
+efficientnet_pytorch
+resnest
+cnn_finetune
